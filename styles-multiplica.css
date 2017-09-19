@@ -2009,7 +2009,7 @@ div.namePartPriceContainer{border-bottom:0!important}
 }
 .ClaroSaleConditionWidget .tab.left .content .prsn-wrp-ln.xconditionFASE2PLAN {
     width: 180px;
-
+	margin: 0 auto;
 }
 /* gost
 .ClaroSaleConditionWidget .tab.left .content .prsn-pln {
@@ -2057,10 +2057,10 @@ div.namePartPriceContainer{border-bottom:0!important}
 }*/
 /* O.G. 21-08-17 FINAL FICHA */
 /* O.G. 22-08-17 FICHA */
-.tab.left .content [class^="slick_"] {
+/*.tab.left .content [class^="slick_"] {
     width: 1064px;
     margin: 0;
-}
+}*/
 .tab.left .content [class^="slick_"] .btn-blanco:hover{
     color:#666!important;
 }
@@ -2068,16 +2068,16 @@ div.namePartPriceContainer{border-bottom:0!important}
 /*RROJAS INICIO CLARO2.1 MERGE DE OMAR - SE COMENTA ESTLOS ESTILOS*/
  /*eterrones:Fase2.1_FP[REQ-01]:ClaroPDPSalesConditionWidget: Impl. flujo basico de las pestanias y secciones, mostrar combos cond. venta:Inicio */
 /* O.G. 14-08-17 FICHA */
+/* O.G. 14-09-17 FICHA */
 .claroTabButtonContainer > .tab_header{
     width: auto;
-    /* O.G. 08-09-17 FICHA */
     display: inline-block;
-    /* O.G. 08-09-17 FICHA FINAL*/
+    overflow: hidden;
     margin-right: 0;
     max-width: 100%!important;
     margin-left: 0;
-    text-align: center;
 }
+/* O.G. 14-09-17 FICHA FINAL*/
 /* O.G. 14-08-17 FINAL FICHA */
 /* O.G. 10-08-17 FICHA */
 .claroTabButtonContainer > .tab_header > div.tab_container{
@@ -2196,8 +2196,11 @@ div.namePartPriceContainer{border-bottom:0!important}
     background: linear-gradient(to bottom, rgba(255,255,255,0.2) 0%, rgba(246,246,246,0.9) 50%, rgba(255,255,255,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
     /* O.G. 11-09-17 FICHA */
-    display: inline-block;
+    display: block;
     /* O.G. 11-09-17 FICHA FINAL */
+    /* O.G. 14-09-17 FICHA */
+    position: relative;
+    /* O.G. 14-09-17 FICHA FINAL */
 }
 #tabAttributeDefiningAndSalesCondition {
     max-width: 1366px;
@@ -2874,6 +2877,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     .tb-ancho-2{width: 50%;margin-top: 10px;}
 
 }
+/* MOVIL HORIZONTAL - VERTICAL */
 
 
 
@@ -7772,11 +7776,12 @@ span.claroCurrentSymbol {
     font-weight: 500;
 }
 /* O.G. 23-08-17 FINAL ISSUES CATALOGO */
-/* O.G. 08-09-17 FICHA */
+/* O.G. 14-09-17 FICHA */
 .tab.left .content .sliderAttrDefActive {
     padding: 15px 0;
+    margin: 0 auto;
 }
-/* O.G. 08-09-17 FINAL FICHA */
+/* O.G. 14-09-17 FINAL FICHA */
 /* O.G. 24-08-17 FICHA */
 .tab.left .content .titleSectionTab {
     padding-left: 23px;
@@ -7784,16 +7789,22 @@ span.claroCurrentSymbol {
     font-size: 22px;
     font-weight: 500;
 }
-.tab.left .content .btn-blanco.ico-check,
+/* O.G. 15-09-17 FICHA */
+.tab.left .content .btn-blanco.ico-check {
+    border:3px solid #70C473;
+}
 .tab.left .content .prsn-pln .prsn-wrp-ln.ico-check {
     border:3px solid #70C473;
-    padding:5px 10px!important;
+    padding:20px 25px 10px 25px!important;
 }
+/* O.G. 15-09-17 FICHA FINAL */
+/* O.G. CAMBIOS 14-09-17 - FICHA */
 .tab.left .content [class^="slick_"]  .btn-ancho-desk.ico-check:hover {
     box-shadow: none;
-    display: table-cell;
+    /*display: table-cell;*/
     height: 70px;
 }
+/* O.G. CAMBIOS 14-09-17 - FICHA FINAL*/
 .tab.left .content .prsn-pln .price-nmbr .number {
     position: relative;
     padding-left: 18px;
@@ -7824,7 +7835,7 @@ span.claroCurrentSymbol {
     font-size: 13px;
 }
 .tab.left .content .slick_tab5 {
-    width: 1130px;
+   /* width: 1130px;*/
     margin: 0;
 }
 .tab.left .content .sliderAttrDefActive .dropdown select.edit-selectOption {
@@ -7984,6 +7995,60 @@ span.claroCurrentSymbol {
     -webkit-transform: translateX(-50%);
 }
 /* O.G. 11-09-17 FINAL FICHA */
+/* O.G. 13-09-17 FICHA */
+.tab_header .xtabWidget {
+    position: absolute;
+    top:120px;
+    max-width: 1366px;
+    left: 0;
+}
+/* O.G. 13-09-17 FICHA FINAL */
+/* O.G. 14-09-17 FICHA */
+.ficha-content-promo .text-promo {
+    color: #DA272C;
+}
+/* O.G. 14-09-17 FICHA FINAL */
+
+/* O.G. 15-09-17 FICHA */
+.claroTabButtonContainer > .tab_header > div.tab_container .wrap_text2 .attr-wrap {
+    width: auto;
+    height: 22px;
+    overflow: hidden;
+    display: table-cell;
+    vertical-align: middle;
+}
+.claroTabButtonContainer > .tab_header > div.tab_container .wrap_text2 {
+    height: 25px;
+    margin: 7px auto 0 auto;
+    display: table;
+}
+.tab.left .content [class^="slick_"] .btn-blanco:hover{
+    color:#666!important;
+    padding: 0!important;
+}
+div#ClaroBenefitsYourPlan {
+    text-align: center;
+}
+.benefitsYourPlanTitle {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.benefitsYourPlanName {
+    font-size: 22px;
+    color:#DA272C;
+}
+.benefitsYourPlan span.claroCurrentSymbol {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+.benefitsYourPlan .price-sbl {
+    font-size: 30px;
+    font-weight: 300;
+}
+/* O.G. 15-09-17 FICHA FINAL */
 
 /* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:fin */
 /* dquisocala : ClaroF2.1, OG | 18-05-2017 | creado para corregir issues CLIMPLRQA2-266 - Inicio */
@@ -8149,6 +8214,9 @@ span.claroCurrentSymbol {
     }
     /* O.G. CAMBIOS 21-08-17 FINAL CATALOGO */
     /*eterrones:fase2.1:FichaProducto:Integrar estilos de Omar:fin*/
+    .RibbonAdDefault.Descuento {
+
+    }
 }
 @media only screen and (max-width: 768px) {
     .pageReeActivate .button_primary > .button_text {width: 100px;}
@@ -8381,10 +8449,15 @@ span.claroCurrentSymbol {
 
 /*RROJAS INICIO CLARO2.1 MERGE OMAR - SE COMENTA LOS ESTILOS YA QUE OMAR LOS ELIMINÓ*/
 /* dquisocala: fase:2.1:EF_Ficha_prod[REQ-01]: Boton carrito de compras :Inicio */
-.disabled-buttonCart{
+/* O.G. CAMBIOS 18-09-17 - FICHA */
+.shopperActions .button.primary.disabled-buttonCart{
 	pointer-events: none;
-	opacity: 0.5;
+    background: #ccc;
 }
+.shopperActions .button.primary.disabled-buttonCart:hover{
+    background: #abaeaf;
+}
+/* O.G. CAMBIOS 18-09-17 - FICHA FINAL*/
 /* dquisocala: fase:2.1:EF_Ficha_prod[REQ-01]: Boton carrito de compras :Fin */
 
 
@@ -8412,6 +8485,7 @@ div.link_tab:hover {
 }
 /* O.G. 14-08-17 FICHA */
 /* dquisocala : cambios aplicados por Omar 24-08-17 FICHA */
+/* O.G. 14-09-17 FICHA */
 .btn-ancho-desk{
     width:220px!important; 
     height: 70px;
@@ -8420,10 +8494,15 @@ div.link_tab:hover {
     /* O.G. 08-09-17 FINAL FICHA */
     margin: 0 auto;
     /* O.G. 24-08-17 FICHA */
-    display: table-cell;
-    vertical-align: middle;
+    display: table;
+    padding: 0!important;
     /* O.G. 24-08-17 FINAL FICHA */
 }
+.btn-ancho-desk .content_button_opc {
+    display: table-cell;
+    vertical-align: middle;
+}
+/* O.G. 14-09-17 FICHA FINAL */
 .btn-ancho-desk:hover {
     box-shadow: 0px 0px 10px rgba(171,174,175,0.8);
 }
@@ -8470,34 +8549,83 @@ div.link_tab:hover {
     .benefitsYourPlan .plan-boxer {padding: 40px 20px 20px 20px; max-width: 1000px;}
 	/* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:fin */
 }	
+/* 641px a 768px: Tablet Vertical */
 @media screen and (min-width: 641px) and (max-width: 768px) {
-/*641px a 768px: Tablet Vertical*/
+
     .conditionModalityTitle, .benefitsYourPlan {padding: 0 15px;}
     .conditionModalityTitle, .benefitsYourPlan .ttl-opcs {font-size: 14px;}
     .conditionModalityTitle, .benefitsYourPlan .cll-boxer .txt2-bx {font-size: 10px;}
     .conditionModalityTitle, .benefitsYourPlan .plan-boxer{padding: 40px 20px 20px 20px;}
     .conditionModalityTitle, .benefitsYourPlan .cll-boxer.cllhead {width: 250px;}
-/* O.G. 18-08-17 FICHA */
-    .claroTabButtonContainer > .tab_header .tab_container:nth-child(3) {width: 185px;}
-    .claroTabButtonContainer > .tab_header .tab_container:nth-child(5) {width: 185px;}
-    .claroTabButtonContainer > .tab_header > div.tab_container {padding: 5px 15px;}
+    /* O.G. 18-08-17 FICHA */
+    /* O.G. 13-09-17 FICHA */
+    /*.claroTabButtonContainer > .tab_header .tab_container:nth-child(3) {width: 185px;}
+    .claroTabButtonContainer > .tab_header .tab_container:nth-child(5) {width: 185px;}*/
+    .claroTabButtonContainer > .tab_header > div.tab_container {
+        padding: 5px 10px;
+        width: 20%;
+    }
+    .wrap_precio .wrap_tbl .wrap_mbl .w2 .shopperActions .button.primary {
+        padding: 14px;
+        font-size: 14px;
+    }
+    .wigueq .left.available .sublist.col6.content-inventory {
+        padding: 3px 0;
+    }
+    .wigueq .left.available.quantity-low, .wigueq .left.available {
+        padding: 0;
+    }
+    /* O.G. 13-09-17 FICHA FINAL */
+    /* O.G. CAMBIOS 14-09-17 - FICHA */
+    .tab.left .content [class^="slick_"].slick-slider {
+        padding: 0 25px;
+    }
+    /* O.G. CAMBIOS 14-09-17 - FICHA FINAL*/
 }
 
 @media screen and (min-width: 641px) and (max-width: 1024px) {
     .claroTabButtonContainer > .tab_header div.tab_container [id^=tab_Title],
     .claroTabButtonContainer > .tab_header .tab_container div,
-    .claroTabButtonContainer > .tab_header > div.tab_container .lmsv_plan.wrap_text1 span.red {font-size: 16px;}
+    .claroTabButtonContainer > .tab_header > div.tab_container .lmsv_plan.wrap_text1 span.red {
+        font-size: 16px;
+    }
     .claroTabButtonContainer > .tab_header .tab_container div .link_tab,
-    .claroTabButtonContainer > .tab_header .tab_container div.wrap_text2 div {font-size: 13px;}
+    .claroTabButtonContainer > .tab_header .tab_container div.wrap_text2 div {
+        font-size: 13px;
+    }
+    .tab_header .tab_container .wrap_msn > div {
+        font-size: 10px;
+    }
 }
 /* O.G. 18-08-17 FINAL FICHA */
 /* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:inicio */
-@media screen and (max-width: 640px){
+/* MOVIL HORIZONTAL - VERTICAL */
+@media only screen and (max-width: 640px){
     /* O.G. 09-08-17 FICHA */
+     /* O.G. 14-09-17 FICHA */
     .claroTabButtonContainer > .tab_header > div.tab_container {
-            width: 100%;
             background: #fff;
+            width: calc(100% - 10px);
+            border-bottom:1px solid #ccc;
+            margin:0 5px;
     }
+    .tab_header .tab_container .iconFlecha {
+        font-size: 22px;
+    }
+    .claroTabButtonContainer > .tab_header > div.tab_container {
+        min-height: auto;
+        height: auto;
+    }
+    .tab_header .tab_container .wrap_link {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        margin-top: -11px;
+    }
+    #ClaroBenefitsYourPlan {
+        display: none;
+    }
+    /* O.G. 14-09-17 FICHA FINAL */
     .claroTabButtonContainer > .tab_header {
            margin-left: 0;
     }
@@ -8507,9 +8635,8 @@ div.link_tab:hover {
     	display: none;
     }
     /* O.G. CAMBIOS 04-08-17 MODIFICACIONES PARA CATALOGO */
-    span.claroCurrentSymbol {
-        top: 0;
-    }
+
+
     .ctg-page .orderByDropdown.selectWrapper {
         display: block;
         float: left;
@@ -8533,6 +8660,68 @@ div.link_tab:hover {
         overflow: hidden;
     }
     /* O.G. FINAL DE CAMBIOS 04-08-17 */
+    /* O.G. CAMBIOS 14-09-17 - FICHA */
+    span.claroCurrentSymbol {
+        top: 8px;
+        font-size: 10px;
+        margin: 0;
+
+    }
+    .tab_header .xtabWidget {
+        position: relative;
+        top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        background-color:#f4f4f4; 
+    }
+    .ClaroBenefitsYourPlan,
+    .w2 .clear_float,
+    .w2 .item_spacer_10px {
+        display: none;
+    }
+    .claroTabButtonContainer > .tab_header div.tab_container.active_tab {
+        border:0 none;
+        background-color: #f4f4f4;
+    }
+    .claroTabButtonContainer > .tab_header .tab_container.claro-inactive .wrap_text1, .claroTabButtonContainer > .tab_header .tab_container.claro-inactive .wrap_text2, .claroTabButtonContainer > .tab_header .tab_container.claro-inactive .wrap_text2 div, .claroTabButtonContainer > .tab_header div.tab_container.claro-inactive .lmsv_plan.wrap_text1 span.red {
+        color: #666;
+    }
+    .main-wrapper-condition.contentChangeCondition.panel {
+        width: 280px;
+        min-height: 200px;
+        overflow: hidden;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        padding: 9px;
+        position: fixed!important;
+        top: 50%;
+        left: 50%;
+        margin-top: -100px;
+        margin-left: -140px;
+    }
+    .cellHorizontalWidget {
+        width: 100%;
+    }
+    .wrap_precio .wrap_tbl .wrap_mbl .w2 .shopperActions .button.primary {
+        padding: 10px;
+    }
+    .w3 .content-widget > .left.available {
+        margin-top: 0;
+        margin-left: 0;
+        height: 18px;
+    }
+    .ficha-content-price-sub .ficha-content-value-price .price {
+        font-size: 32px;
+        padding-left: 12px;
+        margin:0;
+    }
+    .wigueq .left.available .sublist.col6.content-inventory {
+        width: auto;
+        padding: 0;
+    }
+
+    /* O.G. CAMBIOS 14-09-17 - FICHA FINAL*/
 }
 /* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:fin */
 /*}*/

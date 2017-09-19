@@ -213,8 +213,9 @@
 	.ctlg-menu-top li a {padding:0 10px 15px 10px;}	
 	/*dquisocala : Merge de estilos Omar 24-08-17 Fin */
 
-
-	.ctlg-menu-top li a.activo {border-bottom: 5px solid #DA262D; padding: 0 10px 10px 10px;}
+    /*rrojas: solucion de issue: CLIMPCQA1-67 - inicio*/
+	.ctlg-menu-top li a.activo {border-bottom: 5px solid #DA262D; padding: 0 10px 10px 10px;color: #FF0000;}
+	/*rrojas: solucion de issue: CLIMPCQA1-67 - fin*/
 	.ctnd-top {width: 100%; overflow: hidden;}
 	.ctnd-top.fijo {
 		background-color: #fff;
