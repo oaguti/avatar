@@ -1766,7 +1766,12 @@ div.cet_centro:nth-child(even) {
 .val_txt_mbl { display: none; }
 /* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:inicio */
 /* O.G. 09-08-17 CAMBIOS FICHA */
-.txt_legal div .left_espot {font-size: 12px; line-height: normal; text-align: justify; margin: 20px 20px 0 20px;}
+/* O.G. CAMBIOS 20-09-17 - FICHA */
+.txt_legal div .left_espot,
+#theBox div .left_espot  {
+	font-size: 12px; line-height: normal; text-align: justify; margin: 10px 20px;
+}
+/* O.G. CAMBIOS 20-09-17 - FICHA FINAL*/
 /* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:fin */
 .dsp_txt,.dsp_txt_mbl {text-align: center; color:rgb(112,196,115); font-size: 14px;}
 .dsp_txt_mbl { display: none }
@@ -3357,6 +3362,11 @@ span.text-quota-mes {
     top: 20px;
     width: 100%;
 }
+/* O.G. CAMBIOS 19-09-17 - FICHA */
+.ClaroSaleConditionWidget {
+	box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
+}
+/* O.G. CAMBIOS 19-09-17 - FICHA FINAL*/
 /* modificaciones para imagenes alternativas */
 	#slider-prd {
         width: 100%;
@@ -3672,7 +3682,7 @@ span.text-quota-mes {
     @media only screen and (min-width: 640px) and (max-width: 768px){
     	.ClaroSaleConditionWidget {
 		    margin-top: 0;
-		    box-shadow: 0px 5px 10px rgba(171,174,175,0.8);
+		    box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
 		}
     	.w2 {
     		display: block;
@@ -3804,9 +3814,15 @@ span.text-quota-mes {
     		margin-bottom: 5px;
     		border-bottom: 1px solid #ccc;
     	}
+    	/* O.G. CAMBIOS 19-09-17 - FICHA */
     	.wigueq .old_price.pr_tacha {
 			margin-bottom: 0;
+			padding-left: 12px;
 		}
+		.wigueq .old_price.pr_tacha, .wigueq .old_price.pr_tacha span.claroCurrentSymbol {
+			font-size: 12px;
+		}
+		/* O.G. CAMBIOS 19-09-17 - FICHA FINAL*/
 		/* O.G. 14-09-17 FICHA */
     	.wrap_precio {
     		width: 100%;
@@ -3817,10 +3833,10 @@ span.text-quota-mes {
     	}
     	/* O.G. 14-09-17 FICHA FINAL */
     	.wrap_precio .prc_eq {
-    		width: 40%!important;
+    		width: calc(100% - 180px)!important;
     	}
     	.wrap_precio .wrap_tbl {
-    		width: 60%!important;
+    		width: 180px!important;
     	}
     	.wrap_precio .prc_eq,.wrap_precio .wrap_tbl {
     		float: left!important;
@@ -3839,6 +3855,7 @@ span.text-quota-mes {
     		left: 0;
     	}
     	.wrap_mbl {
+    		float: right;
     		display: -webkit-box;
   			display: -moz-box;
   			display: -ms-flexbox;
