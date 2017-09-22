@@ -398,9 +398,9 @@ select{width:100%}
     .row.small-collapse .row{margin-left:0;margin-right:0}
     .row.small-uncollapse > .column,.row.small-uncollapse > .columns{padding-left:.625rem;padding-right:.625rem;float:left}
 /* wcarrasco: entrega Multiplica 2016-06-03 -  Fin*/
-	/* eterrones fase1.5 PI_F1.5_P1_2.2: Visualizar mensaje para la opciÃ³n RecÃ³gelo en una tienda fÃ­sica - INICIO */
+	/* eterrones fase1.5 PI_F1.5_P1_2.2: Visualizar mensaje para la opción Recógelo en una tienda física - INICIO */
 	#divSiTienda { display: none; }
-	/* eterrones fase1.5 PI_F1.5_P1_2.2: Visualizar mensaje para la opciÃ³n RecÃ³gelo en una tienda fÃ­sica - FIN */
+	/* eterrones fase1.5 PI_F1.5_P1_2.2: Visualizar mensaje para la opción Recógelo en una tienda física - FIN */
 }
 
 @media only screen and (min-width: 40.0625em) {
@@ -1587,7 +1587,7 @@ footer{font-family:'Roboto',sans-serif}
 .bannerSlider .slide .info .disclaimer{padding-top:10px}
 .bannerSlider .slide .info .disclaimer p{font-size:.625rem;margin-bottom:30px}
 
-/*---pestaÃƒÂ±as-home---*/
+/*---pestaÃ±as-home---*/
 
 .promoTabsHome ul{overflow:hidden}
 .promoTabsHome ul li:first-child{margin-left:10%}
@@ -1607,7 +1607,7 @@ footer{font-family:'Roboto',sans-serif}
 
 }
 
-/*---pestaÃƒÂ±as-home---*/
+/*---pestaÃ±as-home---*/
 
 /*---producto---*/
 
@@ -2173,9 +2173,12 @@ div.namePartPriceContainer{border-bottom:0!important}
     margin:0 10px;
     background: #F4F4F4!important;
 }
+/* O.G. CAMBIOS 21-09-17 - FICHA */
 .main-wrapper-condition.contentChangeCondition.panel .panel .content-button-notify a.link .button_text {
     color:#1f97ae;
+    line-height: 20px;
 }
+/* O.G. CAMBIOS 21-09-17 - FICHA FINAL*/
 .main-wrapper-condition.contentChangeCondition.panel .panel .content-button-notify a.link:hover,
 .main-wrapper-condition.contentChangeCondition.panel .panel .content-button-notify a.link:focus {
     background-color:#1f97ae!important;
@@ -2216,7 +2219,8 @@ div.namePartPriceContainer{border-bottom:0!important}
 .ico-check:before {
     display: none;
 }
-.ico-check:after {
+/* O.G. CAMBIOS 19-09-17 - FICHA */
+.ico-check:after, .mobile-check:after {
     content: "\f058";
     font-family: 'FontAwesome';
     position: absolute;
@@ -2232,6 +2236,7 @@ div.namePartPriceContainer{border-bottom:0!important}
     -moz-border-radius: 50%;
     border-radius: 50%;
 }
+/* O.G. CAMBIOS 19-09-17 - FICHA FINAL*/
 /* O.G. 16-08-17 FINAL FICHA gost
 .tab.left [id^=carousel] > div {
     width: 235px;
@@ -2506,7 +2511,7 @@ div#widget_breadcrumb{padding:0!important;margin-left:0!important}
 .header-superior select{-webkit-appearance:none;-moz-appearance:none;appearance:none;color:white;background:transparent;border:none}
 .header-superior .btn__close{margin-left:5px;cursor:pointer}
 /* Multiplica web_claro-20160222 Inicio */
-.header-superior .btn__close:before{content:"Ã¯â€žâ€¡";font-family:"FontAwesome"}
+.header-superior .btn__close:before{content:"ï„‡";font-family:"FontAwesome"}
 /* Multiplica web_claro-20160222 Fin */
 .header-superior .bloqueMenu{display:-webkit-box;display:-moz-box!important;display:-ms-flexbox!important;webkit-display:-webkit-flex!important;display:-webkit-flex!important;display:flex!important;flex-direction:row;-webkit-box-direction:row;-webkit-flex-direction:row;-ms-flex-direction:row;align-items:center;-webkit-align-items:center;ms-flex-align:center;position:relative}
 .header-superior .bloqueMenu .movil{display:none}
@@ -2558,19 +2563,19 @@ div#widget_breadcrumb{padding:0!important;margin-left:0!important}
 .subMenu dd > ul,header .wpthemeHeaderNav .subMenu dd > ul{display:-webkit-box;display:-moz-box!important;display:-ms-flexbox!important;webkit-display:-webkit-flex!important;display:-webkit-flex!important;display:flex!important;flex-direction:column;-webkit-box-direction:column;-webkit-flex-direction:column;-ms-flex-direction:column;justify-content:flex-start;-webkit-justify-content:flex-start;-ms-flex-pack:flex-start;-ms-flex-pack:start;font-size:.8rem}
 .subMenu dd > ul li,header .wpthemeHeaderNav .subMenu dd > ul li{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;font-size:.8rem;width:100%;padding:5px}
 .g-3{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;padding:0 5px;display:inline-block;float:left;position:relative}
-/* dqusocala: Claro2.1 , New diseÃ±o EF_Catalogo - Inicio */
+/* dqusocala: Claro2.1 , New diseño EF_Catalogo - Inicio */
 #contentWrapper{margin-top:0;background-color: rgb(244, 244, 244);}
-/* dqusocala: Claro2.1 , New diseÃ±o EF_Catalogo - Fin */
+/* dqusocala: Claro2.1 , New diseño EF_Catalogo - Fin */
 #contentWrapper > #content{width:100%}
 #contentWrapper.hover{-webkit-transition:margin-top .5s;-moz-transition:margin-top .5s;-ms-transition:margin-top .5s;transition:margin-top .5s;margin-top:400px}
 #quickLinksBar{width:100%;max-width:960px;margin:auto;position:relative}
 #quickLinksBar li:first-child {width:96%; visibility: visible; position: relative;}
 #quickLinksBar li #Header_GlobalLogin_signInQuickLink{position:absolute;right:100px;width:115px;max-width:120px;top:-27px;color:#fff;background-image:url(../img/ico-user.png);background-repeat:no-repeat;background-position:10px center;padding:0 15px 0 37px;height:37px;line-height:37px;border:0;border-bottom:1px solid #DA262D}
 #quickLinksBar li #Header_GlobalLogin_signInQuickLink:hover{background-color:#fff;color:#000;text-decoration:none;background-image:url(../img/ico-usuario-hover.png)}
-#eterrones fase2.1 RQ-16_RU-02_6: NotificaciÃ³n SMS - INICIO
+#eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - INICIO
 #quickLinksBar div li #Header_GlobalLogin_Notification_signInQuickLink{position:absolute;right:100px;width:115px;max-width:120px;top:-27px;color:#fff;background-image:url(../img/ico-user.png) !important;background-repeat:no-repeat;background-position:10px center;padding:0 15px 0 37px;height:37px;line-height:37px;border:0;border-bottom:1px solid #DA262D}
 #quickLinksBar li #Header_GlobalLogin_Notification_signInQuickLink:hover{background-color:#fff;color:#000;text-decoration:none;background-image:url(../img/ico-usuario-hover.png)}
-#eterrones fase2.1 RQ-16_RU-02_6: NotificaciÃ³n SMS - FIN
+#eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - FIN
 .panelLinkSelected.selected{color:#000!important;background-image:url(../img/ico-usuario-hover.png)!important;border-radius:0!important;border-bottom:1px solid #ccc!important}
 #MiniShoppingCart {position:absolute;right:0;top:-36px;height:36px}
 
@@ -3629,7 +3634,7 @@ span.ico-imprimir {font-size: 13px;}
 @media (max-width: 640px){
     .style-size-sma{font-size: 21px}
     #menu-smar ul::before{content: "Mi Cuenta"; padding: 15px 0; border-bottom: 1px solid #eee;display: block;}
-    #menu-smar ul.Inf::before{content: "InformaciÃƒÂ³n Personal";}
+    #menu-smar ul.Inf::before{content: "InformaciÃ³n Personal";}
     #menu-smar ul.Lib::before{content: "Libreta de Direcciones";}
     #menu-smar ul.Mis::before{content: "Mis Favoritos";}
     #menu-smar ul.His::before{content: "Historial de Pedidos";}
@@ -3713,10 +3718,10 @@ span.ico-imprimir {font-size: 13px;}
     .cont-errror{position: absolute;top: 5%;width: 400px}
 }
 @media (max-width: 640px){
-	/* eterrones fase1.5 PI_F1.5_P1_2.2: Visualizar mensaje para la opciÃ³n RecÃ³gelo en una tienda fÃ­sica - INICIO */
+	/* eterrones fase1.5 PI_F1.5_P1_2.2: Visualizar mensaje para la opción Recógelo en una tienda física - INICIO */
 	#divSiTienda { display: block; }
 	#divNoTienda { margin-bottom: -19px; }
-	/* eterrones fase1.5 PI_F1.5_P1_2.2: Visualizar mensaje para la opciÃ³n RecÃ³gelo en una tienda fÃ­sica - FIN */    
+	/* eterrones fase1.5 PI_F1.5_P1_2.2: Visualizar mensaje para la opción Recógelo en una tienda física - FIN */    
 }
 
 /*---FinSprint-6---*/
@@ -3868,10 +3873,10 @@ input:-ms-input-placeholder {color: #8d8d8d;font-size: 12px  }
 #quickLinksBar li #Header_GlobalLogin_signInQuickLink {border-bottom: 0;margin-bottom: 0;margin-top: 0;height:36px;line-height: 36px;top: -47px; right: 95px;}
 #quickLinksBar li #Header_GlobalLogin_signInQuickLink.selected {position: absolute; left: auto; }
 
-#eterrones fase2.1 RQ-16_RU-02_6: NotificaciÃ³n SMS - INICIO
+#eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - INICIO
 #quickLinksBar li #Header_GlobalLogin_Notification_signInQuickLink {border-bottom: 0;margin-bottom: 0;margin-top: 0;height:36px;line-height: 36px;top: -47px; right: 95px;}
 #quickLinksBar li #Header_GlobalLogin_Notification_signInQuickLink.selected {position: absolute; left: auto; }
-#eterrones fase2.1 RQ-16_RU-02_6: NotificaciÃ³n SMS - FIN
+#eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - FIN
 
 .loginMenuDropdown {top: -12px!important; right: 94px!important;}
 #MiniShoppingCart {top: -47px;}
@@ -3922,11 +3927,11 @@ input:-ms-input-placeholder {color: #8d8d8d;font-size: 12px  }
 /* tags */
 /* Multiplica web_claro-20160308 Inicio */
 /* lmorales multiplica 19-04-2016 inicio */
-/*wcarrasco:fase:2.1:EF_Cat_prod[REQ-NV-07]:ImplementaciÃ³n del contenedor de item - Implementacion del diseÃ±o css:inicio*/
+/*wcarrasco:fase:2.1:EF_Cat_prod[REQ-NV-07]:Implementación del contenedor de item - Implementacion del diseño css:inicio*/
 /*.RibbonAdDefault.TAG_NUEVO{background-image:url(../img/ribbon-new.png);width:72px;height:35px;top:0;left:30px;position:absolute;overflow:hidden;text-indent:-999px;margin-top:-50px;border-radius:0;}
 .RibbonAdDefault.TAG_PROMO{top:55%;margin-top:-13px;background:url(../img/ico-promocion.png);border-radius:0;width:118px;padding-left:0;height:28px;text-indent:-9999px;left:-4%;overflow:hidden}
 .RibbonAdDefault.TAG_4G{background-image:url(../img/ribbon-4g.png);width:59px;height:28px;left:28px;text-indent:-9999px}*/
-/*wcarrasco:fase:2.1:EF_Cat_prod[REQ-NV-07]:ImplementaciÃ³n del contenedor de item - Implementacion del diseÃ±o css:fin*/
+/*wcarrasco:fase:2.1:EF_Cat_prod[REQ-NV-07]:Implementación del contenedor de item - Implementacion del diseño css:fin*/
 .claro_image_product_viewer.classAdRibbonProductoValue {position:absolute;width: 100%;height: 100%;z-index: 1000;}
 /* Multiplica 2016-04-29 Inicio */
 .claro_image_product_viewer.classAdRibbonProductoValue .RibbonAdDefault.TAG_NUEVO{position:absolute;top:50px;left:155px;}
@@ -4047,9 +4052,9 @@ div.namePartPriceContainer.top > div > span.old_price{float:right!important;line
 /* dquisocala: entrega Multiplica 2016-07-13 -  Fin */
     #quick_cart_container, #MiniShopCartProductAdded{right: 0 !important;}
     #quickLinksBar li #Header_GlobalLogin_signInQuickLink{text-indent: -999px; width: 55px !important;}
-    #eterrones fase2.1 RQ-16_RU-02_6: NotificaciÃ³n SMS - INICIO
+    #eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - INICIO
     #quickLinksBar li #Header_GlobalLogin_Notification_signInQuickLink{text-indent: -999px; width: 55px !important;}
-    #eterrones fase2.1 RQ-16_RU-02_6: NotificaciÃ³n SMS - FIN
+    #eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - FIN
 }
 
 .separ_{margin:10px 0;padding:10px 0}
@@ -4121,9 +4126,9 @@ div.namePartPriceContainer.top > div > span.old_price{float:right!important;line
 .dijitReset.dijitButtonText{display:block}
 .orderByDropdown .orderBySelectLabel{display:block}
 #quickLinksBar li #Header_GlobalLogin_signInQuickLink{width:245px!important;max-width:245px!important}
-#eterrones fase2.1 RQ-16_RU-02_6: NotificaciÃ³n SMS - INICIO
+#eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - INICIO
 #quickLinksBar li #Header_GlobalLogin_Notification_signInQuickLink{width:245px!important;max-width:245px!important}
-#eterrones fase2.1 RQ-16_RU-02_6: NotificaciÃ³n SMS - FIN
+#eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - FIN
 .optionContainer > .title{text-transform:none!important;background:#fff!important}
 #section_button_0_2_3553_6954{text-transform:lowercase!important;text-transform:capitalize!important}
 .facetWidget .close:before,.facetSelected > .filter_option >.close{margin-right:8px}
@@ -4144,9 +4149,9 @@ div.namePartPriceContainer.top > div > span.old_price{float:right!important;line
 /* dquisocala: entrega Multiplica 2016-07-13 -  Fin */
 
     #quickLinksBar li #Header_GlobalLogin_signInQuickLink{width: 45px !important;}
-    #eterrones fase2.1 RQ-16_RU-02_6: NotificaciÃ³n SMS - INICIO
+    #eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - INICIO
     #quickLinksBar li #Header_GlobalLogin_Notification_signInQuickLink{width: 45px !important;}
-    #eterrones fase2.1 RQ-16_RU-02_6: NotificaciÃ³n SMS - FIN
+    #eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - FIN
 }
 
 /* Multiplica web_claro-20160316 Inicio */
@@ -4306,14 +4311,14 @@ div.namePartPriceContainer.top > div > span.old_price{float:right!important;line
     .velo_com .item:after{display:block;content:"Velocidad del procesador"}
     .proc_com .item:after{display:block;content:"Tipo de procesador"}
     .peso_com .item:after{display:block;content:"Peso (oz)"}
-    .espera_com .item:after{display:block;content:"Tiempo en espera (dÃ­as)"}
-    .conver_com .item:after{display:block;content:"Tiempo de conversaciÃ³n (horas)"}
-    .tam_com .item:after{display:block;content:"TamaÃ±o (pulgadas)"}
+    .espera_com .item:after{display:block;content:"Tiempo en espera (días)"}
+    .conver_com .item:after{display:block;content:"Tiempo de conversación (horas)"}
+    .tam_com .item:after{display:block;content:"Tamaño (pulgadas)"}
     .vid_com .item:after{display:block;content:"Video"}
-    .tras_com .item:after{display:block;content:"CÃ¡mara trasera"}
-    .fron_com .item:after{display:block;content:"CÃ¡mara frontal"}
-    .res_com .item:after{display:block;content:"ResoluciÃ³n (pÃ­xeles)"}
-    .anc_com .item:after{display:block;content:"TamaÃ±o de la pantalla (pulgadas)"}
+    .tras_com .item:after{display:block;content:"Cámara trasera"}
+    .fron_com .item:after{display:block;content:"Cámara frontal"}
+    .res_com .item:after{display:block;content:"Resolución (píxeles)"}
+    .anc_com .item:after{display:block;content:"Tamaño de la pantalla (pulgadas)"}
     .wif_com .item:after{display:block;content:"Wi-Fi"}
     .glt_com .item:after{display:block;content:"4G/LTE"}
     .blu_com .item:after{display:block;content:"Bluetooth"}
@@ -4372,11 +4377,11 @@ label.contr{font-size:13px!important;line-height:22px}
     #menu-smar ul::before{content:"Mi Cuenta \f0da";font-family:"Fontawesome","dinpro";padding:15px 0;border-bottom:1px solid #eee;display:block}
     #menu-smar ul.extend::before{content:"Mi Cuenta  \f0d7";font-family:"Fontawesome","dinpro";padding:15px 0;border-bottom:1px solid #eee;display:block}
     #menu-smar ul::before{content:"Mi Cuenta \f0da";padding:15px 0;border-bottom:1px solid #eee;display:block}
-    #menu-smar ul.Inf::before{content:"InformaciÃ³n Personal \f0da"}
+    #menu-smar ul.Inf::before{content:"Información Personal \f0da"}
     #menu-smar ul.Lib::before{content:"Libreta de Direcciones \f0da"}
     #menu-smar ul.Mis::before{content:"Mis Favoritos \f0da"}
     #menu-smar ul.His::before{content:"Historial de Pedidos \f0da"}
-    #menu-smar ul.extend.Inf::before{content:"InformaciÃ³n Personal \f0d7"}
+    #menu-smar ul.extend.Inf::before{content:"Información Personal \f0d7"}
     #menu-smar ul.extend.Lib::before{content:"Libreta de Direcciones \f0d7"}
     #menu-smar ul.extend.Mis::before{content:"Mis Favoritos \f0d7"}
     #menu-smar ul.extend.His::before{content:"Historial de Pedidos \f0d7"}
@@ -5015,9 +5020,9 @@ div.widget_product_image_viewer {width:89%}
 
 #quickLinksBar li #Header_GlobalLogin_signInQuickLink {width: 157px!important;max-width:157px!important;}
 
-#eterrones fase2.1 RQ-16_RU-02_6: NotificaciÃ³n SMS - INICIO
+#eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - INICIO
 #quickLinksBar li #Header_GlobalLogin_Notification_signInQuickLink {width: 157px!important;max-width:157px!important;}
-#eterrones fase2.1 RQ-16_RU-02_6: NotificaciÃ³n SMS - FIN
+#eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - FIN
 
 #allDepartmentsMenu {z-index:1100;}
 
@@ -5502,13 +5507,13 @@ fieldset.descktop {margin-top:10px;}
 
     .customImageCategoryRwd {width:30px;margin-top:14px;}
     #widget_left_nav_2_3553_6954 {position:relative;margin:0;}
-    /* dquisocala:Claro2.1 ModificaciÃ³n para categoria - Inicio */
+    /* dquisocala:Claro2.1 Modificación para categoria - Inicio */
 /*     .categoryPageDisable {position:absolute;top:136px;} */
-	/* dquisocala:Claro2.1 ModificaciÃ³n para categoria - Fin */
+	/* dquisocala:Claro2.1 Modificación para categoria - Fin */
     #content .facetWidget.collapsible {margin-top:0;}
-    /* dquisocala:Claro2.1 ModificaciÃ³n para categoria - Inicio */
+    /* dquisocala:Claro2.1 Modificación para categoria - Inicio */
 /*     .row.facetContainer {margin-top:auto;top:-50px;z-index:1000;} */
-    /* dquisocala:Claro2.1 ModificaciÃ³n para categoria - Fin */
+    /* dquisocala:Claro2.1 Modificación para categoria - Fin */
     .searchResult .row.facetContainer {margin-top:auto;top:86px;z-index:1000;}
     #content .collapsible > h3:before, .categoryNavWidget.collapsible > h3:before, .linkWidget.collapsible > h3:before, 
     #content .collapsible[aria-expanded="false"] > h3:before, .categoryNavWidget.collapsible[aria-expanded="false"] > h3:before, 
@@ -5516,9 +5521,9 @@ fieldset.descktop {margin-top:10px;}
     dget.collapsible[aria-expanded="false"] > h3:before {top:2px;}
 	/* rmorales: entrega Multiplica 2016-05-17 - Fin */
     #departmentsButton, .display_name_cagegory_mobile {margin-top:0;margin-bottom:0;height:50px;line-height:50px;}
-   /* dquisocala:Claro2.1 ModificaciÃ³n para categoria - Inicio */
+   /* dquisocala:Claro2.1 Modificación para categoria - Inicio */
 /*     #contentWrapper #content #headerRow3 {background: #888 !important;height:50px;line-height: 58px;} */
-   /* dquisocala:Claro2.1 ModificaciÃ³n para categoria - Fin */
+   /* dquisocala:Claro2.1 Modificación para categoria - Fin */
     .sorting_controls > span.order_by_label {width: 100px;}
 	/* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:inicio */
 	/* O.G. CAMBIOS 03-08-17 MODIFICACIONES PARA CATALOGO */
@@ -5540,9 +5545,9 @@ fieldset.descktop {margin-top:10px;}
     #headerRow2 .header__navegation {top:86px;}
     #quickLinksBar li #Header_GlobalLogin_signInQuickLink {width:45px!important;}
     
-    #eterrones fase2.1 RQ-16_RU-02_6: NotificaciÃ³n SMS - INICIO
+    #eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - INICIO
     #quickLinksBar li #Header_GlobalLogin_Notification_signInQuickLink {width:45px!important;}
-	#eterrones fase2.1 RQ-16_RU-02_6: NotificaciÃ³n SMS - FIN
+	#eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - FIN
 	
     .userHello, .userName {display:none;}
     #quickLinksBar > li > #Header_GlobalLogin_signOutQuickLink {/*background-image: url("../img/ico-user.png")!important;*/padding:0 0 0 36px;}
@@ -6513,7 +6518,9 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 }
 .pageUserTimeout .content_right_shadow .main_content #content_wrapper_border .my_account.generic_error_container .content:before {
     font-family: FontAwesome;
-    content:"\f127";
+	/*rrojas: faseClaro2.1 - REQ[6] documento de especificación funcional de páginas adicionales de clientes - inicio */
+	/*     content:"\f127"; */
+	/*rrojas: faseClaro2.1 - REQ[6] documento de especificación funcional de páginas adicionales de clientes - inicio */
     font-size: 45px;
     color:#da272c;
     width: 50px;
@@ -7010,7 +7017,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 #Register .form-styles-li input[type=text],
 #Register .form-styles-li input[type=password],
 #Register .form-styles-li input[type=email] {width: 200px; margin-bottom: 5px;}
-#Register .form-styles-li input[type=text]:-ms-input-placeholder { /* IE10â€“11 */
+#Register .form-styles-li input[type=text]:-ms-input-placeholder { /* IE10–11 */
     color: #8d8d8d!important;
 }
 #Register li.form-styles-li.contornoCaptcha {margin-top: 20px;}
@@ -7967,6 +7974,18 @@ span.claroCurrentSymbol {
     margin-top: 5px;
 }
 /* O.G. 08-09-17 FICHA */
+
+
+
+
+
+
+
+
+
+
+
+
 .claroTabButtonContainer > .tab_header .tab_container.claro-inactive {
     border-bottom: 1px solid #ABAFB0;
 }
@@ -8096,6 +8115,23 @@ div#ClaroBenefitsYourPlan {
     display: none;
 }
 /* O.G. CAMBIOS 18-09-17 - FICHA FINAL*/
+/* O.G. CAMBIOS 21-09-17 - FICHA */
+.pageConsultationRenewableLines .error-service-content {
+    background:#FFF0F1;
+    color:#B7222F;
+    margin: 8px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.ems-cuota .contentRecommendationWidget .left_espot{
+    font-size: 12px;
+    line-height: 100%;
+    text-align: left;
+    margin: 0 10px;
+}
+/* O.G. CAMBIOS 21-09-17 - FICHA FINAL*/
 /* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:fin */
 /* dquisocala : ClaroF2.1, OG | 18-05-2017 | creado para corregir issues CLIMPLRQA2-266 - Inicio */
 .footer a div.button_text_skip span:hover {
@@ -8105,7 +8141,9 @@ div#ClaroBenefitsYourPlan {
     margin-top: 40px;
 }
 /* dquisocala : ClaroF2.1, OG | 18-05-2017 | creado para corregir issues CLIMPLRQA2-266 - Fin */
+
 /* dquisocala : Claro 2.1 , Integracion estilos Omar 21/03/17 - Fin */
+
 /*************** RESPONSIVE **********************/
 @media only screen and (max-width: 360px){
 	/* dquisocala : ClaroF2.1, OG | 25-05-2017 | ISSUES CLIMPLRQA2-298 , ISSUES CLIMPLRQA2-299 - Inicio */
@@ -8408,10 +8446,13 @@ div#ClaroBenefitsYourPlan {
 }
 
 /* eterrones: fase:2.1:EF_Catalog_Product_[REQ-NV-05]:Consultar listado de productos de categoria moviles:Fin */
+
 #widgetExample{
 	display:none;
 }
+
 /* dquisocala  : Claro 2.1 ,EF_CatologoProductos Estilos Omar 13-03-2017  - Inicio */
+
 .cont_bg {background-color:#fff; width: 100%; overflow: hidden;} 
 .fch_title {padding-top: 30px; font-size: 35px; text-align: center; display: block;margin:0; width: 100%;font-weight: 300;font-family: 'Roboto', sans-serif!important;}
 .breakcump { width: 100%; text-align: left; font-size: 14px;padding-top: 20px; }
@@ -8463,9 +8504,12 @@ div#ClaroBenefitsYourPlan {
 
 @media only screen and (max-width: 640px){
 	.breakcump {display: none;}
+	
 	.cont_bg {background:none;} 
 }
 /* dquisocala  : Claro 2.1 ,EF_CatologoProductos Estilos Omar 13-03-2017 - Fin */
+
+
 /* dquisocala  : Claro 2.1 ,EF_CatologoProductos top categoria desktop - Inicio */
 @media only screen and (min-width: 641px) and (max-width: 1255px){
 	#mn-tp{left:0px !important;}
@@ -8479,16 +8523,18 @@ div#ClaroBenefitsYourPlan {
 /*rrojas END[Estilos para confirmacion de venta]*/
 
 /* eterrones: fase:2.1:EF_Catalog_Product_[REQ-NV-05]:Consultar listado de productos de categoria moviles:Inicio */
+
 #divSortingControls {
 	display: none;
 }
+
 /* eterrones: fase:2.1:EF_Catalog_Product_[REQ-NV-05]:Consultar listado de productos de categoria moviles:Fin */
 
-/* ecaceres: fase:2.1:EF_Catalog_Category_[REQ-NV-09]:Escenario que no existe productos para la combinaciÃ³n de filtros:Inicio */
+/* ecaceres: fase:2.1:EF_Catalog_Category_[REQ-NV-09]:Escenario que no existe productos para la combinación de filtros:Inicio */
 .noProductListing {
 	margin-top: 51px;
 }
-/* ecaceres: fase:2.1:EF_Catalog_Category_[REQ-NV-09]:Escenario que no existe productos para la combinaciÃ³n de filtros:Fin */
+/* ecaceres: fase:2.1:EF_Catalog_Category_[REQ-NV-09]:Escenario que no existe productos para la combinación de filtros:Fin */
 
 /* dquisocala: fase:2.1:EF_Catalog_Category: Ocultar condicion de venta en Categoria accesorios :Inicio */
 .isAccesoryPageDisplayNone{
@@ -8498,14 +8544,16 @@ div#ClaroBenefitsYourPlan {
 
 /*O.G. clases para probar slider del home (laboratorio)*/
 
-/*RROJAS INICIO CLARO2.1 MERGE OMAR - SE COMENTA LOS ESTILOS YA QUE OMAR LOS ELIMINÃ“*/
+/*RROJAS INICIO CLARO2.1 MERGE OMAR - SE COMENTA LOS ESTILOS YA QUE OMAR LOS ELIMINÓ*/
 /* dquisocala: fase:2.1:EF_Ficha_prod[REQ-01]: Boton carrito de compras :Inicio */
 /* O.G. CAMBIOS 18-09-17 - FICHA */
 .shopperActions .button.primary.disabled-buttonCart{
 	/*pointer-events: none;*/
     background: #ccc;
 }
-.shopperActions .button.primary.disabled-buttonCart:hover{
+.shopperActions .button.primary.disabled-buttonCart:hover,
+.shopperActions .button.primary.disabled-buttonCart:focus,
+.shopperActions .button.primary.disabled-buttonCart:active {
     background: #abaeaf!important;
 }
 /* O.G. CAMBIOS 18-09-17 - FICHA FINAL*/
@@ -8540,6 +8588,7 @@ div.link_tab:hover {
 .btn-ancho-desk{
     width:220px!important; 
     min-height: 90px;
+    height: 90px;
     /* O.G. 08-09-17 FICHA */
     line-height: 100%; 
     /* O.G. 08-09-17 FINAL FICHA */
@@ -8574,6 +8623,7 @@ div.link_tab:hover {
     	display: none !important;
     }
 }
+
 .iconFlecha {
 	display: none;
 }
@@ -8702,11 +8752,14 @@ div.link_tab:hover {
     .claroTabButtonContainer > .tab_header {
            margin-left: 0;
     }
+
     /* O.G. FINAL 09-08-17 FICHA */
     .conditionModalityTitle, .benefitsYourPlan {
     	display: none;
     }
     /* O.G. CAMBIOS 04-08-17 MODIFICACIONES PARA CATALOGO */
+
+
     .ctg-page .orderByDropdown.selectWrapper {
         display: block;
         float: left;
@@ -8793,12 +8846,32 @@ div.link_tab:hover {
         width: auto;
         padding: 0;
     }
-
     /* O.G. CAMBIOS 14-09-17 - FICHA FINAL*/
+     /* O.G. CAMBIOS 21-09-17 - FICHA */
+    .mobile-check {
+        background:#fff;
+        border-radius: 5px;
+        border: 3px solid #70C473;
+        max-width: 260px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .mobile-check .btn-blanco {
+        border:0 none;
+    }
+    .tab.left .content .sliderAttrDefActive .mobile-check .content-noUser-information {
+        max-width: 220px;
+        margin: 0 auto 10px auto;
+    }
+    .tab.left .content .sliderAttrDefActive .mobile-check .no-user {
+        margin: 0 auto 15px auto;
+    }
+
+    /* O.G. CAMBIOS 21-09-17 - FICHA FINAL */
 }
 /* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:fin */
 /*}*/
-/*** Fase2.1: Ficha de producto -Fin***/
+/*** Fase2.1: Ficha de producto -Fin***/=======
 
 /* OG | 04-07-2017 | modificado para corregir issues  CLAROLYR-1 - Inicio */
 .pageLogon .muestra-equipo .row .medium-12.columns.sma-ancho-cont {
@@ -8812,7 +8885,7 @@ div.link_tab:hover {
 	background: #fff;
 }
 /* dquisocala: fase:2.1:EF_Ficha_prod[REQ-01]: Popup de confirmacion de condiciones de venta :Fin */
-/*RROJAS FIN CLARO2.1 MERGE OMAR - SE COMENTA LOS ESTILOS YA QUE OMAR LOS ELIMINÃ“*/
+/*RROJAS FIN CLARO2.1 MERGE OMAR - SE COMENTA LOS ESTILOS YA QUE OMAR LOS ELIMINÓ*/
 /*RROJAS INICIO CLARO2.1 MERGE OMAR - SE AGREGA ESTILOS*/
 @media only screen and (min-width: 1024px){
     .tablet, .movil{display: none;}
@@ -8831,3 +8904,57 @@ div.link_tab:hover {
     .movil{display:block;}
 }
 /*RROJAS FIN CLARO2.1 MERGE OMAR - SE AGREGA ESTILOS*/
+
+/*rrojas:fase:2.1:EF_Pag_adicional[REQ-06]:Visualizar la página de Caducidad de sesión:inicio*/
+.textSessionCaduca {
+    color: #000;
+    font-weight: bold;
+}
+.linkSesionCaduca > span {
+    padding: 3px;
+    position: relative;
+    top: 1px;
+}
+.linkSesionCaduca:hover {
+  text-decoration: none;
+}
+/*rrojas:fase:2.1:EF_Pag_adicional[REQ-06]:Visualizar la página de Caducidad de sesión:fin*/
+
+/*rrojas:fase:2.1:EF_Pag_adicional[REQ-07]:Visualizar la página de Acceso desde otra ubicación:inicio*/
+.textSesionDuplicada {
+    color: #000;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+}
+.textSesionDuplicada.text2 {
+    font-size: 12px;
+}
+.linkSesionDuplicada {    
+    text-decoration: none !important;
+    text-align: center;
+}
+.content_wrapper_position.contentDuplicado {
+    max-width: none !important;
+}
+.content.duplicadaError5{
+    border-bottom: medium none !important;
+    border-left: medium none !important;;
+    border-right: medium none !important;
+}
+/*rrojas:fase:2.1:EF_Pag_adicional[REQ-07]:Visualizar la página de Acceso desde otra ubicación:fin*/
+
+/*rrojas:fase:2.1:EF:Pag_aducional[REQ2]:No visualizar el modo mobil el Breadcrumb - inicio*/
+
+@media only screen and (max-width:601px){
+.fondo-resumen{
+	 display: none !important;	 
+ }
+}
+/*rrojas:fase:2.1:EF:Pag_aducional[REQ2]:No visualizar el modo mobil el Breadcrumb - fin*/
+
+/*--eterrones:fase:2.1:EF_Pag_adicional_cli[REQ-03]:Estilo para el texto Capitalize del combo list de libreta de direcciones:inicio--*/
+.text-capitalize{
+	text-transform: capitalize;	
+}
+/*--eterrones:fase:2.1:EF_Pag_adicional_cli[REQ-03]:Estilo para el texto Capitalize del combo list de libreta de direcciones:fin--*/

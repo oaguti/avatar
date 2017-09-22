@@ -3250,13 +3250,20 @@ span.text-quota-mes {
 	text-align: center;
 	margin-bottom: 25px;
 }
-#productPageAdd2Cart:before {
-    content:url(../images/canasta.png);
-    /* O.G. CAMBIOS 13-09-17 - FICHA */
+/* O.G. CAMBIOS 21-09-17 - FICHA */
+.icon-shopCart:before {
+    content: url(../images/canasta.png);
     position: absolute;
     left: 0;
-    /* O.G. CAMBIOS 13-09-17 - FICHA FINAL*/
 }
+/* Eliminar el icono del ID
+#productPageAdd2Cart:before {
+    content:url(../images/canasta.png);
+    position: absolute;
+    left: 0;
+    
+} */
+/* O.G. CAMBIOS 21-09-17 - FICHA FINAL*/
 /* O.G. FINAL DE CAMBIOS 17-07-17*/
 /* O.G. CAMBIOS 19-07-17 MODIFICACIONES PARA FICHA */
 .classProductContenRecomendation {
@@ -3551,7 +3558,8 @@ span.text-quota-mes {
     /*se comenta ya que en el merge de omar se esta eliminando estas lineas*/
     /*.attachmentDesktop,.attachmentTabletv,.attachmentTableth  {display: none;}*/
     /*.attachmentMobile{display:block;}*/
-	/*rrojas Fin de Merge de Omar Claro2.1*/ 
+/*rrojas Fin de Merge de Omar Claro2.1*/ 
+  
     .content-wrapper-fprod {
     	top:0;
     }
@@ -3563,6 +3571,7 @@ span.text-quota-mes {
     	margin-top: 10px;
 	}
 } 
+
 /* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:inicio */
 /* estilos para probar estructura en widguet de precios */
 	.wrap_tbl .wrap_mbl .w2 .shopperActions .button.primary .left_border,
@@ -3575,15 +3584,15 @@ span.text-quota-mes {
 	/*dquisocala : Merge de estilos Omar 24-08-17 Inicio */
 	.ClaroSaleConditionWidget {
 		position: relative;
-		z-index: 99;
-		margin: -120px auto 0  auto;
+		z-index: 10;
+		margin: -124px auto 0  auto;
 	}
 	/*dquisocala : Merge de estilos Omar 24-08-17 Fin */
 	.wigueq {
 		position: absolute;
 		top:150px;
 		right: 200px;
-		z-index: 100;
+		z-index: 10;
 	}
 	.wigueq .old_price.pr_tacha {
 		position: relative;
@@ -3612,7 +3621,7 @@ span.text-quota-mes {
 	.wrap_precio .wrap_tbl .wrap_mbl .w2 .shopperActions {
 		text-align: center;
 	}
-	/* O.G. CAMBIOS 13-09-17 - FICHA */
+/* O.G. CAMBIOS 13-09-17 - FICHA */
 	.wigueq .available > .sublist,
 	.wrap_precio .wrap_tbl .wrap_mbl .w2 .shopperActions .button.primary {
 	    display: inline-block;
@@ -3632,7 +3641,7 @@ span.text-quota-mes {
 		width: auto;
 		padding: 5px 0;
 	}
-	/* O.G. CAMBIOS 13-09-17 - FICHA FINAL*/
+/* O.G. CAMBIOS 13-09-17 - FICHA FINAL*/
 	.wrap_precio {width: 300px; border:1px dotted #ccc; padding: 10px;}
 	.wrap_precio .prc_eq {
 		width: 100%!important;
@@ -3855,7 +3864,7 @@ span.text-quota-mes {
     		left: 0;
     	}
     	.wrap_mbl {
-    		float: right;
+			float: right;
     		display: -webkit-box;
   			display: -moz-box;
   			display: -ms-flexbox;
@@ -4078,6 +4087,7 @@ span.text-quota-mes {
     width: 100%;
     z-index: 10;
 }
+
 .pos_relative {
 	position: relative;
 }
