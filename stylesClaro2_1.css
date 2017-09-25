@@ -3105,6 +3105,7 @@ div#widget_breadcrumb > ul li.current {
 	color:#212121;
 }
 /* O.G. 06-09-17 FICHA */
+/* O.G. CAMBIOS 22-09-17 - FICHA */
 .ficha-content-price-sub .ficha-content-value-price .price {
 	font-size: 48px;
 	font-weight: 500;
@@ -3112,7 +3113,10 @@ div#widget_breadcrumb > ul li.current {
 	position: relative;
 	padding-left: 22px;
 	line-height: 100%;
+	display: inline-block;
+	margin-bottom: 5px;
 }
+/* O.G. CAMBIOS 22-09-17 - FICHA FINAL*/
 /* O.G. 06-09-17 FICHA FINAL */
 .content-wrapper-fprod .content-fprod {
 	text-align: center;
@@ -3642,7 +3646,7 @@ span.text-quota-mes {
 		padding: 5px 0;
 	}
 /* O.G. CAMBIOS 13-09-17 - FICHA FINAL*/
-	.wrap_precio {width: 300px; border:1px dotted #ccc; padding: 10px;}
+	.wrap_precio {width: 300px; padding: 10px;}
 	.wrap_precio .prc_eq {
 		width: 100%!important;
 	}
@@ -3846,10 +3850,10 @@ span.text-quota-mes {
     	}
     	.wrap_precio .wrap_tbl {
     		width: 180px!important;
+    		overflow: hidden;
     	}
     	.wrap_precio .prc_eq,.wrap_precio .wrap_tbl {
     		float: left!important;
-    		
     		text-align: center;
     		display: block!important;
     		margin: 0!important;
@@ -3879,7 +3883,9 @@ span.text-quota-mes {
     		width: 100%;
     	}
     	.wrap_precio .wrap_tbl .wrap_mbl .w2 .shopperActions .button.primary {
-	    	display: inline-block;
+	    	display: block;
+	    	max-width: 175px;
+	    	margin:0 auto;
 	    }
 	    .wrap_precio .w3 .available .sublist .text {
 		    line-height: 12px;
@@ -4080,14 +4086,15 @@ span.text-quota-mes {
 }
 
  /*rrojas : fase:Claro2.1 - estilos para ver los tab en el home en modo mobil : Fin*/
+ /* O.G. CAMBIOS 22-09-17 - FICHA */
  .transparent_layer {
     background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
     height: 100%;
     position: absolute;
     width: 100%;
-    z-index: 10;
+    z-index: 9;
 }
-
+/* O.G. CAMBIOS 22-09-17 - FICHA FINAL*/
 .pos_relative {
 	position: relative;
 }

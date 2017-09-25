@@ -2007,10 +2007,13 @@ div.namePartPriceContainer{border-bottom:0!important}
     font-weight: 300;
     line-height: 11px;
 }
+/* O.G. CAMBIOS 22-09-17 - FICHA */
 .ClaroSaleConditionWidget .tab.left .content .prsn-wrp-ln.xconditionFASE2PLAN {
     width: 180px;
 	margin: 0 auto;
+    background:#fff;
 }
+/* O.G. CAMBIOS 22-09-17 - FICHA FINAL*/
 /* gost
 .ClaroSaleConditionWidget .tab.left .content .prsn-pln {
     overflow: hidden;
@@ -2176,7 +2179,7 @@ div.namePartPriceContainer{border-bottom:0!important}
 /* O.G. CAMBIOS 21-09-17 - FICHA */
 .main-wrapper-condition.contentChangeCondition.panel .panel .content-button-notify a.link .button_text {
     color:#1f97ae;
-    line-height: 20px;
+    line-height: 36px;
 }
 /* O.G. CAMBIOS 21-09-17 - FICHA FINAL*/
 .main-wrapper-condition.contentChangeCondition.panel .panel .content-button-notify a.link:hover,
@@ -5387,9 +5390,9 @@ div.product > div.cat-product-comp > div.product_image > div.product_name > .ima
 .popupBckg > .popupMain > .popup-error {position: absolute; right: 5px; top: 5px;}
 /* Multiplica 2016-04-19 Inicio */
 /* wcarrasco: entrega Multiplica 2016-06-03 -  Inicio*/
-/* O.G. CAMBIOS 19-09-17 - FICHA */
-.popupBckg > .popupMain > .popup-error:after {content: '\f00d';font-family:'Fontawesome';font-size:2em;color:#212121;}
-/* O.G. CAMBIOS 19-09-17 - FICHA FINAL*/
+/* O.G. CAMBIOS 22-09-17 - Cambio a ventanas emergente de paginas adiconales */
+.popupBckg > .popupMain > .popup-error:after {content:'\f057';font-family:'Fontawesome';font-size:2em;color:#212121;}
+/* O.G. CAMBIOS 22-09-17 - FINAL*/
 /* wcarrasco: entrega Multiplica 2016-06-03 -  Fin*/
 /* Multiplica 2016-04-19 fin */
 .popupBckg > .popupMain > .popup-ok {padding-top: 20px;}
@@ -5397,7 +5400,9 @@ div.product > div.cat-product-comp > div.product_image > div.product_name > .ima
 .popupBckg > .popupMain > .popup-ok:after {content:'\f058';font-family:'Fontawesome';font-size:2em;color:#00b959;}
 /* wcarrasco: entrega Multiplica 2016-06-03 -  Fin*/
 .popupBckg > .popupMain > .popupTitle {font-weight:700;padding-top:15px}
-.popupBckg > .popupMain > .popupText {font-size:14px; margin:0 40px 16px 40px; background:#FFF0F1; color:#B7222F;}
+/* O.G. CAMBIOS 22-09-17 - Cambio a ventanas emergente de paginas adiconales*/
+.popupBckg > .popupMain > .popupText {font-size:14px; margin:0 40px 16px 40px; color:#212121;}
+/* O.G. CAMBIOS 22-09-17 - FINAL*/
 .popupBckg > .popupMain > .popupButton {margin:0 auto;margin-top:14px;}
 
 /* Multiplica web_claro-20160421 Inicio */
@@ -7797,11 +7802,14 @@ span.claroCurrentSymbol {
 /* O.G. 24-08-17 FICHA */
 /* O.G. CAMBIOS 18-09-17 - FICHA */
 .tab.left .content .titleSectionTab {
-    padding-left: 23px;
+    padding-left: 76px;
     margin-top: 27px;
     font-size: 22px;
     font-weight: 500;
     text-align: left;
+}
+.mobile-check .btn-ancho-desk:hover {
+    box-shadow: none;
 }
 /* O.G. CAMBIOS 18-09-17 - FICHA FINAL*/
 /* O.G. 15-09-17 FICHA */
@@ -8132,6 +8140,11 @@ div#ClaroBenefitsYourPlan {
     margin: 0 10px;
 }
 /* O.G. CAMBIOS 21-09-17 - FICHA FINAL*/
+/* O.G. CAMBIOS 22-09-17 - FICHA */
+.available > .sublist span.icon-inventory {
+    margin-right: 5px;
+}
+/* O.G. CAMBIOS 21-09-17 - FICHA FINAL*/
 /* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:fin */
 /* dquisocala : ClaroF2.1, OG | 18-05-2017 | creado para corregir issues CLIMPLRQA2-266 - Inicio */
 .footer a div.button_text_skip span:hover {
@@ -8314,6 +8327,12 @@ div#ClaroBenefitsYourPlan {
         margin-top: 10px;
     }
     /* O.G. CAMBIOS 19-09-17 - FICHA FINAL*/
+    .w2 .shopperActions .button.primary {
+        width: 175px;
+    }
+    .main-wrapper-condition.contentChangeCondition.panel .panel .content-button-notify a.link {
+        padding: 0;
+    }
 }
 @media only screen and (max-width: 768px) {
     .pageReeActivate .button_primary > .button_text {width: 100px;}
