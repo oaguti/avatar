@@ -1287,6 +1287,7 @@ div.cet_centro:nth-child(even) {
 	min-width: 150px;
 	position: relative;
 }
+/* O.G. ISSUE CLIMPCQA1-68 */
 .ctlg-menu-top li a{
 	text-decoration: none;
 	color:#212121;
@@ -1294,15 +1295,20 @@ div.cet_centro:nth-child(even) {
 	display: block;
 	padding-bottom: 6px;
 	font-weight: 500;
+	transition: .5s;
+	/*
 	-webkit-animation: colorOut .7s both ease;
     -moz-animation: colorOut .7s both ease;
-    animation: colorOut .7s both ease;
+    animation: colorOut .7s both ease;*/
 }
 .ctlg-menu-top li a:hover, .ctlg-menu-top li a.activo  {
+	color:rgb(218,38,45);
+	/*
 	-webkit-animation: colorIn .7s both ease;
     -moz-animation: colorIn .7s both ease;
-    animation: colorIn .7s both ease;
+    animation: colorIn .7s both ease;*/
 }
+/* O.G. FINAL ISSUE CLIMPCQA1-68 */
 .ctlg-menu-top li a::after {
 	content:"";
 	position: absolute;

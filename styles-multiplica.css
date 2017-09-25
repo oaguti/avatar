@@ -8009,9 +8009,13 @@ span.claroCurrentSymbol {
     left: 0;
     width: 100%;
 }
-.tab.left .content .sliderAttrDefActive .content-noUser-information {
+.tab.left .content .sliderAttrDefActive .content-noUser-information,
+.tab.left .content .content-user-lines-information {
     max-width: 220px;
     margin: 0 auto;
+}
+.tab.left .content .sliderAttrDefActive .pageConsultationRenewableLines .error-service-content {
+    margin:0;
 }
 .w1 span.text-quota-mes {
     color: #DA272C;
@@ -8402,7 +8406,9 @@ div#ClaroBenefitsYourPlan {
         max-width: 230px!important;
         width: 230px;
     /* O.G. 29-08-17 CATALOGO */
-        margin:0 0 0 auto!important;
+    /* O.G. 25-09-17 ISSUES CLIMPCQA1-64 */
+        margin:0 5px 0 auto!important;
+    /* O.G. 25-09-17 FINAL ISSUES CLIMPCQA1-64 */
         float: right;
     }
     .ctg-page .grid .grid_mode li:nth-child(4n+1) .product.comparadora {
