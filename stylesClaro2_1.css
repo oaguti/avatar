@@ -3856,10 +3856,11 @@ span.text-quota-mes {
     	}
     	.wrap_precio .wrap_tbl {
     		width: 180px!important;
-    		overflow: hidden;
+			overflow: hidden;
     	}
     	.wrap_precio .prc_eq,.wrap_precio .wrap_tbl {
     		float: left!important;
+
     		text-align: center;
     		display: block!important;
     		margin: 0!important;
@@ -4092,7 +4093,7 @@ span.text-quota-mes {
 }
 
  /*rrojas : fase:Claro2.1 - estilos para ver los tab en el home en modo mobil : Fin*/
- /* O.G. CAMBIOS 22-09-17 - FICHA */
+/* O.G. CAMBIOS 22-09-17 - FICHA */
  .transparent_layer {
     background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
     height: 100%;

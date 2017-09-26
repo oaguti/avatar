@@ -2011,7 +2011,10 @@ div.namePartPriceContainer{border-bottom:0!important}
 .ClaroSaleConditionWidget .tab.left .content .prsn-wrp-ln.xconditionFASE2PLAN {
     width: 180px;
 	margin: 0 auto;
-    background:#fff;
+	background:#fff;
+	/* dquisocala : [CLAROFP-13] - cambia la forma del mouse al pasar por un plan - inicio */
+	cursor: pointer;
+	/* dquisocala : [CLAROFP-13] - cambia la forma del mouse al pasar por un plan - fin */
 }
 /* O.G. CAMBIOS 22-09-17 - FICHA FINAL*/
 /* gost
@@ -8149,6 +8152,7 @@ div#ClaroBenefitsYourPlan {
     margin-right: 5px;
 }
 /* O.G. CAMBIOS 21-09-17 - FICHA FINAL*/
+
 /* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:fin */
 /* dquisocala : ClaroF2.1, OG | 18-05-2017 | creado para corregir issues CLIMPLRQA2-266 - Inicio */
 .footer a div.button_text_skip span:hover {
@@ -8157,6 +8161,149 @@ div#ClaroBenefitsYourPlan {
 .bt_wrap {
     margin-top: 40px;
 }
+/* PAGINAS ADICIONALES */
+/* O.G. 25-09-17 PAGINAS ADICIONALES */
+.pg-xtra .form-styles ul li  select.flecha-select {
+    border:1px solid #1F97AE;
+    color:#1F97AE;
+}
+.pg-xtra .form-styles ul li  select.flecha-select:hover {
+    border:1px solid #1F97AE;
+    color:#1F97AE;
+}
+.pg-xtra .claro_container_address, .select-fondo.nou, .fondo-resumen {
+    background: none!important;
+    border:0 none!important;
+}
+.pg-xtra .linea-inferior {
+    border-bottom: 0 none;
+}
+.pg-xtra .columns.medium-centered {
+    margin:0;
+}
+.pg-xtra .columns {
+    padding-left: 0;
+    padding-right: 0;
+}
+.pg-xtra .style-nav {
+    padding: 5px 0;
+}
+.pg-xtra .style-color-n {
+    color: #212121;
+}
+.pg-xtra .btn-azul.arrow.btn-updateDirLibDir {
+    width: 200px;
+    padding: 11px 15px;
+}
+.pg-xtra .form-styles .style-size-sma.sma-bt-20 {
+    font-size: 26px;
+    font-weight: 300;
+    border-bottom: 1px solid #ABAFB0;
+}
+/* O.G. 25-09-17 FINAL  PAGINAS ADICIONALES*/
+/* O.G. 26-09-17 PAGINAS ADICIONALES*/
+.pg-xtra .txt-bold.padiro {
+    font-size: 22px;
+    font-weight: 300;
+    color:#212121;
+}
+.pg-xtra .form-styles .content-infoCompra .style-color-n  {
+    font-size: 14px;
+    color:#212121;
+}
+.pg-xtra .page-cta {
+    background:#F4F4F4;
+    padding: 34px;
+}
+.pg-xtra .form-styles .content-infoCompra .linea-inferior,
+.pg-xtra .form-styles .linea-inferior {
+    padding-bottom: 9px!important;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ABAFB0;
+}
+.pg-xtra .edit-text-1 {
+    overflow: hidden;
+}
+.pg-xtra .edit-text-1 .personal-info-text {
+    float: left;
+    font-weight: 500;
+}
+.pg-xtra .edit-text-1 .personal-info-link {
+    float: right;
+    font-weight: 300;
+    margin-right: 15px;
+}
+.pg-xtra .edit-text-1 .order-history-text {
+    font-weight: 500;
+}
+.pg-xtra .fondo-datos-cliente {
+    margin-bottom: 30px;
+}
+.pg-xtra .miCuenta-pedidos {
+    background: #fff;
+}
+.pg-xtra .miCuenta-pedidos .textBox h3 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.pg-xtra .fondo-datos-cliente .style-color-n{
+    font-weight: 300;
+}
+.pg-xtra h2.no-m.pb-1.sma-title {
+    font-size: 26px;
+    font-weight: 300;
+    padding-bottom: 0!important;
+}
+.pg-xtra .form-styles span.title {
+    padding-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+.pg-xtra .form-styles {
+    color:#212121;
+}
+.pg-xtra .content-infoCompra label.form-styles-label,
+.pg-xtra .content-infoCompra .radio label {
+    font-weight: 300;
+    color:#666;
+    font-size: 14px;
+}
+.pg-xtra .content-infoCompra input[type="email"][disabled] {
+    color: #212121;
+    background-color: #f4f4f4;
+}
+.pg-xtra .backgroundAreaLogin2 {
+    background-color: #f4f4f4;
+    max-width: 600px;
+}
+.pg-xtra .content-infoCompra .form-styles ul li label span.text-infoCompra {
+    color: #666;
+}
+.pg-xtra .medium-12 label .contr {
+    color:#212121;
+}
+.pg-xtra .content-infoCompra #Register a.btn-azul.columns.right {
+    padding: 11px;
+    max-width: 201px;
+    float: left!important;
+}
+.pg-xtra .medium-6 {
+    width: 100%;
+}
+.pg-xtra .form-styles ul li input[type="email"],
+.pg-xtra .form-styles ul li input[type="password"] {
+    max-width: 202px;
+}
+#contentWrapper.pg-xtra {
+    background-color: rgb(255, 255, 255);
+}
+.pg-xtra .padding-nav {
+    padding: 0;
+}
+/* O.G. 26-09-17 FINAL PAGINAS ADICIONALES*/
+
+
 /* dquisocala : ClaroF2.1, OG | 18-05-2017 | creado para corregir issues CLIMPLRQA2-266 - Fin */
 
 /* dquisocala : Claro 2.1 , Integracion estilos Omar 21/03/17 - Fin */
@@ -8337,6 +8484,25 @@ div#ClaroBenefitsYourPlan {
     .main-wrapper-condition.contentChangeCondition.panel .panel .content-button-notify a.link {
         padding: 0;
     }
+    /* O.G. 26-09-17 PAGINAS ADICIONALES*/
+    .pg-xtra .small-6 {
+        width: 100%;
+    }
+    .pg-xtra h2.no-m.pb-1.sma-title {
+        font-size: 20px;
+    }
+    .pg-xtra .cursorPointer {
+        background: #F4F4F4;
+    }
+    .pg-xtra .page-cta {
+        background: none;
+        padding: 0;
+    }
+    .form-styles .linea-inferior {
+        margin-bottom: 30px!important;
+    }
+    /* O.G. 26-09-17 FINAL PAGINAS ADICIONALES*/
+
 }
 @media only screen and (max-width: 768px) {
     .pageReeActivate .button_primary > .button_text {width: 100px;}
@@ -8946,18 +9112,22 @@ div.link_tab:hover {
 /*rrojas:fase:2.1:EF_Pag_adicional[REQ-06]:Visualizar la página de Caducidad de sesión:fin*/
 
 /*rrojas:fase:2.1:EF_Pag_adicional[REQ-07]:Visualizar la página de Acceso desde otra ubicación:inicio*/
+/* O.G. CAMBIOS 26-09-17 - RU ADICIONAL */
 .textSesionDuplicada {
     color: #000;
-    font-size: 17px;
-    font-weight: bold;
+    font-size: 22px;
+    font-weight: 500;
     text-align: center;
 }
+/* O.G. CAMBIOS 26-09-17 - FINAL RU ADICIONAL */
 .textSesionDuplicada.text2 {
-    font-size: 12px;
+    font-size: 16px;
 }
 .linkSesionDuplicada {    
     text-decoration: none !important;
     text-align: center;
+    font-size: 16px;
+
 }
 .content_wrapper_position.contentDuplicado {
     max-width: none !important;
@@ -8969,14 +9139,7 @@ div.link_tab:hover {
 }
 /*rrojas:fase:2.1:EF_Pag_adicional[REQ-07]:Visualizar la página de Acceso desde otra ubicación:fin*/
 
-/*rrojas:fase:2.1:EF:Pag_aducional[REQ2]:No visualizar el modo mobil el Breadcrumb - inicio*/
-
-@media only screen and (max-width:601px){
-.fondo-resumen{
-	 display: none !important;	 
- }
-}
-/*rrojas:fase:2.1:EF:Pag_aducional[REQ2]:No visualizar el modo mobil el Breadcrumb - fin*/
+/*wcarrasco:fase:2.1:EF_Pag_adicional_cli[REQ-01]:fondo-resumen eliminar display: none */
 
 /*--eterrones:fase:2.1:EF_Pag_adicional_cli[REQ-03]:Estilo para el texto Capitalize del combo list de libreta de direcciones:inicio--*/
 .text-capitalize{
