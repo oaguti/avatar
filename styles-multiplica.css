@@ -8166,6 +8166,7 @@ div#ClaroBenefitsYourPlan {
 .pg-xtra .form-styles ul li  select.flecha-select {
     border:1px solid #1F97AE;
     color:#1F97AE;
+    max-width: 202px;
 }
 .pg-xtra .form-styles ul li  select.flecha-select:hover {
     border:1px solid #1F97AE;
@@ -8235,12 +8236,13 @@ div#ClaroBenefitsYourPlan {
 }
 .pg-xtra .edit-text-1 .order-history-text {
     font-weight: 500;
+    float: left;
 }
 .pg-xtra .fondo-datos-cliente {
     margin-bottom: 30px;
 }
 .pg-xtra .miCuenta-pedidos {
-    background: #fff;
+    background: none;
 }
 .pg-xtra .miCuenta-pedidos .textBox h3 {
     font-size: 20px;
@@ -8288,9 +8290,6 @@ div#ClaroBenefitsYourPlan {
     max-width: 201px;
     float: left!important;
 }
-.pg-xtra .medium-6 {
-    width: 100%;
-}
 .pg-xtra .form-styles ul li input[type="email"],
 .pg-xtra .form-styles ul li input[type="password"] {
     max-width: 202px;
@@ -8302,8 +8301,59 @@ div#ClaroBenefitsYourPlan {
     padding: 0;
 }
 /* O.G. 26-09-17 FINAL PAGINAS ADICIONALES*/
-
-
+/* O.G. 27-09-17 PAGINAS ADICIONALES*/
+.pg-xtra .form-styles .medium-6, 
+.pg-xtra .form-styles .medium-4 {
+    display: block;
+    width: auto;
+}
+.pg-xtra .form-styles .medium-6 {
+    margin-right: 15px;
+}
+.pg-xtra .medium-4.des-hidden {
+    display: none;
+}
+.pg-xtra .form-styles .medium-8 {
+    width: 100%;
+}
+.pg-xtra .pag-book,
+.pg-xtra .row.claro_container_address {
+    max-width: 600px;
+    width: 100%;
+}
+.pg-xtra .row.claro_container_address .medium-11 {
+    width: 100%;
+}
+.pg-xtra .btn-mas-direc {
+    right: 0;
+}
+.pg-xtra .miCuenta-pedidos .no-p.link-top {
+    background: #fff;
+    border-bottom: 1px solid #ABAFB0;
+}
+.pg-xtra .miCuenta-pedidos .no-p.link-top li span {
+    font-weight: 300;
+}
+.pg-xtra .miCuenta-pedidos .no-p.link-top li .mobile_pedido-data {
+    position: relative;
+}
+.pg-xtra .miCuenta-pedidos .no-p.link-top li .mobile_pedido-data .claroCurrentSymbol{
+    font-size: 14px;
+    position: relative;
+    top:0;
+    margin-right: 5px;
+}
+.pg-xtra .content-infoCompra .order-history-link {
+    float: right;
+}
+.pg-xtra .miCuenta-pedidos .mt-3 {
+    margin-top: 0!important;
+}
+.pg-xtra .pag-book #selectDistrict,
+.pg-xtra .claro_container_address  #addressId {
+    width: 202px !important;
+}
+/* O.G. 27-09-17 FINAL PAGINAS ADICIONALES*/
 /* dquisocala : ClaroF2.1, OG | 18-05-2017 | creado para corregir issues CLIMPLRQA2-266 - Fin */
 
 /* dquisocala : Claro 2.1 , Integracion estilos Omar 21/03/17 - Fin */
@@ -8501,13 +8551,66 @@ div#ClaroBenefitsYourPlan {
     .form-styles .linea-inferior {
         margin-bottom: 30px!important;
     }
+    .pg-xtra .content-infoCompra #Register a.btn-azul.columns.right {
+        max-width: 100%;
+        width: 100%;
+        float: none !important;
+    }
+    .pg-xtra .form-styles .style-size-sma.sma-bt-20 {
+        float: none;
+        width: 100%;
+    }
+    .pg-xtra .claro_container_address ul li select.flecha-select {
+        max-width: 122px;
+    }
+    .pg-xtra .claro_container_address ul li .row .small-6,
+    .pg-xtra .claro_container_address ul li .row .small-4 {
+        display: inline-block;
+    }
+    .pg-xtra .claro_container_address ul li .row .small-6 {
+        width: calc(100% - 37px);
+        margin-right: 0;
+    }
+    .pg-xtra .btn-mas-direc {
+        position: relative;
+    }
     /* O.G. 26-09-17 FINAL PAGINAS ADICIONALES*/
+    /* O.G. 27-09-17 PAGINAS ADICIONALES*/
+    .pg-xtra .btn-azul.arrow.btn-updateDirLibDir {
+        width: 100%;
+    }
+    .pg-xtra form.formLibDir li.no-p.inline-block {
+        display: block;
+    }
+    .pg-xtra form.formLibDir li.no-p.inline-block .right.pb-1 {
+        width: 100%;
+    }
+    .pg-xtra .des-hidden {
+        display: none!important;
+    }
+    .pg-xtra .sma-hidden {
+        display: block !important;
+    }
+    .pg-xtra .form-styles .style-size-sma.sma-bt-20 {
+        font-size: 20px;
+    }
+    .pg-xtra .pag-book #selectDistrict {
+        width: 100% !important;
+        max-width: 100%;
+    }
+    .pg-xtra .claro_container_address_form .medium-6 {
+        width: 100%;
+    }
+    /* O.G. 27-09-17 FINAL PAGINAS ADICIONALES*/
 
 }
 @media only screen and (max-width: 768px) {
     .pageReeActivate .button_primary > .button_text {width: 100px;}
     .pageActivationConfirmation .button_primary > .button_text {width: 110px;}
     #pageUserValidateSms #ValidaSms .medium-10.small-12.columns.mt-2.ancho-tb.sma-ancho-cont.no-p-no {margin-bottom: 0;}
+    .pg-xtra .claro_container_address_form .medium-11 {
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 915px) {
     /*PopUp*/
@@ -8891,6 +8994,24 @@ div.link_tab:hover {
         width: 100%;
     }
     /* O.G. CAMBIOS 14-09-17 - FICHA FINAL*/
+    /* O.G. CAMBIOS 27-09-17 - FICHA */
+    .pg-xtra .pag-book,
+    .pg-xtra .row.claro_container_address {
+        max-width: 518px;
+    }
+    .pg-xtra .row.claro_container_address .medium-7 {
+        width: auto;
+    }
+    .pg-xtra .row.claro_container_address .right.btn-mas-direc {
+        position: relative;
+        float: left!important;
+        margin-left: 15px;
+    }
+    .pg-xtra .form-styles .style-size-sma.sma-bt-20 {
+        max-width: 518px;
+        width: 100%;
+    }
+    /* O.G. CAMBIOS 27-09-17 - FICHA FINAL*/
 }
 /* Tablet Vertical - Horizontal */
 @media screen and (min-width: 641px) and (max-width: 1024px) {
@@ -8909,6 +9030,7 @@ div.link_tab:hover {
     .tab_header .tab_container .wrap_msn > div {
         font-size: 10px;
     }
+
 }
 /* O.G. 18-08-17 FINAL FICHA */
 /* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:inicio */
