@@ -4112,3 +4112,42 @@ span.text-quota-mes {
  }
 }
 /*rrojas: faseClaro2.1 - solucion de issue CLIMPCQA1-68 - inicio*/
+
+/*rrojas:fase:2.1:EF_Pag_adicional_nav[REQ-01]:[FA6]Cliente decide desplegar el drop down Títulos de TAB :inicio*/
+.contentSelectTabMobil {
+    height: auto;
+    padding: 7px;
+    width: 100%;
+}
+.itemSelectTabMobil::AFTER,.itemSelectTabMobil.contentSelectTabMobilDown::AFTER{
+	 content: "\f0dd";
+	 font-family: FontAwesome;
+	 color: #F00F; 
+	 padding: 8px;
+	 position: relative;
+     top: -3px;
+}
+.itemSelectTabMobil.contentSelectTabMobilUp::AFTER{
+    content: "\f0de";
+    font-family: FontAwesome;
+	 color: #F00F; 
+	 padding: 8px;
+	 position: relative;
+     top:  5px;
+}
+/*rrojas:fase:2.1:EF_Pag_adicional_nav[REQ-01]:[FA6]Cliente decide desplegar el drop down Títulos de TAB :fin*/
+
+/* rrojas:fase:2.1:EF_Pag_adicional_nav[REQ-01]:modo tablet para tab de home:inicio*/
+@media only screen and (min-width: 601px)  and (max-width:1025px){
+.tabHome > div > .slick-track {
+    display: inline-flex !important;
+    float: left;
+    height: auto;
+    margin: 0 !important;
+    padding: 0 !important;
+ }
+}
+.tabButtonContainer.tabHomeButton {
+    position: relative !important;
+}
+/* rrojas:fase:2.1:EF_Pag_adicional_nav[REQ-01]:modo tablet para tab de home:fin*/
