@@ -5310,9 +5310,6 @@ label.contr2 > img {margin-right:5px;}
 /* lmorales multiplica 19-04-2016 fin */
 /* Multiplica lunes 21/03/2016 07:26 p.m - Inicio */
 input[type="email"][disabled] {color:#8e8e8e;background-color:#eee;}
-/* eterrones:fase:2.1:EF_Pag_adicional_cli[REQ-02]: Visualizar la pagina de Informacion Personal. Tipo y Nro Doc no editables:inicio */
-input[type="text"][disabled] {color:#8e8e8e;background-color:#eee;}
-/* eterrones:fase:2.1:EF_Pag_adicional_cli[REQ-02]: Visualizar la pagina de Informacion Personal. Tipo y Nro Doc no editables:fin */
 /* Multiplica lunes 21/03/2016 07:26 p.m - Fin */
 /* Multiplica 2016-03-21 Fin */
 /* Multiplica 2016-03-21 Inicio */
@@ -5559,9 +5556,9 @@ fieldset.descktop {margin-top:10px;}
     #headerRow2 .header__navegation {top:86px;}
     #quickLinksBar li #Header_GlobalLogin_signInQuickLink {width:45px!important;}
     
-    /** eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - INICIO */
+    #eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - INICIO
     #quickLinksBar li #Header_GlobalLogin_Notification_signInQuickLink {width:45px!important;}
-	/** eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - FIN */
+	#eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - FIN
 	
     .userHello, .userName {display:none;}
     #quickLinksBar > li > #Header_GlobalLogin_signOutQuickLink {/*background-image: url("../img/ico-user.png")!important;*/padding:0 0 0 36px;}
@@ -8598,6 +8595,15 @@ footer {
         }
 
 /* O.G. 05-10-17 FINAL NAV-[REQ-09] */
+/* O.G. 06-10-17 NAV-[REQ-05] HEADER */
+.header__navegation li.alone:hover {
+    background-color:#B7222F;
+}
+.header__navegation ul:last-child {
+    width: auto;
+}
+/* O.G. 06-10-17 FINAL NAV-[REQ-05] HEADER */
+
 /* dquisocala : ClaroF2.1, OG | 18-05-2017 | creado para corregir issues CLIMPLRQA2-266 - Fin */
 
 /* dquisocala : Claro 2.1 , Integracion estilos Omar 21/03/17 - Fin */
