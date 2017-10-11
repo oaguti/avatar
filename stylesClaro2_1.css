@@ -3383,6 +3383,9 @@ span.text-quota-mes {
 .ClaroSaleConditionWidget {
 	box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
 }
+.cld_fix {
+	display: table-cell;
+}
 /* O.G. CAMBIOS 19-09-17 - FICHA FINAL*/
 /* modificaciones para imagenes alternativas */
 	#slider-prd {

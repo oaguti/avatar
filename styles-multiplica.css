@@ -2390,10 +2390,18 @@ div#widget_breadcrumb{padding:0!important;margin-left:0!important}
 #headerRow2{height:50px!important;background:#DA262D!important;border-top:0!important;border-bottom:0!important;width:100%;max-width:960px;margin:auto;position:relative}
 #searchBar{position:absolute;right:310px;top:45px;width:30%;padding:1px;float:right}
 #searchBox{height:33px!important;border-radius:5px!important;border:0!important}
-#searchTermWrapper{height:33px;padding:0 0 0 10px !important;margin:0!important;width:100%!important}
+/* O.G. 09-10-17 NAV-[REQ-05] HEADER */
+#searchTermWrapper{
+    height:33px;
+    padding:0 0 0 10px !important;
+    margin:0!important;
+    width:100%!important;
+    border:0 none;
+}
 #searchTermWrapper > input{line-height:20px!important;height:33px!important;font-family:"Roboto",helvetica,sans-serif!important;font-size:.9rem!important;font-weight:300!important}
-#searchBox > .submitButton{width:52px!important;height:33px!important;margin:0!important;border:1px solid #ffffff;background:#1F97AE!important;border-radius:0 5px 5px 0!important}
-#searchBox > .submitButton:before{content:"\f002";left:17px;top:7px;font-family:"FontAwesome";color:white;font-size:18px}
+#searchBox > .submitButton{width:52px!important;height:33px!important;margin:0!important;border:0 none;background:none!important;border-radius:0 5px 5px 0!important}
+#searchBox > .submitButton:before{content:"\f002";left:17px;top:5px;font-family:"FontAwesome";color:#1F97AE;font-size:20px}
+/* O.G. 09-10-17 FINAL NAV-[REQ-05] HEADER */
 #searchBox > .submitButton:hover:before{left:17px!important}
 #widget_minishopcart:before,#searchBox > .submitButton:before,.carousel > .prevPageButton:before,.carousel > .nextPageButton:before,.controlBar > .prevPageButton:before,.controlBar > .nextPageButton:before{-webkit-transform:scale(1)!important}
 
@@ -2486,7 +2494,13 @@ div#widget_breadcrumb{padding:0!important;margin-left:0!important}
 .bx-wrapper .bx-pager{bottom:25px}
 }
 #header{background-color:#DA262D}
-#logo{max-height:50px}
+/* O.G. 09-10-17 NAV-[REQ-05] HEADER */
+#logo{
+    height: 30px;
+    margin-top: 10px;
+    max-height:50px
+}
+/* O.G. 09-10-17 FINAL NAV-[REQ-05] HEADER */
 .header__navegation,header .wpthemeHeaderNav{display:-webkit-box;display:-moz-box!important;display:-ms-flexbox!important;webkit-display:-webkit-flex!important;display:-webkit-flex!important;display:flex!important;flex-direction:row;-webkit-box-direction:row;-webkit-flex-direction:row;-ms-flex-direction:row;justify-content:space-between;-webkit-justify-content:space-between;-ms-flex-pack:space-between;-ms-flex-pack:justify;color:white}
 /* Multiplica web_claro-20160316 Inicio */
 .header__navegation ul,header .wpthemeHeaderNav ul{display:-webkit-box;display:-moz-box!important;display:-ms-flexbox!important;webkit-display:-webkit-flex!important;display:-webkit-flex!important;display:flex!important;flex-direction:row;-webkit-box-direction:row;-webkit-flex-direction:row;-ms-flex-direction:row;/*height:50px*/}
@@ -2577,10 +2591,20 @@ div#widget_breadcrumb{padding:0!important;margin-left:0!important}
 #quickLinksBar{width:100%;max-width:960px;margin:auto;position:relative}
 #quickLinksBar li:first-child {width:96%; visibility: visible; position: relative;}
 #quickLinksBar li #Header_GlobalLogin_signInQuickLink{position:absolute;right:100px;width:115px;max-width:120px;top:-27px;color:#fff;background-image:url(../img/ico-user.png);background-repeat:no-repeat;background-position:10px center;padding:0 15px 0 37px;height:37px;line-height:37px;border:0;border-bottom:1px solid #DA262D}
-#quickLinksBar li #Header_GlobalLogin_signInQuickLink:hover{background-color:#fff;color:#000;text-decoration:none;background-image:url(../img/ico-usuario-hover.png)}
+/* O.G. 09-10-17 NAV-[REQ-05] HEADER */
+#quickLinksBar li #Header_GlobalLogin_signInQuickLink:hover{
+    background-color:#fff;
+    color:#000;
+    text-decoration:none;
+}
+#quickLinksBar li #Header_GlobalLogin_Notification_signInQuickLink:hover{
+    text-decoration:none;
+}
+/* O.G. 09-10-17 FINAL NAV-[REQ-05] HEADER */
 #eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - INICIO
 #quickLinksBar div li #Header_GlobalLogin_Notification_signInQuickLink{position:absolute;right:100px;width:115px;max-width:120px;top:-27px;color:#fff;background-image:url(../img/ico-user.png) !important;background-repeat:no-repeat;background-position:10px center;padding:0 15px 0 37px;height:37px;line-height:37px;border:0;border-bottom:1px solid #DA262D}
-#quickLinksBar li #Header_GlobalLogin_Notification_signInQuickLink:hover{background-color:#fff;color:#000;text-decoration:none;background-image:url(../img/ico-usuario-hover.png)}
+
+
 #eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - FIN
 .panelLinkSelected.selected{color:#000!important;background-image:url(../img/ico-usuario-hover.png)!important;border-radius:0!important;border-bottom:1px solid #ccc!important}
 #MiniShoppingCart {position:absolute;right:0;top:-36px;height:36px}
@@ -2682,7 +2706,16 @@ div.row div.main-wrapper,.tabButtonContainer,.catalogEntryRecommendationWidget{w
     #headerRow2 .header__navegation{-webkit-transition:left .5s;-moz-transition:left .5s;-ms-transition:left .5s;transition:left .5s;flex-direction:column;-webkit-box-direction:column;-webkit-flex-direction:column;-ms-flex-direction:column;width:100%;position:absolute;top:50px;left:0;z-index:110;border-bottom:1px solid #DDD}
     #headerRow2 .header__navegation ul{display:-webkit-box;display:-moz-box!important;display:-ms-flexbox!important;webkit-display:-webkit-flex!important;display:-webkit-flex!important;display:flex!important;flex-direction:column;-webkit-box-direction:column;-webkit-flex-direction:column;-ms-flex-direction:column;align-items:flex-start;-webkit-align-items:flex-start;-ms-flex-align:flex-start;height:inherit;min-width:inherit!important}
     #headerRow2 .header__navegation li{flex-direction:column;-webkit-box-direction:column;-webkit-flex-direction:column;-ms-flex-direction:column;width:100%;padding:0;border:none;text-align:left;background:#DA262D!important}
-    #headerRow2 .header__navegation li a{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;display:table;width:100%;padding:14px 20px;border-top:1px solid white;position:relative}
+    
+    #headerRow2 .header__navegation li a{
+        -moz-box-sizing:border-box;
+        -webkit-box-sizing:border-box;
+        box-sizing:border-box;display:
+        table;width:100%;
+        padding:14px 20px;
+        position:relative
+    }
+    
     #headerRow2 .header__navegation li a:after{content:"\f067";font-family:"FontAwesome";position:absolute;right:20px}
     #headerRow2 .header__navegation li.select{background:#DA262D!important;color:white}
     #headerRow2 .header__navegation li.miClaro{background:#B7202E!important}
@@ -3885,13 +3918,24 @@ input:-ms-input-placeholder {color: #8d8d8d;font-size: 12px  }
 #quickLinksBar li #Header_GlobalLogin_Notification_signInQuickLink {border-bottom: 0;margin-bottom: 0;margin-top: 0;height:36px;line-height: 36px;top: -47px; right: 95px;}
 #quickLinksBar li #Header_GlobalLogin_Notification_signInQuickLink.selected {position: absolute; left: auto; }
 #eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - FIN
-
 .loginMenuDropdown {top: -12px!important; right: 94px!important;}
-#MiniShoppingCart {top: -47px;}
+/* O.G. 10-10-17 NAV-[REQ-05] HEADER */
+#MiniShoppingCart {top: -40px;}
 #quickLinksBar > li > #Header_GlobalLogin_signOutQuickLink {
-    background-color: #fff;background-image: url("../img/ico-usuario-hover.png") !important;background-repeat:no-repeat;background-position: 6px 6px; 
-    color: #000;margin: 0;padding: 0 10px;position: absolute;right: 95px;top: -47px;height: 36px;line-height: 36px;padding-left: 36px;max-width: 400px; width: 150px;
+    background:none!important; 
+    color: #000;
+    margin: 0;
+    padding: 0 10px;
+    position: absolute;
+    right: 95px;
+    top: -47px;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 36px;
+    max-width: 400px; 
+    width: 150px;
 }
+/* O.G. 10-10-17 FINAL NAV-[REQ-05] HEADER */
 #quickLinksBar > li > #Header_GlobalLogin_signOutQuickLink:hover {text-decoration: none;}
 #quickLinksBar > li > #Header_GlobalLogin_signOutQuickLink.selected {background-repeat: no-repeat;left: auto;max-height: none;border: 0;}
 .userProfileIcon, #Header_GlobalLogin_desktopExpandArrow {display: none;}
@@ -4147,8 +4191,9 @@ div.namePartPriceContainer.top > div > span.old_price{float:right!important;line
 .productListingWidget > .header_bar > .controls > .sorting_view_controls_container > .sorting_controls > .order_by_label{margin-top:7px!important}
 .sorting_controls > span,.sorting_controls > span > label,.view_controls > span,.sorting_controls > span > label{text-transform:none!important;display:inline-block;font-weight:normal;text-transform:initial;font-size:16px;color:#666666}
 #catalogEntryRecommendationWidget_9_3051_5951{margin-top:-8px}
-#suggestedProductsResults .list_section:nth-child(2) .autoSuggestDivNestedList a{line-height:68px!important}
-
+/* O.G. CAMBIOS 09-10-17 - FICHA */
+#suggestedProductsResults .list_section:nth-child(2) .autoSuggestDivNestedList a{line-height:50px!important}
+/* O.G. CAMBIOS 09-10-17 - FICHA FINAL*/
 
 
 /* dquisocala: entrega Multiplica 2016-07-13 -  Inicio */
@@ -4951,8 +4996,15 @@ div#widget_minishopcart_popup > #cartDropdown > .content > .products > .product 
 
 .menuHeader, header .wpthemeHeaderNav .menuHeader {margin-top:0;top:86px;}
 #contentWrapper.hover {margin-top:405px;}
-#searchBar {float:none;top:44px;padding:0;visibility:hidden;}
-
+/* O.G. 11-10-17 NAV-[REQ-05] HEADER */
+#searchBar {
+    float:none;
+    top:8px;
+    padding:0;
+    visibility:hidden;
+    left: auto!important;
+}
+/* O.G. 11-10-17 FINAL NAV-[REQ-05] HEADER */
 .contentCarouselWidget {width:100%;margin:0 auto;visibility:hidden;}
 .sliderArea h2 > span {font-size:2rem;}
 .sliderArea .info {margin-top: 50px;}
@@ -5022,12 +5074,13 @@ div.widget_product_image_viewer {width:89%}
 #widget_left_nav_2_3553_6954 {margin-left:0!important;}
 
 /* Multiplica web_claro-20160308 Inicio */
-#headerRow1 .header-superior .container, #headerRow2, #quickLinksBar {max-width:1024px;position:static;}
+#headerRow2 {max-width:1024px;}
+#headerRow1 .header-superior .container,#quickLinksBar {max-width:1024px;position:static;}
 /* Multiplica web_claro-20160308 Fin */
 #contentWrapper #content #headerRow3 {width:100%;max-width:1024px;margin:0 auto;padding:0 10px;}
-
-#quickLinksBar li #Header_GlobalLogin_signInQuickLink {width: 157px!important;max-width:157px!important;}
-
+/* O.G. 09-10-17 NAV-[REQ-05] HEADER */
+#quickLinksBar li #Header_GlobalLogin_signInQuickLink {width: 103px!important;max-width:103px!important;}
+/* O.G. 09-10-17 FINAL NAV-[REQ-05] HEADER */
 #eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - INICIO
 #quickLinksBar li #Header_GlobalLogin_Notification_signInQuickLink {width: 157px!important;max-width:157px!important;}
 #eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - FIN
@@ -6342,13 +6395,14 @@ span {font-size: 14px;}
     margin: 0 auto 90px auto;
 }
 #quickLinksBar {position: relative;}
-
+/* O.G. 09-10-17 NAV-[REQ-05] HEADER */
 #itemNotification {   
 	position: absolute;
     margin: 0!important;
-    right: 250px;
-    top: -27px;
+    right: 170px;
+    top: -18px;
 }
+/* O.G. 09-10-17 FINAL NAV-[REQ-05] HEADER */
 .btn-azul {
     border-radius: 3px;
     background-color: #1f97ae;
@@ -6438,27 +6492,57 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     float: left;
 }
 /*************MENU TOP****************/
+/* O.G. 09-10-17 NAV-[REQ-05] HEADER */
 #quickLinksBar > li > #Header_GlobalLogin_signOutQuickLink, #quickLinksBar li #Header_GlobalLogin_signInQuickLink {
-    color: #666;
-    font-size: 14px !important;
+    width: 103px;
+    color: #1F97AE;
+    font-size: 13px !important;
     right: -5px;
-    padding-left: 45px;
+    padding-left: 10px;
     padding-right: 0;
-    background-position: 20px center;
-    border-left: 1px solid #666;
-    height: 18px;
-    top:-38px;
-    line-height: 140%;
+    background: none;
+    border-left: 1px solid #ccc;
+    height: 25px;
+    top:-30px;
+    line-height: 25px;
 }
+.panelLinkSelected.selected {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+/* O.G. 11-10-17 NAV-[REQ-05] HEADER */
+#quickLinksBar > li > #Header_GlobalLogin_signOutQuickLink span {
+    color: #1F97AE;
+    display: inline-block;
+}
+#quickLinksBar > li > #Header_GlobalLogin_signOutQuickLink:after {
+    content: "\f107";
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    color:#1F97AE;
+    position: absolute;
+    right: 0;
+}
+#Header_GlobalLogin_Notification_signInQuickLink .fa-bell{
+    font-size: 18px;
+}
+#headerRow1 .logo-desktop {
+    padding-top: 8px;
+}
+/* O.G. 11-10-17 FINAL NAV-[REQ-05] HEADER */
+/* O.G. 09-10-17 FINAL NAV-[REQ-05] HEADER */
 #quickLinksBar > li > #Header_GlobalLogin_signOutQuickLink.selected {
-    border-left: 1px solid #666;
+    border-left: 1px solid #CCC;
 }
 .panelLinkSelected.selected {
     border-bottom:0 none!important;
 }
+/* O.G. 09-10-17 NAV-[REQ-05] HEADER */
 #MiniShoppingCart {
-    right: 190px;
+    right: 123px;
 }
+/* O.G. 09-10-17 FINAL NAV-[REQ-05] HEADER */
 #MiniShoppingCart #widget_minishopcart {
     position: relative;
     margin: 0;
@@ -6471,10 +6555,12 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     width: 35px;
 }
 #MiniShoppingCart #widget_minishopcart:before {
-    content: url(../img/ico_checkout.png);
+    font-family: 'FontAwesome';
+    content: "\f07a";
+    font-size: 20px;
     top: 8px;
-    clip: auto;
     left: 5px;
+
 }
 #MiniShoppingCart #widget_minishopcart:after {
     content: "";
@@ -6489,18 +6575,21 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 #MiniShoppingCart #widget_minishopcart #minishopcart_total {
     position: absolute; 
     background-color: #DA262D;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     border-radius: 50%;
-    height: 15px; 
+    height: 18px; 
     min-width: 15px;
-    width: auto;
+    width: 18px;
     color: #fff;
     box-sizing: border-box; 
-    padding: 3px; 
+    padding: 0; 
     font-size: 9px;
     top:2px;
     right: 2px;
     text-align: center;
-    line-height: 9px;
+    line-height: 18px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,.16);
 }
 /*************COD17****************/
 .content_wrapper_position.pageUserTimeout {
@@ -7134,33 +7223,36 @@ span.error-claro, div.error-claro {font-size: 14px;}
     background: #ffffff;
     border: 0;
     top: 5px;
-    right: 200px;
+    right: 150px;
     position: absolute;
 }
+/* O.G. 10-10-17 NAV-[REQ-05] HEADER */
 .menuDropdown:before {
   position:absolute;
-  top:-10px; right:47px;
+  top:-8px; 
+  right:17px;
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 10px solid #fff;
+  z-index:2;
+}
+.menuDropdown:after {
+  /* This is the shadow triangle */
+  position:absolute;
+  top:-12px; 
+  right:15px;
   content: '';
   width: 0;
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-bottom: 10px solid white;
-  z-index:2;
-}
-
-.menuDropdown:after {
-  /* This is the shadow triangle */
-  position:absolute;
-  top:-12px; right:45px;
-  content: '';
-  width: 0;
-  height: 0;
-  border-left: 12px solid transparent;
-  border-right: 12px solid transparent;
   border-bottom: 12px solid rgba(0,0,0, 0.1);
   z-index:1;
 }
+/* O.G. 10-10-17 FINAL NAV-[REQ-05] HEADER */
 .menuDropdown p {font-size: 14px; color:#666;}
 .menuDropdown a.btn_close {position: absolute; top: 5px; right: 5px; width: 0; height: 0; text-decoration: none;}
 .menuDropdown a.btn_close:after {
@@ -7172,8 +7264,8 @@ span.error-claro, div.error-claro {font-size: 14px;}
     left: -25px;
     top: 5px;
 }
+
 /******************** ventanas emergentes ************************/
-#headerRow1 {z-index: 2100;}
 .carousel > .prevPageButton, .carousel > .nextPageButton {z-index: 900;}
 .callUs {z-index:100;}
 .tabbedSlots5_6_7 .tabButtonContainer {z-index:945;}
@@ -7392,11 +7484,13 @@ span.error-claro, div.error-claro {font-size: 14px;}
     text-align: left;
 }
 /*************** sesion inciada ***************/
+/* O.G. 10-10-17 NAV-[REQ-05] HEADER */
 #Header_GlobalLogin_loggedInDropdown.menuDropdown {
     border-radius: 5px;
     right: 0px;
-    top: -5px;
+    top:6px;
 }
+/* O.G. 10-10-17 FINAL NAV-[REQ-05] HEADER */
 #Header_GlobalLogin_loggedInDropdown .menuDropdown:before {
         right: 48px;
 }
@@ -7453,17 +7547,16 @@ span.error-claro, div.error-claro {font-size: 14px;}
 #AjaxClaroValidationCodeSms .validaSmsText {margin-bottom: 10px; font-size: 14px; font-weight: 300; width: 100%;}
 #AjaxClaroValidationCodeSms .plogon_content_error {margin-bottom: 0px; margin-top: 20px; text-align: left; padding: 15px;}
 
-
 /******************* COD01 *********************/
-#headerRow1 {z-index: 2100;}
+/* O.G. 10-10-17 NAV-[REQ-05] HEADER */
+#headerRow1 {
+    height: 52px;
+    z-index: 2100;
+    background: #fff;
+}
+#quickLinksBar li #Header_GlobalLogin_signInQuickLink:hover {color:#1F97AE;}
+/* O.G. 10-10-17 FINAL NAV-[REQ-05] HEADER */
 .panelLinkSelected span{font-size: 14px; font-weight: 400; color:#666;}
-
-
-
-
-
-#quickLinksBar li #Header_GlobalLogin_signInQuickLink:hover {color:#666;}
-#quickLinksBar > li > #Header_GlobalLogin_signOutQuickLink {width: 170px;}
 /*.link:after {display: none;}*/
 .signInForm .button_primary .button_text:after {display: none;}
 .loginMenuDropdown .logon_error_display_none  { display: none!important;}
@@ -8480,14 +8573,15 @@ footer {
 /* O.G. 05-10-17 NAV-[REQ-09] */
 
 .helpBox {
-            position: fixed;
-            top:50%;
-            right:10px;
-            margin-top:-400px;
-            height: 470px;
-            width: 330px;
-            z-index: 100;
-        }
+    display: none;
+    position: fixed;
+    top:50%;
+    right:10px;
+    margin-top:-400px;
+    height: 470px;
+    width: 330px;
+    z-index: 100;
+}
         .help-button {
             width: 60px;
             height: 60px;
@@ -8603,6 +8697,38 @@ footer {
     width: auto;
 }
 /* O.G. 06-10-17 FINAL NAV-[REQ-05] HEADER */
+/* O.G. 09-10-17 NAV-[REQ-05] HEADER */
+#searchBar {
+    width: 320px;
+}
+#AutoSuggestDiv {
+    border: 1px solid #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,.16);
+}
+ul div.list_section li:hover {
+    background-color: #f4f4f4!important;
+}
+#AutoSuggestDiv .heading {
+    padding: 10px 0;
+    margin: 0 10px;
+}
+#suggestedProductsResults .as_thumbnail {
+    width: auto;
+    height: 50px;
+}
+#AutoSuggestDiv .list_section li > a {
+    padding:10px 20px;
+}
+ul div.list_section li a:hover, ul div.list_section li a div:hover {
+    text-decoration: none;
+}
+#searchDropdown {
+    top:34px;
+}
+/* O.G. 09-10-17 FINAL NAV-[REQ-05] HEADER */
 
 /* dquisocala : ClaroF2.1, OG | 18-05-2017 | creado para corregir issues CLIMPLRQA2-266 - Fin */
 
@@ -8664,7 +8790,7 @@ footer {
         right: 58px;
     }
     #itemNotification {
-        right: 220px;
+        right: 160px;
     }
     div#quickClaroDisplayLoginPopup,
     div#quickClaroDisplayValidateCodeSMSPopup,
@@ -8740,17 +8866,18 @@ footer {
         display: inline;
     }
     .header-superior .bloqueMenu {display: none!important;}
+    /* O.G. 09-10-17 NAV-[REQ-05] */
     #quickLinksBar > li > #Header_GlobalLogin_signOutQuickLink,
     #quickLinksBar li #Header_GlobalLogin_signInQuickLink {
         width: auto!important; 
-        min-width: 157px;
+        min-width: 100px;
         text-indent: 0;
-        padding-left: 35px;
-        background-position: 10px center;
+        padding-left: 20px;
     }
     #MiniShoppingCart {
-    right: 170px;
+        right: 113px;
     }
+     /* O.G. 09-10-17 FINAL NAV-[REQ-05] */
     /*eterrones:fase2.1:FichaProducto:Integrar estilos de Omar:inicio*/
     /* O.G. CAMBIOS 21-08-17 CATALOGO */
     .ctg-page .product.comparadora {
@@ -8857,6 +8984,14 @@ footer {
         padding: 25px 5px;
     }
     /* O.G. 03-10-17 FINAL PAGINAS ADICIONALES*/
+    /* O.G. 09-10-17 NAV-[REQ-05]*/
+    .box__mobile .search {
+        margin: -8px 5px 0 0!important;
+    }
+    #searchBar.active {
+        padding: 25px 20px!important;
+    }
+    /* O.G. 09-10-17 FINAL NAV-[REQ-05]*/
 }
 @media only screen and (max-width: 768px) {
     .pageReeActivate .button_primary > .button_text {width: 100px;}
@@ -9457,8 +9592,13 @@ div.link_tab:hover {
     .tab.left .content .sliderAttrDefActive .mobile-check .no-user {
         margin: 0 auto 15px auto;
     }
-
     /* O.G. CAMBIOS 21-09-17 - FICHA FINAL */
+    #searchDropdown {
+        width: 100%;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+    }
 }
 /* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:fin */
 /*}*/
@@ -9549,9 +9689,9 @@ div.link_tab:hover {
 
 /*--dquisocala:fase:2.1:EF_Pag_adicional_nav[REQ-05]:Cambio en el nuevo header de nav:inicio--*/
 .fb_transparent {
-    background-color: white;
+    background-color: #fff;
     height: 36px;
-    opacity: 0.5;
+    opacity: 0.8;
     position: absolute;
     top: 0;
     width: 100%;
@@ -9569,25 +9709,28 @@ div.link_tab:hover {
 
 .valueNotify{
 	background-color: #da262d;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     border-radius: 50%;
     box-sizing: border-box;
     color: #fff;
     display: block;
     font-size: 9px;
     font-weight: bold;
-    height: 14px;
-    line-height: 9px;
+    height: 18px;
+    line-height: 18px;
     min-width: 15px;
-    padding: 3px;
+    padding: 0;
     position: absolute;
     right: -8px;
     text-align: center;
-    top: -6px;
-    width: auto;
+    top: -9px;
+    width: 18px;
+    z-index: 10;
+    box-shadow: 0px 3px 6px rgba(0,0,0,.16);
 }
 
-@media only screen and (max-width: 1024px) {
-	
+@media only screen and (max-width: 1024px) {	
 	#searchBar{
 		display: none;
 	}
@@ -9597,15 +9740,42 @@ div.link_tab:hover {
     .nav__mobile:before{content:"\f0c9";font-family:"FontAwesome";color:white;font-size:1.5rem;top:2px;position: relative;}
     .nav__mobile.active:before{content:"\f00d";font-family:"FontAwesome";color:white;font-size:1.5rem;top:2px;position: relative;}
  	.box__mobile .search.active:before{content:"\f00d";font-family:"FontAwesome";color:white;font-size:1.5rem;position: relative;}
- 	.box__mobile{display:block!important;display:-webkit-box;display:-moz-box!important;display:-ms-flexbox!important;webkit-display:-webkit-flex!important;display:-webkit-flex!important;display:flex!important;flex-direction:row;-webkit-box-direction:row;-webkit-flex-direction:row;-ms-flex-direction:row;justify-content:space-between;-webkit-justify-content:space-between;-ms-flex-pack:space-between;-ms-flex-pack:justify;width:60px;float:right;margin-right:10px;margin-top:13px}
- 	#searchBar.active {padding: 10px;width: 100%!important;border: none;left: 0!important;top:86px;background:#DA262D;display: block !important;}
+    /* O.G. 09-10-17 */
+ 	.box__mobile{display:block!important;display:-webkit-box;display:-moz-box!important;display:-ms-flexbox!important;webkit-display:-webkit-flex!important;display:-webkit-flex!important;display:flex!important;flex-direction:row;-webkit-box-direction:row;-webkit-flex-direction:row;-ms-flex-direction:row;justify-content:space-between;-webkit-justify-content:space-between;-ms-flex-pack:space-between;-ms-flex-pack:justify;width:60px;float:right;margin-right:20px;margin-top:13px}
+ 	/* O.G. 09-10-17 FINAL */
+    /* O.G. 11-10-17 NAV-[REQ-05] HEADER */
+    #searchBar.active {
+        padding: 25px 60px;
+        width: 100%!important;
+        border: none;
+        left: 0!important;
+        top:50px;
+        background:#DA262D;
+        display: block !important;
+    }
+    /* O.G. 11-10-17 FINAL NAV-[REQ-05] HEADER */
     #searchButton {top:45px;}
     #searchButton:hover {text-decoration:none;}
     .header__navegation.no-vis{display:none!important;}
     #headerRow2 .header__navegation{-webkit-transition:left .5s;-moz-transition:left .5s;-ms-transition:left .5s;transition:left .5s;flex-direction:column;-webkit-box-direction:column;-webkit-flex-direction:column;-ms-flex-direction:column;width:100%;position:absolute;top:50px;left:0;z-index:110;border-bottom:1px solid #DDD}
     #headerRow2 .header__navegation ul{display:-webkit-box;display:-moz-box!important;display:-ms-flexbox!important;webkit-display:-webkit-flex!important;display:-webkit-flex!important;display:flex!important;flex-direction:column;-webkit-box-direction:column;-webkit-flex-direction:column;-ms-flex-direction:column;align-items:flex-start;-webkit-align-items:flex-start;-ms-flex-align:flex-start;height:inherit;min-width:inherit!important}
     #headerRow2 .header__navegation li{flex-direction:column;-webkit-box-direction:column;-webkit-flex-direction:column;-ms-flex-direction:column;width:100%;padding:0;border:none;text-align:left;background:#DA262D!important}
-    #headerRow2 .header__navegation li a{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;display:table;width:100%;padding:14px 20px;border-bottom:1px solid white;position:relative}
+    /* O.G. 09-10-17 */
+    #headerRow2 .header__navegation li a{
+        -moz-box-sizing:border-box;
+        -webkit-box-sizing:border-box;
+        box-sizing:border-box;
+        display:table;
+        width:calc(100% - 40px);
+        padding:14px 0;
+        margin:0 20px;
+        border-bottom:1px solid white;
+        position:relative;
+    }
+    #headerRow2 .header__navegation li:last-child a {
+        border-bottom: 0 none;
+    }
+    /* O.G. 09-10-17 FINAL */
     #headerRow2 .header__navegation li a:after{content:"\f067";font-family:"FontAwesome";position:absolute;right:20px}
     #headerRow2 .header__navegation li.select{background:#DA262D!important;color:white}
     #headerRow2 .header__navegation li.miClaro{background:#B7202E!important}
@@ -9623,8 +9793,12 @@ div.link_tab:hover {
     #headerRow2 .header__navegation .subMenu > dl dt.movil:before,header .header__navegation .subMenu > dl dt.hogar:before,header .header__navegation .subMenu > dl dt.entretenimiento:before,header .header__navegation .subMenu > dl dt.promocion:before{content:initial}
     #headerRow2 .header__navegation .subMenu > dl dd{display:none}
     #headerRow2 .header__navegation .slogan{display:none}
-    #headerRow2 .header__navegation {top:86px;}
-    
+    /* O.G. 09-10-17 NAV-[REQ-05] HEADER */
+    #headerRow2 .header__navegation {top:50px; border-bottom: 0;}
+    #headerRow2 {width: 100%;}
+    #logo {left: 10px;}
+
+    /* O.G. 09-10-17 FINAL NAV-[REQ-05] HEADER */
     .show-mobile{display: block;}
     .show-desktop{display: none;}
     
