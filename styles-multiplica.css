@@ -8573,7 +8573,6 @@ footer {
 /* O.G. 05-10-17 NAV-[REQ-09] */
 
 .helpBox {
-    display: none;
     position: fixed;
     top:50%;
     right:10px;
