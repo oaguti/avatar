@@ -2741,15 +2741,19 @@ div.cet_centro:nth-child(even) {
 	box-sizing: border-box;
 	padding: 10px;
 }
+/* O.G. 16-10-17 ISSUE FICHA CLAROFP-13 */
 .prsn-wrp-ln {
 	max-width: 180px;
 	width: 100%;
 	text-align: center;
 	border:1px solid #ccc;
 	padding: 20px 25px 10px 25px;
-	box-shadow: 2px 2px 15px rgba(0,0,0,0.2);
 	position: relative;
 }
+.prsn-wrp-ln:hover {
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.2);
+}
+/* O.G. 16-10-17 FINAL ISSUE FICHA */
 .prsn-wrp-ln.activo {
 	border:3px solid rgb(112,196,115);
 	box-shadow: 0 0 0;
@@ -3127,12 +3131,20 @@ div#widget_breadcrumb > ul li.current {
 .content-wrapper-fprod .content-fprod {
 	text-align: center;
 }
+/* O.G. 12-10-17 ISSUE CLAROFP-19 */
 .content-wrapper-fprod .content-fprod div {
 	display: inline-block;
-	font-weight: 500;
 	font-size: 36px;
 	color:#212121;
 }
+.content-wrapper-fprod .content-fprod .attr_p{
+	font-weight: 300;
+}
+.content-wrapper-fprod .content-fprod .fproductNombreProd .marca_p,
+.content-wrapper-fprod .content-fprod .fproductNombreProd .name_p {
+	font-weight: 500;
+}
+/* O.G. 12-10-17 FINAL ISSUE CLAROFP-19 */
 .section-vigencia-campaign div{
 	/* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:inicio */
 	display: inline;
@@ -3387,6 +3399,9 @@ span.text-quota-mes {
 	display: table-cell;
 }
 /* O.G. CAMBIOS 19-09-17 - FICHA FINAL*/
+.mod-visible {
+	visibility: hidden;
+}
 /* modificaciones para imagenes alternativas */
 	#slider-prd {
         width: 100%;
@@ -3595,11 +3610,13 @@ span.text-quota-mes {
 		position: relative;
 	}
 	/*dquisocala : Merge de estilos Omar 24-08-17 Inicio */
+	/* O.G. 16-10-17 ISSUE FICHA CLAROFP-36 */
 	.ClaroSaleConditionWidget {
 		position: relative;
-		z-index: 10;
+		z-index: 100;
 		margin: -124px auto 0  auto;
 	}
+	/* O.G. 16-10-17 FINAL ISSUE FICHA */
 	/*dquisocala : Merge de estilos Omar 24-08-17 Fin */
 	.wigueq {
 		position: absolute;
@@ -3718,6 +3735,9 @@ span.text-quota-mes {
     		/* O.G. 12-09-17 FICHA */
     		z-index: 1;
     		/* O.G. 12-09-17 FICHA FINAL */
+			/* O.G. 12-10-17 ISSUE CLAROFP-18 */
+    		margin-top: 10px;
+    		/* O.G. 12-10-17 FINAL ISSUE CLAROFP-18 */
     	}
     	.wrap_precio {
     		width: 90%;
@@ -3789,7 +3809,11 @@ span.text-quota-mes {
     		line-height: 46px;
 	    	/* O.G. 12-09-17 FICHA FINAL */
 	    }
-	    
+	    /* O.G. 12-10-17 FICHA ISSUES CLAROFP-18 */
+	    .ficha-content-price .RibbonAdDefault.Descuento{
+	    	position: relative;
+	    }
+	    /* O.G. 12-10-17 FICHA ISSUES CLAROFP-18 */
 	    .wrap_precio .w3 .available .sublist .text {
 		    line-height: 15px;
 		    font-size: 14px;
@@ -3817,9 +3841,15 @@ span.text-quota-mes {
 		}
     }
     @media only screen and (max-width: 640px){
+    	/* O.G. 12-10-17 ISSUE CLAROFP-40 */
     	.ClaroSaleConditionWidget {
     		margin-top: 0;
+    		box-shadow: none;
 		}
+		.ficha-content-legalCondition {
+    		background-color: #fff;
+		}
+		/* O.G. 12-10-17 FINAL ISSUE */
     	.wigueq .section-vigencia-campaign {
     		width: 100%;
     	}
@@ -3856,6 +3886,8 @@ span.text-quota-mes {
     	/* O.G. 14-09-17 FICHA FINAL */
     	.wrap_precio .prc_eq {
     		width: calc(100% - 180px)!important;
+    		width: -webkit-calc(100% - 180px)!important;
+    		width: -moz-calc(100% - 180px)!important;
     	}
     	.wrap_precio .wrap_tbl {
     		width: 180px!important;
@@ -4117,25 +4149,28 @@ span.text-quota-mes {
 /*rrojas: faseClaro2.1 - solucion de issue CLIMPCQA1-68 - inicio*/
 
 /*rrojas:fase:2.1:EF_Pag_adicional_nav[REQ-01]:[FA6]Cliente decide desplegar el drop down Títulos de TAB :inicio*/
+/* O.G. 13-10-17  */
 .contentSelectTabMobil {
     height: auto;
-    padding: 7px;
-    width: 100%;
+    padding: 0 0 15px 0;
+    width: auto;
+    border-bottom: 1px solid #ABAFB0;
+    margin: 60px 20px 0 20px;
 }
 .itemSelectTabMobil::AFTER,.itemSelectTabMobil.contentSelectTabMobilDown::AFTER{
 	 content: "\f0dd";
 	 font-family: FontAwesome;
-	 color: #F00F; 
-	 padding: 8px;
-	 position: relative;
+	 color: #DA272C; 
+	 padding: 8px 8px 8px 10px;
+	 position: absolute;
      top: -3px;
 }
 .itemSelectTabMobil.contentSelectTabMobilUp::AFTER{
     content: "\f0de";
     font-family: FontAwesome;
-	 color: #F00F; 
-	 padding: 8px;
-	 position: relative;
+	 color: #DA272C; 
+	 padding: 8px 8px 8px 10px;
+	 position: absolute;
      top:  5px;
 }
 /*rrojas:fase:2.1:EF_Pag_adicional_nav[REQ-01]:[FA6]Cliente decide desplegar el drop down Títulos de TAB :fin*/

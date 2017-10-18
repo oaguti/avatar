@@ -2604,7 +2604,6 @@ div#widget_breadcrumb{padding:0!important;margin-left:0!important}
 #eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - INICIO
 #quickLinksBar div li #Header_GlobalLogin_Notification_signInQuickLink{position:absolute;right:100px;width:115px;max-width:120px;top:-27px;color:#fff;background-image:url(../img/ico-user.png) !important;background-repeat:no-repeat;background-position:10px center;padding:0 15px 0 37px;height:37px;line-height:37px;border:0;border-bottom:1px solid #DA262D}
 
-
 #eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - FIN
 .panelLinkSelected.selected{color:#000!important;background-image:url(../img/ico-usuario-hover.png)!important;border-radius:0!important;border-bottom:1px solid #ccc!important}
 #MiniShoppingCart {position:absolute;right:0;top:-36px;height:36px}
@@ -3918,6 +3917,7 @@ input:-ms-input-placeholder {color: #8d8d8d;font-size: 12px  }
 #quickLinksBar li #Header_GlobalLogin_Notification_signInQuickLink {border-bottom: 0;margin-bottom: 0;margin-top: 0;height:36px;line-height: 36px;top: -47px; right: 95px;}
 #quickLinksBar li #Header_GlobalLogin_Notification_signInQuickLink.selected {position: absolute; left: auto; }
 #eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - FIN
+
 .loginMenuDropdown {top: -12px!important; right: 94px!important;}
 /* O.G. 10-10-17 NAV-[REQ-05] HEADER */
 #MiniShoppingCart {top: -40px;}
@@ -5363,6 +5363,9 @@ label.contr2 > img {margin-right:5px;}
 /* lmorales multiplica 19-04-2016 fin */
 /* Multiplica lunes 21/03/2016 07:26 p.m - Inicio */
 input[type="email"][disabled] {color:#8e8e8e;background-color:#eee;}
+/* eterrones:fase:2.1:EF_Pag_adicional_cli[REQ-02]: Visualizar la pagina de Informacion Personal. Tipo y Nro Doc no editables:inicio */
+input[type="text"][disabled] {color:#8e8e8e;background-color:#eee;}
+/* eterrones:fase:2.1:EF_Pag_adicional_cli[REQ-02]: Visualizar la pagina de Informacion Personal. Tipo y Nro Doc no editables:fin */
 /* Multiplica lunes 21/03/2016 07:26 p.m - Fin */
 /* Multiplica 2016-03-21 Fin */
 /* Multiplica 2016-03-21 Inicio */
@@ -5609,9 +5612,9 @@ fieldset.descktop {margin-top:10px;}
     #headerRow2 .header__navegation {top:86px;}
     #quickLinksBar li #Header_GlobalLogin_signInQuickLink {width:45px!important;}
     
-    #eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - INICIO
+    /** eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - INICIO */
     #quickLinksBar li #Header_GlobalLogin_Notification_signInQuickLink {width:45px!important;}
-	#eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - FIN
+	/** eterrones fase2.1 RQ-16_RU-02_6: Notificación SMS - FIN */
 	
     .userHello, .userName {display:none;}
     #quickLinksBar > li > #Header_GlobalLogin_signOutQuickLink {/*background-image: url("../img/ico-user.png")!important;*/padding:0 0 0 36px;}
@@ -5836,10 +5839,13 @@ fieldset.descktop {margin-top:10px;}
     .bannerFull {display:block;}
     .bannerMiddle {display:none;}
 }
-
-
-
-.row2gray {background-color:#f8f8f8!important;border-top:1px solid #e9e9e9!important;border-bottom:1px solid #e9e9e9!important;}
+/* O.G. 12-10-17 NAV-[REQ-01] */
+.row2gray {
+    background-color:#fff!important;
+    border-top:0!important;
+    border-bottom:0!important;
+}
+/* O.G. 12-10-17 FINAL NAV-[REQ-01] */
 .product, .complementa-celular .product {background-color:#f8f8f8!important;border:1px solid #e9e9e9!important;}
 .product:hover {background-color:#e9e9e9!important;border:1px solid #e9e9e9!important;}
 
@@ -7264,11 +7270,20 @@ span.error-claro, div.error-claro {font-size: 14px;}
     left: -25px;
     top: 5px;
 }
-
 /******************** ventanas emergentes ************************/
+
 .carousel > .prevPageButton, .carousel > .nextPageButton {z-index: 900;}
 .callUs {z-index:100;}
-.tabbedSlots5_6_7 .tabButtonContainer {z-index:945;}
+
+/* O.G. 13-10-17 NAV-[REQ-01] */
+.tabbedSlots5_6_7 {
+    padding-top: 80px;
+    background: #fff;
+}
+.tabbedSlots5_6_7 .tabButtonContainer {
+    z-index:10;
+}
+/* O.G. 13-10-17 FINAL NAV-[REQ-01] */
 .dijitDialog, .dijitDialog.dijitDialog.dijitDialogFocused {z-index: 2100!important;}
 .fd_black_prod {
     background-color: rgba(51,51,51,0.6);
@@ -7557,10 +7572,12 @@ span.error-claro, div.error-claro {font-size: 14px;}
 #quickLinksBar li #Header_GlobalLogin_signInQuickLink:hover {color:#1F97AE;}
 /* O.G. 10-10-17 FINAL NAV-[REQ-05] HEADER */
 .panelLinkSelected span{font-size: 14px; font-weight: 400; color:#666;}
+
 /*.link:after {display: none;}*/
 .signInForm .button_primary .button_text:after {display: none;}
 .loginMenuDropdown .logon_error_display_none  { display: none!important;}
 .loginMenuDropdown .btn_close {background: url('../img/aspa.png') 0 0 no-repeat; display: block; width: 16px; height: 16px; position: absolute; top: 8px; right: 8px;}
+/* O.G. 13-10-17 NAV-[REQ-05]  */
 .loginMenuDropdown {
     margin-top: 0px;
     border-bottom-left-radius: 5px!important;
@@ -7571,9 +7588,10 @@ span.error-claro, div.error-claro {font-size: 14px;}
     border:0 none;
     background: #fff;
     z-index: 2100;
-    right: 35px!important;
-    top:-5px!important;
+    right: 0px!important;
+    top:5px!important;
 }
+/* O.G. 13-10-17 FINAL NAV-[REQ-05]  */
 .loginMenuDropdown:before {
   position:absolute;
   top:-10px; right:47px;
@@ -8248,7 +8266,6 @@ div#ClaroBenefitsYourPlan {
     margin-right: 5px;
 }
 /* O.G. CAMBIOS 21-09-17 - FICHA FINAL*/
-
 /* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:fin */
 /* dquisocala : ClaroF2.1, OG | 18-05-2017 | creado para corregir issues CLIMPLRQA2-266 - Inicio */
 .footer a div.button_text_skip span:hover {
@@ -8468,6 +8485,7 @@ div#ClaroBenefitsYourPlan {
     padding: 25px 5px;
  }
  .wrap-genericError {
+    margin-top: 100px;
     text-align: center;
  }
  .image-genericError {
@@ -8573,6 +8591,7 @@ footer {
 /* O.G. 05-10-17 NAV-[REQ-09] */
 
 .helpBox {
+    display: none;
     position: fixed;
     top:50%;
     right:10px;
@@ -8728,7 +8747,128 @@ ul div.list_section li a:hover, ul div.list_section li a div:hover {
     top:34px;
 }
 /* O.G. 09-10-17 FINAL NAV-[REQ-05] HEADER */
+/* O.G. 12-10-17 */
+/* ISSUE CLAROFP-38 */
+.ClaroSaleConditionWidget .ems-cuota {
+    padding-left: 76px; 
+}
+/* FINAL ISSUE CLAROFP-38 */
+.slick_contentCarouselWidgetCuts {
+    width: 100%;
+    margin: 70px auto 0 auto;
+    padding: 0 30px;
+}
+.slick_contentCarouselWidgetCuts .slick-slide {
+    text-align: center;
+}
+.slick_contentCarouselWidgetCuts button.slick-prev::before {
+    content: "\f104";
+}
+.slick_contentCarouselWidgetCuts button.slick-next::before {
+    content: "\f105";
+}
+.claroRowContainer .row {
+    background:#fff;
+}
+/* O.G. 12-10-17 FINAL */
+/* O.G. 13-10-17 SLIDER HOME */
+.claroRowContainer .main-wrapper.carousel-wrapper {
+    overflow: visible;
+    width: 100%;
+}
+.contentCarouselWidgetFull .pageControl {
+    bottom: -30px;
+    height: 13px;
 
+}
+.contentCarouselWidgetFull .pageControl.dot > a {
+    background-color: #ABAEAF;
+    height: 10px;
+    width: 10px;
+    margin-top:1px;
+    margin-bottom:1px;
+}
+.contentCarouselWidgetFull .pageControl.dot > a.selected {
+    background-color: #1F96AD;
+    height: 12px;
+    width: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.contentCarouselWidgetFull .contentCarouselWidget .left_espot {
+    width: 100%;
+}
+.contentCarouselWidgetFull .carousel > .content > ul > li {
+    padding: 0;
+}
+.contentCarouselWidgetFull .contentCarouselWidget > .content {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+/* SLIDER HOME */
+.classProductContenRecomendation {
+    width: 100%;
+    padding: 0 30px;
+    max-width: 1255px;
+}
+.classProductContenRecomendation ul li button:before {
+    color: #ABAEAF;
+    font-size: 10px
+    margin-top:1px;
+    margin-bottom:1px;
+}
+.classProductContenRecomendation ul li.slick-active button:before {
+    color: #1F96AD;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.classProductContenRecomendation ul li button:hover, 
+.classProductContenRecomendation ul li button:focus {
+    background: none!important;
+}
+.tabButtonContainer.tabHomeButton .tab_header .tab_container.inactive_tab {
+    margin-top:0;
+}
+.tabButtonContainer.tabHomeButton .tab_header .tab_container.active_tab {
+    height: 100%;
+    margin-bottom: 0;
+}
+
+.contentSelectTabMobil #item_select.itemSelectTabMobil {
+    font-size: 30px;
+    font-weight: 300;
+    color:#212121;
+}
+.contentSelectTabMobil ul {
+    margin-top: 20px;
+}
+.contentSelectTabMobil ul li .item_mn{
+    font-size: 30px;
+    font-weight: 300;
+    color:#1F97AE;
+}
+/* SESION CADUCA */
+.content_sessionDuplicated {
+    margin-top: 150px;
+}
+/* O.G. 13-10-17 FINAL  */
+/* O.G. 16-10-17 ISSUE FICHA CLAROFP-17 */
+.links_bajo a.chatInit {
+    color:#1F96AD;
+    font-weight: 300;
+}
+.links_bajo a.chatInit:hover {
+    color:#1B8093;
+    font-weight: 500;
+}
+.links_bajo a.chatInit:target {
+    color:red;
+    font-weight: 500;
+}
+
+/* O.G. 16-10-17 FINAL ISSUE FICHA */
 /* dquisocala : ClaroF2.1, OG | 18-05-2017 | creado para corregir issues CLIMPLRQA2-266 - Fin */
 
 /* dquisocala : Claro 2.1 , Integracion estilos Omar 21/03/17 - Fin */
@@ -8991,13 +9131,20 @@ ul div.list_section li a:hover, ul div.list_section li a div:hover {
         padding: 25px 20px!important;
     }
     /* O.G. 09-10-17 FINAL NAV-[REQ-05]*/
+    /* O.G. 13-10-17 NAV-[REQ-01]*/
+    .contentCarouselWidgetFull .contentCarouselWidget {
+        overflow: visible;
+    }
+    /* O.G. 13-10-17 NAV-[REQ-01]*/
 }
 @media only screen and (max-width: 768px) {
     .pageReeActivate .button_primary > .button_text {width: 100px;}
     .pageActivationConfirmation .button_primary > .button_text {width: 110px;}
     #pageUserValidateSms #ValidaSms .medium-10.small-12.columns.mt-2.ancho-tb.sma-ancho-cont.no-p-no {margin-bottom: 0;}
-    .pg-xtra .claro_container_address_form .medium-11 {
-        width: 100%;
+    .pg-xtra .claro_container_address_form .medium-11 {width: 100%;}
+    .slick_contentCarouselWidgetCuts {
+        width: calc(100% - 60px);
+        margin: 70px auto 0 auto;
     }
 }
 @media only screen and (max-width: 915px) {
@@ -9189,10 +9336,7 @@ ul div.list_section li a:hover, ul div.list_section li a div:hover {
 .tabHome.slider.tab_header.tab_header_double.classTabHome.slick-initialized.slick-slider > div > div {
     background: rgb(255,255,255);
 }
-.tabButtonContainer > .tab_header div.tab_container.active_tab,
-.tabButtonContainer > .tab_header div.tab_container.inactive_tab {
-    
-}
+
 .tabbedSlots5_6_7 .tabButtonContainer div{
     border:0 none!important;
     background: rgb(255,255,255);
@@ -9205,9 +9349,12 @@ ul div.list_section li a:hover, ul div.list_section li a div:hover {
 
 @media only screen and (max-width: 640px){
 	.breakcump {display: none;}
+	
 	.cont_bg {background:none;} 
 }
 /* dquisocala  : Claro 2.1 ,EF_CatologoProductos Estilos Omar 13-03-2017 - Fin */
+
+
 /* dquisocala  : Claro 2.1 ,EF_CatologoProductos top categoria desktop - Inicio */
 @media only screen and (min-width: 641px) and (max-width: 1255px){
 	#mn-tp{left:0px !important;}
@@ -9348,6 +9495,11 @@ div.link_tab:hover {
     .helpBox {
         top:65%;
     }
+    /* O.G. 12-10-17 ISSUE CLAROFP-38 */
+    .tab.left .content .titleSectionTab,.ClaroSaleConditionWidget .ems-cuota {
+        padding-left: 30px;
+    }
+    /* O.G. 12-10-17 FINAL ISSUE CLAROFP-38 */
 }	
 /* Tablet Vertical */
 @media screen and (min-width: 641px) and (max-width: 768px) {
@@ -9424,6 +9576,15 @@ div.link_tab:hover {
         margin-top: 0!important;
     }
     /* O.G. CAMBIOS 03-10-17 - FICHA FINAL*/
+    /* O.G. 16-10-17 ISSUE FICHA CLAROFP-37 */
+    .tab.left .content .titleSectionTab,
+    .ClaroSaleConditionWidget .ems-cuota {
+        padding-left: 10px;
+    }
+    /* O.G. 16-10-17 FINAL ISSUE FICHA */
+    .claroTabButtonContainer > .tab_header > div.tab_container .wrap_text2 {
+        margin: 0px auto 0 auto;
+    }
 }
 /* Tablet Vertical - Horizontal */
 @media screen and (min-width: 641px) and (max-width: 1024px) {
@@ -9442,7 +9603,6 @@ div.link_tab:hover {
     .tab_header .tab_container .wrap_msn > div {
         font-size: 10px;
     }
-
 }
 /* O.G. 18-08-17 FINAL FICHA */
 /* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:inicio */
@@ -9591,6 +9751,7 @@ div.link_tab:hover {
     .tab.left .content .sliderAttrDefActive .mobile-check .no-user {
         margin: 0 auto 15px auto;
     }
+
     /* O.G. CAMBIOS 21-09-17 - FICHA FINAL */
     #searchDropdown {
         width: 100%;
@@ -9653,7 +9814,7 @@ div.link_tab:hover {
 /*rrojas:fase:2.1:EF_Pag_adicional[REQ-07]:Visualizar la página de Acceso desde otra ubicación:inicio*/
 /* O.G. CAMBIOS 26-09-17 - RU ADICIONAL */
 .textSesionDuplicada {
-    color: #000;
+    color: #212121;
     font-size: 22px;
     font-weight: 500;
     text-align: center;
@@ -9661,6 +9822,8 @@ div.link_tab:hover {
 /* O.G. CAMBIOS 26-09-17 - FINAL RU ADICIONAL */
 .textSesionDuplicada.text2 {
     font-size: 16px;
+    font-weight: 400;
+    color:#212121;
 }
 .linkSesionDuplicada {    
     text-decoration: none !important;
@@ -9730,11 +9893,10 @@ div.link_tab:hover {
 }
 
 @media only screen and (max-width: 1024px) {	
-	#searchBar{
-		display: none;
-	}
+
+	#searchBar{display: none;}
     .box__mobile .nav__mobile{display:block;margin:0 10px;margin-top:-5px;cursor:pointer}
-    .box__mobile .search{color:white;font-size:25px;margin:-5px 5px 0 0;}
+    .box__mobile .search{color:white;font-size:25px;margin:-8px 5px 0 0;}
     .box__mobile .search:before {content:"\f002";font-family: "FontAwesome";cursor: pointer;}
     .nav__mobile:before{content:"\f0c9";font-family:"FontAwesome";color:white;font-size:1.5rem;top:2px;position: relative;}
     .nav__mobile.active:before{content:"\f00d";font-family:"FontAwesome";color:white;font-size:1.5rem;top:2px;position: relative;}
