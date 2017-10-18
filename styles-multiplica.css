@@ -8591,37 +8591,37 @@ footer {
 /* O.G. 05-10-17 NAV-[REQ-09] */
 
 .helpBox {
-    display: none;
+
     position: fixed;
     top:50%;
     right:10px;
     margin-top:-400px;
-    height: 470px;
+    height: auto;
     width: 330px;
     z-index: 100;
 }
-        .help-button {
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            cursor: pointer;
-            background:#f08224;
-            line-height: 60px;
-            text-align: center;
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            color:#fff;
-            font-size: 27px;
-            box-shadow: 0px 3px 6px rgb(0,0,0,.16);
+.help-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    background:#f08224;
+    line-height: 60px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    color:#fff;
+    font-size: 27px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
 
-        }
+}
         .call-dato {
             position: relative;
             -webkit-border-radius: 10px;
             -moz-border-radius: 10px;
             border-radius: 10px;
-            box-shadow:0 3px 6px rgb(0,0,0,.16);
+            box-shadow:0 3px 6px rgba(0,0,0,0.2);
             margin:0 30px 0 0;
             overflow: hidden;
             width: 300px;
@@ -8867,8 +8867,18 @@ ul div.list_section li a:hover, ul div.list_section li a div:hover {
     color:red;
     font-weight: 500;
 }
-
 /* O.G. 16-10-17 FINAL ISSUE FICHA */
+/* O.G. 17-10-17 PAG. ERROR */
+.fond-404.int_cont {
+    margin-top: -50px;
+}
+.fond-404.int_cont .planeta {
+    top:80px;
+}
+.fond-404.int_cont .cont-errror {
+    top:20%;
+}
+/* O.G. 17-10-17 FINAL PAG. ERROR */
 /* dquisocala : ClaroF2.1, OG | 18-05-2017 | creado para corregir issues CLIMPLRQA2-266 - Fin */
 
 /* dquisocala : Claro 2.1 , Integracion estilos Omar 21/03/17 - Fin */
@@ -9503,7 +9513,14 @@ div.link_tab:hover {
 }	
 /* Tablet Vertical */
 @media screen and (min-width: 641px) and (max-width: 768px) {
-
+    /* O.G. CAMBIOS 18-10-17 - FICHA */
+    .ficha-content-price-sub .ficha-content-value-price .listPrice {
+        font-size: 18px;
+        font-weight: 300;
+        color:#ABAFB0;
+        height: 18px;
+    }
+    /* O.G. CAMBIOS 18-10-17 - FINAL FICHA */
     .conditionModalityTitle, .benefitsYourPlan {padding: 0 15px;}
     .conditionModalityTitle, .benefitsYourPlan .ttl-opcs {font-size: 14px;}
     .conditionModalityTitle, .benefitsYourPlan .cll-boxer .txt2-bx {font-size: 10px;}
@@ -9517,6 +9534,11 @@ div.link_tab:hover {
         padding: 5px 10px;
         width: 20%;
     }
+    /* O.G. CAMBIOS 18-10-17 - ISSUE */
+    .claroTabButtonContainer.typeAccesory-condition > .tab_header > div.tab_container {
+        width: auto;
+    }
+    /* O.G. CAMBIOS 18-10-17 - FINAL ISSUE */
     .wrap_precio .wrap_tbl .wrap_mbl .w2 .shopperActions .button.primary {
         padding: 14px;
         font-size: 14px;
@@ -9608,6 +9630,24 @@ div.link_tab:hover {
 /* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:inicio */
 /* MOVIL HORIZONTAL - VERTICAL */
 @media only screen and (max-width: 640px){
+    /* O.G. 18-10-17 FICHA*/
+    .wigueq .text-price {
+        font-size: 20px;
+    }
+    /* O.G. 18-10-17 FINAL FICHA */
+    /* O.G. 18-10-17 ISSUE CLAROFP-56 FICHA*/
+    .ficha-content-discount.m-display {
+        display: none;
+    }
+    /* O.G. 18-10-17 ISSUE CLAROFP-56 FICHA*/
+    /* O.G. 17-10-17 ISSUE FICHA */
+    .content-attr .attr-Color .wrap_attr_color {
+        padding-right: 5px;
+    }
+    .transparent_layer {
+        display: none;
+    }
+    /* O.G. 17-10-17 FINAL ISSUE FICHA */
     /* O.G. 09-08-17 FICHA */
      /* O.G. 14-09-17 FICHA */
     .claroTabButtonContainer > .tab_header > div.tab_container {

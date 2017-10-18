@@ -3391,17 +3391,19 @@ span.text-quota-mes {
     top: 20px;
     width: 100%;
 }
-/* O.G. CAMBIOS 19-09-17 - FICHA */
+/* O.G. CAMBIOS 16-10-17 - FICHA */
 .ClaroSaleConditionWidget {
 	box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
 }
 .cld_fix {
 	display: table-cell;
 }
-/* O.G. CAMBIOS 19-09-17 - FICHA FINAL*/
+/* O.G. CAMBIOS 16-10-17 - FICHA FINAL*/
 .mod-visible {
 	visibility: hidden;
 }
+
+
 /* modificaciones para imagenes alternativas */
 	#slider-prd {
         width: 100%;
@@ -3456,6 +3458,7 @@ span.text-quota-mes {
     	right: 100px;
     	position: absolute;
     }
+
 /*rrojas :Inicio Merge de Omar Claro2.1*/
 /********** RESPONSIVE ***********/
 @media only screen and (min-width: 1024px){
@@ -3652,18 +3655,23 @@ span.text-quota-mes {
 		text-align: center;
 	}
 /* O.G. CAMBIOS 13-09-17 - FICHA */
+	/* O.G. 17-10-17 ISSUE CLAROFP-42 FICHA */
 	.wigueq .available > .sublist,
 	.wrap_precio .wrap_tbl .wrap_mbl .w2 .shopperActions .button.primary {
 	    display: inline-block;
 	    padding: 16px;
 	    font-size: 16px;
 	    line-height: 22px;
+	    min-width: 180px;
 	}
 	.wrap_precio .wrap_tbl .wrap_mbl .w2 .shopperActions .button.primary .button_text {
-		padding:0 5px 0 22px;
 		position: relative;
 		text-shadow: 1px 1px 1px rgba(0,0,0,.33);
 	}
+	.wrap_precio .wrap_tbl .wrap_mbl .w2 .shopperActions .button.primary .icon-shopCart {
+		padding:0 5px 0 22px;
+	}
+	/* O.G. 17-10-17 FINAL ISSUE CLAROFP-42 FICHA */
 	.wrap_precio .wrap_tbl .wrap_mbl .w2 .shopperActions .button.primary .button_text:after {
 		display: none;
 	}
@@ -3710,15 +3718,18 @@ span.text-quota-mes {
     	margin: 0;
 	}
 	/* O.G. 06-09-17 FICHA FINAL */
-	@media only screen and (min-width: 1024px) and (max-width: 1366px){
+@media only screen and (min-width: 1024px) and (max-width: 1366px){
 		.wigueq {
 		    right: 80px;
 		}
-	}
-    @media only screen and (min-width: 769px) and (max-width: 1024px){
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px){
 
-	}
-    @media only screen and (min-width: 640px) and (max-width: 768px){
+}
+@media only screen and (min-width: 640px) and (max-width: 768px){
+    	.content-wrapper-fprod .content-fprod div {
+    		font-size: 32px;
+		}
     	.ClaroSaleConditionWidget {
 		    margin-top: 0;
 		    box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
@@ -3839,8 +3850,8 @@ span.text-quota-mes {
 			width: 80px;
 			display: block;
 		}
-    }
-    @media only screen and (max-width: 640px){
+}
+@media only screen and (max-width: 640px){
     	/* O.G. 12-10-17 ISSUE CLAROFP-40 */
     	.ClaroSaleConditionWidget {
     		margin-top: 0;
@@ -3910,7 +3921,8 @@ span.text-quota-mes {
     		left: 0;
     	}
     	.wrap_mbl {
-			float: right;
+    		width: 100%;
+			/*float: right;*/
     		display: -webkit-box;
   			display: -moz-box;
   			display: -ms-flexbox;
@@ -3943,7 +3955,7 @@ span.text-quota-mes {
 		    float: none;
 		    max-width: 100%;
 		}
-    }
+}
 /* final estructura en widguet de precios */
 /* eterrones:fase2.1:EF_Cat_prod:Estilos faceta precio:inicio */
 /* O.G. 11-08-17 CATALOGO SLIDER PRECIO */
