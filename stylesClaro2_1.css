@@ -3586,11 +3586,10 @@ span.text-quota-mes {
 	}
 }
 @media only screen and (min-width: 320px) and (max-width: 767px){
-    /*se comenta ya que en el merge de omar se esta eliminando estas lineas*/
-    /*.attachmentDesktop,.attachmentTabletv,.attachmentTableth  {display: none;}*/
-    /*.attachmentMobile{display:block;}*/
+/*se comenta ya que en el merge de omar se esta eliminando estas lineas*/
+/*.attachmentDesktop,.attachmentTabletv,.attachmentTableth  {display: none;}*/
+/*.attachmentMobile{display:block;}*/
 /*rrojas Fin de Merge de Omar Claro2.1*/ 
-  
     .content-wrapper-fprod {
     	top:0;
     }
@@ -3654,7 +3653,7 @@ span.text-quota-mes {
 	.wrap_precio .wrap_tbl .wrap_mbl .w2 .shopperActions {
 		text-align: center;
 	}
-/* O.G. CAMBIOS 13-09-17 - FICHA */
+	/* O.G. CAMBIOS 13-09-17 - FICHA */
 	/* O.G. 17-10-17 ISSUE CLAROFP-42 FICHA */
 	.wigueq .available > .sublist,
 	.wrap_precio .wrap_tbl .wrap_mbl .w2 .shopperActions .button.primary {
@@ -3679,7 +3678,7 @@ span.text-quota-mes {
 		width: auto;
 		padding: 5px 0;
 	}
-/* O.G. CAMBIOS 13-09-17 - FICHA FINAL*/
+	/* O.G. CAMBIOS 13-09-17 - FICHA FINAL*/
 	.wrap_precio {width: 300px; padding: 10px;}
 	.wrap_precio .prc_eq {
 		width: 100%!important;
@@ -4005,54 +4004,54 @@ span.text-quota-mes {
 
 /*rrojas: solucion de issue: CLIMPCQA1-67 - inicio*/
 @media only screen and (min-width: 1025px){
-@-webkit-keyframes colorIn {
-	0%{color:rgb(0,0,0);}
-	100%{color:rgb(218,38,45);}
-}
-@-moz-keyframes colorIn {
-	0%{color:rgb(0,0,0);}
-	100%{color:rgb(218,38,45);}
-}
-@keyframes colorIn {
-	0%{color:rgb(0,0,0);}
-	100%{color:rgb(218,38,45);}
-}
-@-webkit-keyframes colorOut {
-	0%{color:rgb(218,38,45);}
-	100%{color:rgb(0,0,0);}
-}
-@-moz-keyframes colorOut {
-	0%{color:rgb(218,38,45);}
-	100%{color:rgb(0,0,0);}
-}
-@keyframes colorOut {
-	0%{color:rgb(218,38,45);}
-	100%{color:rgb(0,0,0);}
-}
-@-webkit-keyframes fadeIn {
-  0% { opacity:0; }
-  100% { opacity:1; }
-}
-@-moz-keyframes fadeIn {
-  0% { opacity:0;}
-  100% { opacity:1;}
-}
-@keyframes fadeIn {
-  0% { opacity:0;}
-  100% { opacity:1;}
-}
-@-webkit-keyframes fadeOut {
-  0% { opacity:1;}
-  100% { opacity:0;}
-}
-@-moz-keyframes fadeOut {
-  0% { opacity:1;}
-  100% { opacity:0;}
-}
-@keyframes fadeOut {
-  0% { opacity:1; }
-  100% { opacity:0; }
- }
+	@-webkit-keyframes colorIn {
+		0%{color:rgb(0,0,0);}
+		100%{color:rgb(218,38,45);}
+	}
+	@-moz-keyframes colorIn {
+		0%{color:rgb(0,0,0);}
+		100%{color:rgb(218,38,45);}
+	}
+	@keyframes colorIn {
+		0%{color:rgb(0,0,0);}
+		100%{color:rgb(218,38,45);}
+	}
+	@-webkit-keyframes colorOut {
+		0%{color:rgb(218,38,45);}
+		100%{color:rgb(0,0,0);}
+	}
+	@-moz-keyframes colorOut {
+		0%{color:rgb(218,38,45);}
+		100%{color:rgb(0,0,0);}
+	}
+	@keyframes colorOut {
+		0%{color:rgb(218,38,45);}
+		100%{color:rgb(0,0,0);}
+	}
+	@-webkit-keyframes fadeIn {
+	  0% { opacity:0; }
+	  100% { opacity:1; }
+	}
+	@-moz-keyframes fadeIn {
+	  0% { opacity:0;}
+	  100% { opacity:1;}
+	}
+	@keyframes fadeIn {
+	  0% { opacity:0;}
+	  100% { opacity:1;}
+	}
+	@-webkit-keyframes fadeOut {
+	  0% { opacity:1;}
+	  100% { opacity:0;}
+	}
+	@-moz-keyframes fadeOut {
+	  0% { opacity:1;}
+	  100% { opacity:0;}
+	}
+	@keyframes fadeOut {
+	  0% { opacity:1; }
+	  100% { opacity:0; }
+	 }
 }
 /*rrojas: solucion de issue: CLIMPCQA1-67 - fin*/
 /* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:inicio */
@@ -4135,8 +4134,7 @@ span.text-quota-mes {
 	}
 	.tabButtonContainer {
 	  display: none !important;
-	}
-    
+	}  
 }
 
  /*rrojas : fase:Claro2.1 - estilos para ver los tab en el home en modo mobil : Fin*/
@@ -4160,7 +4158,7 @@ span.text-quota-mes {
 }
 /*rrojas: faseClaro2.1 - solucion de issue CLIMPCQA1-68 - inicio*/
 
-/*rrojas:fase:2.1:EF_Pag_adicional_nav[REQ-01]:[FA6]Cliente decide desplegar el drop down Títulos de TAB :inicio*/
+/*rrojas:fase:2.1:EF_Pag_adicional_nav[REQ-01]:[FA6]Cliente decide desplegar el drop down TÃ­tulos de TAB :inicio*/
 /* O.G. 13-10-17  */
 .contentSelectTabMobil {
     height: auto;
@@ -4185,7 +4183,7 @@ span.text-quota-mes {
 	 position: absolute;
      top:  5px;
 }
-/*rrojas:fase:2.1:EF_Pag_adicional_nav[REQ-01]:[FA6]Cliente decide desplegar el drop down Títulos de TAB :fin*/
+/*rrojas:fase:2.1:EF_Pag_adicional_nav[REQ-01]:[FA6]Cliente decide desplegar el drop down TÃ­tulos de TAB :fin*/
 
 /* rrojas:fase:2.1:EF_Pag_adicional_nav[REQ-01]:modo tablet para tab de home:inicio*/
 @media only screen and (min-width: 601px)  and (max-width:1025px){
@@ -4195,9 +4193,1246 @@ span.text-quota-mes {
     height: auto;
     margin: 0 !important;
     padding: 0 !important;
- }
+ 	}
 }
 .tabButtonContainer.tabHomeButton {
     position: relative !important;
 }
 /* rrojas:fase:2.1:EF_Pag_adicional_nav[REQ-01]:modo tablet para tab de home:fin*/
+/********* FUSION DE ARCHIVO RWD.CSS ***************************/
+@media only screen and (max-width: 360px) {
+	/* FICHA DE PRODUCTO */
+	.lmsv_wrap {max-width: 240px;}
+	.plan-box .price {width: 37%!important; padding-right: 3%;}
+	.plan-box .gr_02 {width: 60%!important;}
+	.plan-box .pl-title {padding: 5px 0; height: auto;}
+	.plan-box .pl-time {font-size: 12px;}
+	.pr_txt {font-size: 12px;}
+	.dsp_txt_mbl {font-size: 12px;}
+	.pr_number {font-size: 30px!important;}
+	.pr_sbl.bottom {margin-top: 10px!important;}
+	.cont_bt_shop { width: 90%; margin: 0 auto; }
+	.bt_shop {line-height: 48px; min-height: 48px;}
+	.cont_crt {margin: 0 0 10px 10px;}
+	.pr_tacha {font-size: 10px;}
+}
+@media only screen and (max-width: 640px){
+	/* nueva ficha */
+	/*RROJAS INICIO CLARO 2.1 MERGE OMAR - AGREGA NUEVOS ESTILOS*/
+	/* O.G. CAMBIOS 10-07-17 MODIFICACIONES PARA FICHA */
+	.tab_header {
+    	margin-right: 0;
+    	display: block;
+    	border-spacing: 0;
+    	max-width: 100%;
+    	margin-left: 0;
+	}
+	.tab_header .tab_container {
+    	width: 100%;
+    	display: block;
+	}
+	/* O.G. FINAL DE CAMBIOS */
+	/*RROJAS FIN CLARO2.1 MERGE OMAR - AGREGA NUEVOS ESTILOS*/
+	.tbl-psnl .cll-psnl .wrp-psnl {
+	    position: relative;
+	}
+	.tbl-psnl .cll-psnl .wrp-psnl a.btn-psn {
+		text-indent: -9999px;
+	}
+	.tbl-psnl .cll-psnl .wrp-psnl a.btn-psn:before {
+		content:"\f078";
+		font-family: fontawesome;
+		color:#1F97AE;
+		font-size: 20px;
+
+	}
+	.tbl-psnl .cll-psnl .wrp-psnl .btn-psn{
+		position: absolute;
+    	right: 10px;
+    	top: 50%;
+	}
+	.link_center {
+	    width: 100%;
+	    text-align: center;
+	    padding-bottom: 90px;
+	}
+	.fh-wrp .fh-item{
+		padding-top: 50px;
+	}
+	.fh-item .tb-item {
+		display: flex;
+		flex-direction:column;
+	}
+	.flex2 {
+		order:2;
+	}
+	.flex1 {
+		order:1;
+	}
+	/*RROJAS INICIO CLARO 2.1 MERGE OMAR - SE HACE CAMBIOS EN LA MISMA LINEA padding:20px*/
+    /* O.G. CAMBIOS 10-07-17 MODIFICACIONES PARA FICHA */
+	.fh-item .cll-item.txtprd, .fh-item .cll-item:first-child.txtprd{
+		/*padding:15px 15px 20px 15px!important;*/
+        padding:20px!important;
+	}
+    /* O.G. FINAL DE CAMBIOS */
+	/*RROJAS FIN CLARO2.1 MERGE OMAR - SE HACE CAMBIOS EN LA MISMA LINEA padding:20px*/
+	.fh-item .cll-item.txtprd p {
+		line-height: normal;
+	}
+	.fh-item .cll-item.txtprd h2 {
+	    font-size: 25px;
+	    line-height: normal;
+	    margin-bottom: 20px;
+	}
+	.fh-item {
+		display: block;
+	}
+	.fh-item .cll-item {
+		width: 100%!important;
+		display: block;
+	}
+	#slider_fch-tc {
+    	padding-top: 25px;
+	}
+	.cnt-txt {
+		width: 240px;
+		margin:0 auto;
+	}
+	.cnt-txt h2 {
+	    font-size: 30px;
+	    font-weight: 300;
+	    text-align: center;
+	    display: block;
+	    line-height: normal;
+	}
+	.cnt-txt p{
+		line-height: normal;
+	}
+	.slt_mbl {
+		display: block;
+	}
+	.fch_title {
+	    font-size: 20px!important;
+	}
+	.fch_title strong {
+		font-weight: 300;
+	}
+	.slider-acc {
+	    width: calc(100% - 60px)!important;
+	    margin: 0 auto;
+	    padding: 0 22px;
+	}
+	.slider-acc .sldr-item {
+	    padding: 0 10px;
+	}
+	.wrp-acc h2 {
+		margin:30px auto;
+		width: calc(100% - 60px);
+		display: block;
+	}
+	.wrp-btn {
+		margin: 50px 0 15px 0;
+	}
+	.promo-mbl .pr_txt {
+		width: 100%;
+	}
+	#crsl-dtl {
+		display: none!important;
+	}
+	.lmsv_wrap{
+		box-shadow: 2px 2px 15px rgba(0,0,0,0.2);
+	}
+	.ttl_planbox, .pr_cr_ds.mbl,.wrap_mbl.bl3, .cll-psnl.bdr,.mc-tblt, .wrp-boxer { 
+		display: none; 
+	}
+	/*
+	.wrap_mbl {
+		float: left;
+	}*/
+	.wrap_mbl.bl1 {
+		width: 40%;
+	}
+	.wrap_mbl.bl2 {
+		width: 60%; 
+	}
+	.fch_title, .wrap_box, .tbl-psnl {
+		position: relative;
+	}
+	.tbl_mbl {
+		overflow: hidden;
+	}
+	.tbl-psnl, .cll-psnl, .div-mbl, .div-mbl.val_txt, .promo-mbl  {
+		display: block; 
+		width: 100%;
+
+	}
+	.div-mbl.ttl {
+		margin:10px 0 20px 0;
+		font-size: 20px;
+		font-weight: 300;	
+	}
+	.div-mbl.val_txt {
+		margin-bottom: 10px;
+	}
+	.tbl-psnl {
+		border-top: 1px solid #ccc;
+	}
+	.cll-psnl {
+		border-bottom: 1px solid #ccc;
+	}
+	.wrap_box {
+		width: 100%;
+		right: 0;
+		top:0;
+		background-color: rgb(244,244,244);
+	}
+	/*catalogo*/
+	.col-grid .item .lmsv_wrap .lmsv_cont .lmsv_plan,
+	.col-grid .item .lmsv_wrap .lmsv_cont .lmsv_plan span {font-size: 14px!important;}
+	.col-grid .item .lmsv_wrap .lmsv_prod .show_img_prod {width: 60%!important;padding-top: 30px;}
+	.col-grid .item .lmsv_wrap .lmsv_prod {margin-bottom: 20px;}
+	.col-grid .item .show_crt {top: 70px;}
+	.col-grid .item .lmsv_desc {position: absolute; width: 90%;}
+	/*.col-grid .item .lmsv_desc .pr_cr_ds {position: absolute;right: 0;top: 0;}*/
+	.col-grid .item .lmsv_wrap {padding-top: 10px;}
+	.col-grid .item .lmsv_wrap .wp_number {margin-bottom: 5px;}
+	.col-grid .item .lmsv_wrap .pr_number {font-size: 28px;}
+	.col-grid .item .lmsv_wrap .pr_tacha {font-size: 12px; margin-bottom: 0;}
+	.bt-flt.cls {margin:0 auto;}
+	.aflts {font-size: 16px;}
+	.tp-form,.flt {margin: 0 auto 20px auto;}
+	.brk {display: none;}
+	.bt-flt {display: block; width: 100%;}
+	.col-grid .item {float: none;width: 100%; margin-bottom: 25px;}
+	.col-flt {display: none;}
+	.col-grid, .col-flt {float: none; width: 100%;}
+	.ctlg-menu-top {display:table; padding:0; overflow: visible; height: 60px;}
+	.ctlg-menu-top li {display: table-cell; float: none; padding: 0; vertical-align: bottom;}
+	/*dquisocala : Merge de estilos Omar 24-08-17 Inicio */
+	.ctlg-menu-top li a:hover::after, .ctlg-menu-top li a.activo::after,.ctlg-menu-top li a::after {border:0 none;}/* O.G. CAMBIO CATALAGO 04-08-17 */
+	.ctlg-menu-top li a::after {display: none;}/* O.G. CAMBIO ISSUES CATALAGO 18-08-17 */
+	.ctlg-menu-top li a {padding:0 10px 15px 10px;}	
+	/*dquisocala : Merge de estilos Omar 24-08-17 Fin */
+
+    /*rrojas: solucion de issue: CLIMPCQA1-67 - inicio*/
+	.ctlg-menu-top li a.activo {border-bottom: 5px solid #DA262D; padding: 0 10px 10px 10px;color: #FF0000;}
+	/*rrojas: solucion de issue: CLIMPCQA1-67 - fin*/
+	.ctnd-top {width: 100%; overflow: hidden;}
+	.ctnd-top.fijo {
+		background-color: #fff;
+		position: fixed;
+		z-index: 100; 
+		top:0;
+		box-shadow: 2px 2px rgba(0,0,0,0.2);
+	}
+	.contenedor.fltnt.margen {margin:60px auto 20px auto;}
+	/* FICHA DE PRODUCTO */
+	.pr_sbl {margin-top: 5px;}
+	/* O.G. CAMBIOS 28-05-17 MODIFICACIONES PARA CATALOGO */
+	.lmsv_plan, .lmsv_plan span {font-size: 13px;}
+	/* O.G. FINAL DE CAMBIOS */
+	.crt_item .crt_cont .crt_txt {line-height: 150%;}
+	.crt_wrap .crt_title_body {margin:30px auto;}
+	#owl-lmsv {width:calc(100% - 10px);}
+	.msif_lst ul{margin-left:20px;margin-bottom: 30px;}
+	.msif_item, .crt_item { width: 100%; }
+	.crt_item {margin-bottom: 50px;}
+	
+	.plan-box .pl-btcamb {margin-top: 30px;}
+	.pr_cr_ds_mbl {display: block; border:0;}
+	.pr_sbl.bottom {margin-top: 20px;}
+	.fch_wrap {width: calc(100% - 40px); margin-top: 0;}
+	.pr_col1,.pr_col2, .cont_prod .wrap_pl,.cont_prod .plan-box.wrap_pl,.cont_prod .wrap_shop{ width:100%; float: none;}
+	.cont_prod {flex-direction: column-reverse;padding: 0 3px;}
+	.pr_cr_ds {display: none;}
+	.lmsv_desc .pr_cr_ds {display: block;}
+	.hei { position: relative; width: 100%!important; height: auto;  margin-bottom: 20px; display: table; box-shadow: 0px 2px 2px rgba(0,0,0,0.2);}
+	.cont_prod .wrap_shop {margin-left:0; width: 100%; margin-bottom: 15px;box-shadow: 0px 2px 2px rgba(0,0,0,0.2);}
+	.plan-box .price {width: 30%; display: table-cell; vertical-align: middle;}
+	.plan-box .gr_02 {width: 70%; display: table-cell; vertical-align: middle;}
+	.dsp_txt_mbl, .val_txt_mbl { display: block;}
+	.val_txt_mbl {max-width: 100%;}
+	.dsp_txt,.val_txt { display: none; }
+	.pr_number { font-size: 35px; line-height:100%; }
+	.wrap_mbl .pr_tacha {font-size: 14px; margin-bottom: 5px;}
+	.dsp_txt_mbl {margin:0 auto 5px auto;}
+	.plan-box .pl-title {background:none; color:#212121; padding-bottom: 0;}
+	.show_img_prod { width: 70%; margin: 0 auto;}
+	.plan-box .pl-time {width: 90%; margin:0 5% 5px 5%;}
+
+	/* CARRITO DE COMPRA */
+	.pop_closet_cart {
+		width: calc(100% - 20px);
+		width:-webkit-calc(100% - 20px);
+		width: -moz-calc(100% - 20px);
+	}
+	.rst_cell {
+		display: block;
+	}
+	.wrap_eval {
+		padding: 25px 40px;
+	}
+	/* FLUJO DE COMPRA */
+	.tablawrap,.tablacb, .rowcb, .rowcb > .celdacb {
+		display: block;
+	}
+	.rst_theader,#view_cart .celdacb.cr-3 {
+		display: none;
+	}
+	.rst_theader, .celdacb.cr-3 {
+		display: none;
+	}
+	.tablawrap {
+		background-color: rgb(244,244,244);
+		-webkit-border-radius:10px;
+        -moz-border-radius:10px;
+        border-radius:10px;
+        padding: 10px 10px 15px 10px;
+        position: relative;
+        margin-bottom: 10px;
+        border:0;
+	}
+	#view_cart .tablawrap {
+		border:1px solid rgb(204,204,204);
+	}
+	.tablawrap .celdacb.cr-1 {
+		position: absolute;
+		right:10px;
+		top:10px;
+		width: auto;
+	}
+	.tablawrap .celdacb.cr-2, .tablawrap .cr-wrap,
+	#view_cart .celdacb.cr-2, #view_cart .cr-wrap {
+		width: 100%;
+	}
+	.tablawrap .celdacb.cr-6,
+	#view_cart .celdacb.cr-6 {
+		display: none;
+    	width: 40%;
+    	text-align: left;
+    	margin-left: 60%;
+	}
+	.tablawrap .cell-bt,.tablawrap .cell-cont,
+	#view_cart .cell-bt, #view_cart .cell-cont {
+		display: block;
+		width: 50%;
+		text-align: left;
+		float: left;
+		box-sizing: border-box;
+		padding-left: 5px;
+	}
+	.tablawrap .linea-item,.tablawrap .celdacb.cr-4,.tablawrap .celdacb.cr-5,
+	#view_cart .linea-item,#view_cart .celdacb.cr-4,#view_cart .celdacb.cr-5{
+		display: block;
+		width: 80%;
+		margin-left: 20%;
+		overflow: hidden;
+	}
+	.cell-title {
+		display: block;
+		float: left;
+		width: 50%;
+	}
+	.cell-title .txt-title {
+		float: left;
+		display: block;
+		margin: 0;
+		width: calc(100% - 4px);
+    	text-align: left;
+	}
+	.cell-title .txt-sp{
+		float: right;
+		display: block;
+		margin: 0;
+		width: 4px;
+	}
+	.name_product_blod {
+     	margin-bottom: 0px !important;
+	}
+	.bg_f4 {
+		background-color: #fff;
+	}
+	.rst_result {
+		display: block;
+	}
+	#view_reg .rst_result .fila {
+		display: block;
+		box-sizing: border-box;
+	}
+	.fila {
+	overflow: hidden;
+	}
+	.rst_col1, .rst_col2,
+	#view_cart .rst_col1,#view_cart .rst_col2 {
+		width: 100%;
+		text-align: center;
+	}
+	.bt_eval {
+		width: auto;
+	}
+	.rst_ccol1,#view_cart .rst_ccol1 {
+    width: 50%;
+    text-align: right;
+    float: left;
+	}
+	.rst_ccol2,#view_cart .rst_ccol2 {
+    width: 40%;
+    text-align: left;
+    float: left;
+    margin-left: 10%;
+	}
+	.tabla {
+		margin-bottom: 15px;
+	}
+	.fila {
+		display: block;
+	}
+	#view_reg .fila {
+		display: table-row;
+	}
+	.wrap_eval {
+		width: 90%;
+	}
+	.bt_lateral {
+    float: none;
+    text-align: center;
+	}
+	.celda-msg {
+		display: block;
+		width: 100%;
+	}
+	.mensajecb {
+	position: relative; 
+	width: 100%; 
+	height: 110px; 
+	top:0; 
+	left:0; 
+	margin-top: 15px; 
+	}
+	.wrap_prod {
+    padding: 15px 0;
+    margin: 0;
+	}
+	.linea-cb-mv {
+		display: block;
+		background-color: #666;
+    	width: 1px;
+    	position: absolute;
+    	top: 50%;
+    	left: -11px;
+    	height: 50%;
+	}
+	.tablacb .rowcb {
+		position: relative;
+		padding-bottom: 10px;
+	}
+	.tablacb.combo .rowcb .celdacb.cr-2 {
+		position: static;
+	}
+	.tablacb.combo .rowcb:first-child .celdacb.cr-2,
+	.tablacb.combo .rowcb:last-child .celdacb.cr-2{
+		position: relative;
+	}
+	select[id^="qty_"] {
+		float: left;
+		margin:0!important;
+	}
+	.cantidad-select {
+    	background-color: #fff;
+	}
+	/*PERSONALIZAR PEDIDO*/
+	.prpe-number {
+		display: none;
+	}
+	.prpe-title .txt-title {
+		text-align: center;
+		float: none;
+	}
+	.prpe-pltp, .prpe-plts {
+		display: block;
+	}
+	.prpe-plwrap {
+		display: none;
+		position: fixed;
+		background-color: #fff;
+		top:40%;
+		left: 50%;
+		width: 240px;
+		margin-left: -120px;
+		-webkit-border-radius:5px;
+        -moz-border-radius:5px;
+        border-radius:5px;
+        padding: 20px;
+        z-index: 100;
+        box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+	}
+	.prpe-plitem {
+		background-color: rgb(244,244,244);
+		margin-right: 0;
+		margin-bottom: 5px;
+		text-align: left;
+		width: 100%;
+	}
+	.prpe-plitem.activo {
+		background:rgb(244,244,244) url(../images/visto.jpg) no-repeat 95% center;
+		font-weight: 700;
+	}
+	.prpe-op-plan,.wrap_prpe .head_centro,.view_renov .bt_close,
+	.pl-inter,.pl-rs,.pl-rpc,.pl-price-pr,.pl-btselect,
+	.prpe-wrap_item .prpe-plitem {
+		display: none;
+	}
+	.wrap_prpe .cet_centro {
+		display: block;
+		-webkit-border-radius:5px;
+        -moz-border-radius:5px;
+        border-radius:5px;
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 10px;
+        padding:10px 5px;
+        box-sizing: border-box;
+    }
+	.wrap_prpe div.cet_centro:nth-child(odd) {
+    	background-color: #f4f4f4;
+	}
+	.wrap_prpe .wrap-pl, .wrap_prpe .tabla_centro .pl-price-eq {
+		width: 50%;
+		float: left;
+	}
+	.wrap_prpe .tabla_centro .pl25.pl-plan,
+	.wrap_prpe .tabla_centro .pl15.pl-price,
+	.wrap_prpe .tabla_centro .pl-price-eq {
+		display: block;
+		font-size: 12px;
+		font-weight: normal;
+	}
+	.wrap_prpe .tabla_centro .pl-price-eq {
+		font-size: 14px;
+	}
+	.wrap_prpe .tabla_centro .pl15,
+	.wrap_prpe .tabla_centro .pl25 {
+		width: 100%;
+		text-align: left;
+		
+	}
+	.wrap_prpe .view_renov.plan1 {
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+		-webkit-border-radius:5px;
+        -moz-border-radius:5px;
+        border-radius:5px;
+		margin: 0;
+		padding: 20px;
+		width: 90%;
+		position: fixed;
+		z-index: 100;
+		height: 90%;
+		top:5%;
+		left: 5%;
+		box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+	}
+	.wrap_prpe .view_renov.plan1:before {
+    border:0 none;
+	}
+	.wrap_prpe .view_renov.plan1 .view_data {
+		width: 100%!important;
+    	overflow: scroll;
+    	position: relative;
+    	height: 90%;
+	}
+	.wrap_prpe .pl-txtmv {display: block;}
+	/* DESPACHO */
+	.col-dt {width: 100%;float: none;}
+	.col-tt {width: 100%;float:none;}
+	.cr-4,.cr-5{margin-bottom:10px}
+	.cart_titulo {text-align: center;}
+	.link-cart {text-align: center; margin-bottom: 15px; display: block;}
+	.rsmovil {display: block; margin-bottom:10px;}
+	.tablacb.combo {width: 95%; margin-left: 5%;}
+	.wrap_desp > .tabla .cell_prod_desp select {padding: 10px;height: auto;}
+	.wrap_tot_desp {background-color: #fff; margin-top:0;}
+	.realized.active .user_ span.txt_user_numerador {line-height: normal; margin-top: 10px;}
+	/* O.G. CAMBIOS 28-05-17 MODIFICACIONES PARA CATALOGO */
+	.acol12.col-grid {width: 100%!important; float:none!important;}
+	.img-banner-desktop { display: none; }
+	.img-banner-mobile {display: block;}
+	.col4.col-flt, .ccol3.col-flt {
+		float:none!important;
+		margin: 0 auto!important;
+		width: 210px!important;
+	}
+	.content-banner-catalog {
+    	padding: 0;
+	}
+	.img-banner {
+    	padding: 0!important;
+	}
+	.main-wrapper.ctg-page {
+    	max-width: 100%;
+    	width: 100%;
+	}
+	.product_listing_container {
+		max-width: 240px;
+		width: 100%;
+		margin:0 auto;
+	}
+	.product div.product_info div.product_price span.price {
+    	font-size: 26px!important;
+	}
+	.product > .product_image .product_name .product-marca a, .product > .product_image .product_name .product-modelo a, .lmsv_accessory {
+		font-size: 13px;
+    	font-weight: 400;
+	}
+	.product_listing_container .product {
+    	min-height: 420px;
+	}
+	/* O.G. FINAL DE CAMBIOS */
+	/*dquisocala : Merge de estilos Omar 24-08-17 Inicio */
+	/* O.G. CAMBIOS 03-08-17 MODIFICACIONES PARA CATALOGO */
+	.lmsv_plan span {
+		margin-bottom: 0;
+	}
+	.product_listing_container .product {
+    	min-height: 420px!important;
+	}
+	.product_listing_container .product.comparadora {
+    	margin-left:0!important;
+    	margin-right:0!important;
+	}
+	/* O.G. FINAL DE CAMBIOS */
+	/* O.G. CAMBIOS 04-08-17 MODIFICACIONES PARA CATALOGO */
+	span.claroCurrentSymbol {
+	    top: 0;
+	}
+	/* O.G. FINAL DE CAMBIOS 04-08-17*/
+	/*dquisocala : Merge de estilos Omar 24-08-17 Fin */
+}
+@media only screen and (max-width: 800px) {
+	/********* FICHA DE PRODUCTO *************/
+	.pr_cr_ds.mbl {display: block; float: left; position: relative; right: 0;}
+	.pr_txt {float: left; width: 60%; color:rgb(253,34,40); margin-bottom: 0;}
+	.plan-box .txt-big {font-size: 16px;}
+	.plan-box .txt-small {font-size: 12px;}
+	.plan-box .pl-dt1 {padding-bottom: 8px;}
+	.plan-box .pl-dt2 {margin: 5px 5%}
+	.pr_tacha {font-size: 18px; margin-bottom: 10px;}
+	.pr_number {font-size: 45px;}
+	.plan-box .circulo {font-size: 11px; width: 30px; height: 30px; line-height: 30px;}
+	.dsp_txt {display: none;}
+	.dsp_txt_mbl {display: block; margin-bottom: 10px;}
+	/*RROJAS CLARO2.1 - MERGE DE OMAR - SE AGREGA NUEVOS ESTILOS INICIO*/
+	/* O.G. CAMBIOS 10-07-17 MODIFICACIONES PARA FICHA */
+	.fh-item .cll-item.txtprd a {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 18px;
+	}
+	/* O.G. FINAL DE CAMBIOS */
+	/*RROJAS CLARO2.1 - MERGE DE OMAR - SE AGREGA NUEVOS ESTILOS FIN*/
+	/********* DESPACHO *************/
+	.i1 {order: 1; -webkit-order:1; -ms-flex-order:1}
+	.i2 {order: 3; -webkit-order:3; -ms-flex-order:3}
+	.i3 {order: 2; -webkit-order:2; -ms-flex-order:2}
+	.col-dt {
+		-webkit-flex-direction: column-reverse;
+		-ms-flex-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+	}
+	.col-tt {
+		-webkit-flex-direction: column-reverse;
+		-ms-flex-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+	}
+	.complete .fa-hand-o-left {display: none;}
+	.complete .fa-hand-o-up {display: block;}
+	.tl-no {display: none;}
+	.section_desp .titulo {text-align: center;}
+	.menu_desp {overflow: hidden;margin: 0;padding: 0;}
+	.menu_desp li {
+		position: relative;
+		float: none;
+		width: 100%;
+		padding:15px 10px;
+		-webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+    	border-radius: 5px;
+    	box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+    	max-width: 320px;
+    	margin: 0 auto 25px auto!important;
+	}
+	.menu_desp li:after {
+	    font-family: "FontAwesome";
+	    content: "\f107";
+	    position: absolute;
+	    color: #DA262D;
+	    right: 10px;
+	    font-size: 25px;
+	    top:10px;
+	}
+	.cell_tarj {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    box-sizing: border-box;
+    padding:15px;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto 25px auto!important;
+	}
+	.row_tarj {
+		display: block;
+		width: 100%;
+	}
+	.wrap_tot_desp, .wrap_complete  {
+		margin-left: 0;
+		width: 100%;
+	}
+	
+	.wrap_desp > .tabla {
+		display: block;
+		width: 100%;
+	}
+	.wrap_desp > .tabla .cell_prod_desp{
+		display: block;
+		width: 80%;
+		margin-left: 20%;
+		border:0;
+		text-align: left;
+		position: relative;
+	
+	}
+	.wrap_desp > .tabla .stdesp{
+		padding-left: 10px;
+		color:#222;
+	}
+	
+	.wrap_desp > .tabla .fila {
+		width: 90%;
+		margin:5%;
+	}
+	.wrap_desp > .tabla .cell_prod_desp.prodt {
+		width: 100%;
+		margin:0;
+	}
+	.wrap_titulo .titulo {
+		float: none;
+		margin:0 0 15px 0;
+		text-align: center;
+	}
+	.wrap_titulo .link_desp {
+	    text-align: center;
+	    display: block;
+	}
+	.wrap_desp {
+		border-top: 0;
+		padding: 20px;
+	}
+	.bt_eval {
+		font-size: 20px;
+	}
+	.view_cont {
+    	width: 90%;
+    	left: 5%;
+	}
+	.view_cont, .view_centro {
+	    position: fixed;
+	    top: 5%;
+	    height: 90%;
+	    width: 90%;
+	    z-index: 100;
+	    left: 5%;
+	    margin: 0;
+	    -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+    	border-radius: 5px;
+    	box-sizing: border-box;
+    	padding:20px 0;
+	}
+	.tabla_centro .cet_centro {
+		padding: 10px;
+		box-sizing: border-box;
+		box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+		margin-bottom: 25px;
+	}
+	.view_cont:before, .view_centro:before {
+		border:0;
+	}
+	.head_address,
+	.head_centro,
+	.tabla_address .reg_bt,
+	.view_cont .bt_close,
+	.view_centro .bt_close,
+	.view_centro .cet_bt {
+		display: none;
+	}
+	.tabla_address,
+	.reg_address,
+	.tabla_address .reg_alias,
+	.tabla_address .reg_dire,
+	.tabla_centro .cet_alias,
+	.tabla_centro .cet_dire,
+	.tabla_centro .cet_ate,
+	.tabla_centro .cet_map,
+	.tabla_centro .cet_centro {
+		display: block;
+		width: 100%;
+	}
+	.reg_address {
+		margin-bottom: 25px;
+		box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+	}
+	div.reg_address:nth-child(odd) {
+		background-color: #f4f4f4;
+	}
+	.tabla_address {
+	    box-sizing: border-box;
+	    padding: 0 3px;
+	}
+	.view_cont > .prpe-plts, .view_centro > .prpe-plts {
+		width: calc(100% - 40px);
+		margin:0 20px 20px 20px;
+		display: block;
+	}
+	.view_data {
+		overflow: scroll;
+		height: 90%;
+	}
+}
+@media only screen and (max-width: 1024px){
+	.owl-wrapper .owl-item {
+		text-align: center;
+	}
+	.prsn-pln {
+		text-align: center;
+		float:none;
+		display: inline-block;
+	}
+	.prsn-wrp-ln {
+		display: inline-block;
+	}
+	.prsn-box {
+		border:0;
+	}
+	.prsn-wrp {
+		width: calc(100% - 10px);
+		margin:0 auto;
+	}
+	.wrp-opciones {
+		padding: 0;
+	}
+	.prsn-tbl-wrp {
+		display: block;
+	}
+	.lmsv_modelo {
+    	font-size: 14px; 
+    	line-height: 14px;
+	}
+	#owl-lmsv .pr_tacha {
+		font-size: 12px;
+		line-height: 12px;
+	}
+	#owl-lmsv .wp_number .pr_number{
+		font-size: 30px;
+		line-height: 30px;
+	}
+	#owl-lmsv .lmsv_plan,#owl-lmsv .lmsv_plan span {
+    	font-size: 14px;
+    	line-height: 14px;
+	}
+	.col-grid .item .lmsv_wrap .lmsv_cont .lmsv_plan_dt{font-size: 10px;}
+	.col-grid .item .lmsv_wrap .lmsv_cont .lmsv_plan,
+	.col-grid .item .lmsv_wrap .lmsv_cont .lmsv_plan span {font-size: 16px;}
+	.col-grid .item .lmsv_wrap .lmsv_prod .show_img_prod {width: 80%;}
+	
+	.ctlg-menu-top {margin-left:0;}
+	.video_wrap {width: 85%;}
+	.p_header {line-height: normal;padding:5px 10px;}
+}
+@media only screen and (max-width: 1255px){
+	.pr_col2 {
+    margin-top: 0;
+	}
+	.pm_item p {
+    	line-height: 12px;
+    	padding: 0 5px;
+	}
+	.pm_item {
+    margin-top: 7px;
+	}
+}
+@media only screen and (min-width: 801px) and (max-width: 1024px){
+	.opc-psnl {
+	    font-size: 18px;
+	    font-weight: 300;
+	    padding: 0 5px;
+	    color: #212121;
+	}
+	.cll-psnl.bdr {
+    	display: none;
+	}
+	.cll-psnl {
+	    padding: 20px 0px 54px 0px;
+	}
+	.crsl-items {
+		max-width: 924px;
+	}
+	#owl-lmsv {
+    	max-width: 850px;
+    	padding: 0;
+	}
+	.lmsv_wrap {
+    	max-width: 207px;
+	}
+	#crsl-dtl {
+    	max-width: 750px;
+	}
+	.fh-item .tb-item {
+	    display: table;
+	    min-height: 245px;
+	}
+	.fh-item .cll-item.txtprd h2 {
+		font-size: 30px;
+	}
+	.fh-item .cll-item.txtprd p {
+		line-height: normal;
+	}
+	.fh-item .cll-item.txtprd {
+	    width: 50%;
+	    vertical-align: middle;
+	}
+	.fh-item .cll-item:first-child.txtprd {
+    	padding: 0 112px 0 25px;
+	}
+	.fh-item .cll-item:last-child.txtprd {
+    	padding:0 125px 0 15px;
+	}
+	.fh-item .cll-item.imgprd {
+		width: 50%;
+		padding: 0 112px 0 25px;
+	}
+	.link_center {
+	    padding-bottom: 55px;
+	}
+	
+	.cnt-txt p {
+	    width: 635px;
+	    margin: 0 auto;
+	    line-height: normal;
+	}
+	.cnt-txt h2 {
+    	font-size: 30px;
+	}
+	#slider_fch-tc {
+    	padding-top: 10px;
+	}
+	.slider-acc {
+		max-width: 750px;
+		padding:0 25px;
+	}
+	.mc-tblt {
+		max-width: 750px;
+		padding:0 40px;
+		margin: 0 auto;
+	}
+	.slider-acc .sldr-item {
+	    padding:0 15px;
+	    text-align: center;
+	    min-width: 140px;
+	}
+	.wrp-boxer {
+	    text-align: center;
+	    width: calc(100% - 20px);
+	    margin: 60px 10px 40px 10px;
+	}
+	.fch_title {
+    	padding-top: 0;
+	}
+	.wrap-tabl {padding:105px 0 50px 0;}
+	.contenedor { width: calc(100% - 40px); }
+	/*catalogo*/
+	.ctlg-menu-top li {min-width: 0; padding: 0 15px;}
+	.ctlg-menu-top li a::after {
+		top:12px;
+	}
+	.ctlg-menu-top li a.activo::after {
+		border-right: 16px solid transparent;
+     	border-top: 16px solid transparent;
+     	border-left: 16px solid transparent;
+		border-bottom: 28px solid rgb(244, 244, 244);
+	}
+	.col-grid .item {width: 33.3333%;}
+	/* ficha */
+	.show_img_prod {width: 85%; margin:0 auto;}
+	.cont_crt {
+    	margin: 0 0 10px 5px;
+	}
+	.lmsv_modelo {
+    	font-size: 14px; 
+	}
+	#owl-lmsv .pr_tacha {
+		font-size: 12px;
+	}
+	#owl-lmsv .wp_number .pr_number{
+		font-size: 30px;
+	}
+	#owl-lmsv .lmsv_plan,#owl-lmsv .lmsv_plan span {
+    	font-size: 14px;
+	}
+	/* DESPACHO */
+	.wrap_desp .prodt {
+    	width: 31%;
+	}
+	.wrap_desp .cell_prod_desp {
+	    display: block;
+	    border-bottom:0;
+	    float: left;
+	}
+	.wrap_desp .combo {
+	    width: 23%;
+	    margin-top: 10px;
+	}
+	
+	/* RESULTADO */
+	.bt_gris {font-size: 12px;margin: 10px 5px;min-width: 80px;}
+}
+/* tablet Portrait */
+@media only screen and (min-width: 641px) and (max-width: 800px) {
+
+	/* NUEVA FICHA DE PRODUCTO */
+	.link_center {
+	    padding-bottom: 50px;
+	}
+	.cnt-txt {
+	    margin: 20px auto;
+	}
+	.cnt-txt p {
+		line-height: normal;
+		width: 640px;
+		margin:0 auto;
+	}
+	.dtll-img img {
+		margin:15px auto;
+	}
+	.plan-box {
+		padding: 10px;
+	}
+	.slider-acc {
+		padding: 0 26px;
+	}
+	.fch_title {
+		font-size: 30px!important;
+	}
+	.crsl-items {
+		width: calc(100% - 20px)!important;
+		margin-left:10px;
+		margin-right: 10px;
+	}
+	#crsl-dtl {
+		width: calc(100% - 30px);
+		margin:80px 15px 0 15px;
+		padding: 0 30px;
+	}
+	.fh-item .cll-item:first-child.txtprd {
+    	padding-right: 40px;
+    	padding-left: 20px;
+	}
+	.fh-item .cll-item.txtprd h2 {
+		line-height: normal;
+		font-size: 30px;
+	}
+	.fh-item .cll-item.txtprd p {
+		line-height: normal;
+	}
+	.fh-item .tb-item {
+		min-height: 250px;
+	}
+	.mc-tblt {
+		padding: 0 46px;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	.plan-boxer {
+		width: 100%;
+	}
+	.ttl-bx .lmsv_plan_dt {
+		font-size: 12px;
+	}
+	.slt-ln {display: block;}
+	.cll-boxer .txt1-bx {
+		line-height: normal;
+	}
+	.redes {width: 75px; height: auto;}
+	.clarovideo {width: 98px; height: auto;}
+	.contenedor {
+    	width: calc(100% - 20px)!important;
+	}
+	.big-bx {
+    	font-size: 25px;
+    	min-height:35px;
+    	margin-bottom: 5px;
+	}
+	.cll-boxer {
+		padding: 0 10px;
+	}
+	.plan-box.wrap_shop .pr_cr_ds {
+		right: 0;
+		top:0;
+	}
+	.pr_cr_ds, .cll-psnl.bdr{
+		display: none;
+	}
+	.tbl-psnl,.fch_title,.wrap_box {
+		position: relative;
+	}
+	.wrap_box {
+		margin:0 auto 40px auto;
+		width: 90%;
+		top:0;
+		right: 0;
+		border:1px solid #ccc;
+		-webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+	}
+	.fch_title {
+
+	}
+	.tbl_mbl {display: table; width: 100%;}
+	.wrap_mbl {display: table-cell; vertical-align: middle; text-align: center;}
+	.bl1 {width: 25%;}
+	.bl2 {width: 50%;}
+	.bl3 {width: 25%;}
+	.val_txt_mbl {display: block; margin:10px auto 0 auto; }
+	.pr_sbl {
+	    font-size: 14px;
+	    float: left;
+	    margin-top: 0;
+	    margin-right: 8px;
+	}
+	.opc-psnl {font-size: 18px;}
+	/*CATALOGO*/
+	.ctlg-menu-top li {min-width: 0; padding: 0 15px;}
+	.ctlg-menu-top li a::after {
+		top:18px;
+		border-right: 10px solid transparent;
+     	border-top: 10px solid transparent;
+     	border-left: 10px solid transparent;
+		border-bottom: 34px solid rgb(255, 255, 255);
+	}
+	.ctlg-menu-top li a.activo::after {
+		border-right: 10px solid transparent;
+     	border-top: 10px solid transparent;
+     	border-left: 10px solid transparent;
+		border-bottom: 34px solid rgb(244, 244, 244);
+	}
+	.grid .item:nth-child(even) .lmsv_wrap {
+		margin:0 0 0 auto;
+	}
+	.grid .item:nth-child(odd) .lmsv_wrap {
+		margin:0 auto 0 0;
+	}
+	.col-grid .item {width: 50%;}
+	/*FICHA DE PRODUCTO*/
+	#owl-lmsv {
+		margin: 20px 10px;
+		width: calc(100% - 20px);
+		box-sizing: border-box;
+		padding: 0 25px;
+	}
+	#owl-lmsv .item{padding: 0 10px;}
+
+	.lmsv_wrap {padding: 10px 0 30px 0;}
+	.msif_item {padding: 0 25px;}
+	.video_wrap {width: 85%;}
+	.crt_item { width: 50%;padding: 0 10px;}
+	.crt_wrap {width: calc(100% - 80px);}
+	.show_img_prod {width: 85%!important; margin:0 auto!important;}
+	.cont_crt {margin: 0 0 10px 5px;}
+	.plan-box .price {margin-top: 10px;}
+	.plan-box .pl-title {
+    	height: auto;
+    	font-size: 14px;
+    	line-height: 14px;
+    	padding: 5px 10px;
+	}
+
+	.cont_prod .wrap_shop {
+		margin-left: 20px;
+	}
+	.pr_col1{ width:25%;}
+	.pr_col2{width: 75%; margin-top: 0;}
+	.cont_prod .wrap_pl {width: 64.24%;}
+
+	/* CARRO Y RESULTADO */
+	#view_cart .reg_item,
+	#view_cart .cr-1 {width: 5%;}
+	#view_cart .reg_prod{width: 41.4%;}
+	#view_cart .reg_message {display: none;}
+	#view_cart .reg_cant {width: 18%;}
+	#view_cart .reg-unit {width:12.6%;}
+	#view_cart .reg_mens,
+	#view_cart .cr-6,
+	#view_cart .rst_col2 {width:23%;}
+	#view_cart .cr-2 {width: 57.5%;}
+	#view_cart .cr-3 {display: none;}
+	#view_cart .cr-4 {width: 25%;}
+	#view_cart .cr-5 {width: 17.5%;}
+	#view_cart .cr-wrap {width: 72%}
+	#view_cart .rst_col1 {width: 77%;}
+	#view_cart .rst_ccol2 {width: 17.5%}
+	#view_cart .rst_ccol1 {width: 82.5%;}
+	
+	#view_reg .cr-4 {width: 10%;}
+	#view_reg .cr-2 {width: 38.75%;}
+	#view_reg .cr-3 {width: 38.75%;}
+	#view_reg .cr-1 {width: 4%;}
+	.rst_col1 {width: 82%;}
+	.rst_col2 {width: 18%;}
+	.mensajecb {left: 38.75%;padding:10px 0;width: 38.75%;}
+	.bt_gris {font-size: 12px;margin: 10px 5px;min-width: 80px;}
+	
+	.resaltado,.cell-cont {font-size: 14px;}
+	/*DESPACHO*/
+	.col-dt {width: 50%;}
+	.col-tt {width: 37.5%;margin-left: 12.5%;}
+}
+@media only screen and (min-width: 801px) and (max-width: 1255px){
+	.p_header {line-height: normal;}
+	.wrap_desp .tabla .fila {
+		display: block;
+		overflow: hidden;
+		position: relative;
+	}
+	.wrap_desp .stdesp {
+	    width: 23%;
+	    text-align: left;
+	    font-size: 12px;
+	    display: block;
+	    position: absolute;
+	    right: 0;
+	    top: 50px;
+	}
+}
+/*dquisocala : Merge de estilos Omar 24-08-17 Inicio */
+/* O.G. 22-08-17 FICHA */
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+	#ClaroCarouselProductImagesWidget .classClaroCarouselProductImagesWidget {
+	    width: 100%;
+	    margin: 0 auto;
+	    padding: 0 55px;
+	    max-width: 768px;
+	}
+}
+@media only screen and (min-width: 641px) and (max-width: 768px){
+	#ClaroCarouselProductImagesWidget .classClaroCarouselProductImagesWidget {
+	    width: 100%;
+	    margin: 0 auto;
+	    padding: 0 30px;
+	    max-width: 728px;
+	}
+}
+/* O.G. 22-08-17 FINAL FICHA */
+/*dquisocala : Merge de estilos Omar 24-08-17 Fin */
