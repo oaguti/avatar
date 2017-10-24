@@ -3402,8 +3402,6 @@ span.text-quota-mes {
 .mod-visible {
 	visibility: hidden;
 }
-
-
 /* modificaciones para imagenes alternativas */
 	#slider-prd {
         width: 100%;
@@ -3458,7 +3456,6 @@ span.text-quota-mes {
     	right: 100px;
     	position: absolute;
     }
-
 /*rrojas :Inicio Merge de Omar Claro2.1*/
 /********** RESPONSIVE ***********/
 @media only screen and (min-width: 1024px){
@@ -3586,10 +3583,11 @@ span.text-quota-mes {
 	}
 }
 @media only screen and (min-width: 320px) and (max-width: 767px){
-/*se comenta ya que en el merge de omar se esta eliminando estas lineas*/
-/*.attachmentDesktop,.attachmentTabletv,.attachmentTableth  {display: none;}*/
-/*.attachmentMobile{display:block;}*/
+    /*se comenta ya que en el merge de omar se esta eliminando estas lineas*/
+    /*.attachmentDesktop,.attachmentTabletv,.attachmentTableth  {display: none;}*/
+    /*.attachmentMobile{display:block;}*/
 /*rrojas Fin de Merge de Omar Claro2.1*/ 
+  
     .content-wrapper-fprod {
     	top:0;
     }
@@ -4004,54 +4002,54 @@ span.text-quota-mes {
 
 /*rrojas: solucion de issue: CLIMPCQA1-67 - inicio*/
 @media only screen and (min-width: 1025px){
-	@-webkit-keyframes colorIn {
-		0%{color:rgb(0,0,0);}
-		100%{color:rgb(218,38,45);}
-	}
-	@-moz-keyframes colorIn {
-		0%{color:rgb(0,0,0);}
-		100%{color:rgb(218,38,45);}
-	}
-	@keyframes colorIn {
-		0%{color:rgb(0,0,0);}
-		100%{color:rgb(218,38,45);}
-	}
-	@-webkit-keyframes colorOut {
-		0%{color:rgb(218,38,45);}
-		100%{color:rgb(0,0,0);}
-	}
-	@-moz-keyframes colorOut {
-		0%{color:rgb(218,38,45);}
-		100%{color:rgb(0,0,0);}
-	}
-	@keyframes colorOut {
-		0%{color:rgb(218,38,45);}
-		100%{color:rgb(0,0,0);}
-	}
-	@-webkit-keyframes fadeIn {
-	  0% { opacity:0; }
-	  100% { opacity:1; }
-	}
-	@-moz-keyframes fadeIn {
-	  0% { opacity:0;}
-	  100% { opacity:1;}
-	}
-	@keyframes fadeIn {
-	  0% { opacity:0;}
-	  100% { opacity:1;}
-	}
-	@-webkit-keyframes fadeOut {
-	  0% { opacity:1;}
-	  100% { opacity:0;}
-	}
-	@-moz-keyframes fadeOut {
-	  0% { opacity:1;}
-	  100% { opacity:0;}
-	}
-	@keyframes fadeOut {
-	  0% { opacity:1; }
-	  100% { opacity:0; }
-	 }
+@-webkit-keyframes colorIn {
+	0%{color:rgb(0,0,0);}
+	100%{color:rgb(218,38,45);}
+}
+@-moz-keyframes colorIn {
+	0%{color:rgb(0,0,0);}
+	100%{color:rgb(218,38,45);}
+}
+@keyframes colorIn {
+	0%{color:rgb(0,0,0);}
+	100%{color:rgb(218,38,45);}
+}
+@-webkit-keyframes colorOut {
+	0%{color:rgb(218,38,45);}
+	100%{color:rgb(0,0,0);}
+}
+@-moz-keyframes colorOut {
+	0%{color:rgb(218,38,45);}
+	100%{color:rgb(0,0,0);}
+}
+@keyframes colorOut {
+	0%{color:rgb(218,38,45);}
+	100%{color:rgb(0,0,0);}
+}
+@-webkit-keyframes fadeIn {
+  0% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes fadeIn {
+  0% { opacity:0;}
+  100% { opacity:1;}
+}
+@keyframes fadeIn {
+  0% { opacity:0;}
+  100% { opacity:1;}
+}
+@-webkit-keyframes fadeOut {
+  0% { opacity:1;}
+  100% { opacity:0;}
+}
+@-moz-keyframes fadeOut {
+  0% { opacity:1;}
+  100% { opacity:0;}
+}
+@keyframes fadeOut {
+  0% { opacity:1; }
+  100% { opacity:0; }
+ }
 }
 /*rrojas: solucion de issue: CLIMPCQA1-67 - fin*/
 /* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:inicio */
@@ -4134,7 +4132,8 @@ span.text-quota-mes {
 	}
 	.tabButtonContainer {
 	  display: none !important;
-	}  
+	}
+    
 }
 
  /*rrojas : fase:Claro2.1 - estilos para ver los tab en el home en modo mobil : Fin*/
@@ -4158,7 +4157,7 @@ span.text-quota-mes {
 }
 /*rrojas: faseClaro2.1 - solucion de issue CLIMPCQA1-68 - inicio*/
 
-/*rrojas:fase:2.1:EF_Pag_adicional_nav[REQ-01]:[FA6]Cliente decide desplegar el drop down TÃ­tulos de TAB :inicio*/
+/*rrojas:fase:2.1:EF_Pag_adicional_nav[REQ-01]:[FA6]Cliente decide desplegar el drop down Títulos de TAB :inicio*/
 /* O.G. 13-10-17  */
 .contentSelectTabMobil {
     height: auto;
@@ -4183,7 +4182,7 @@ span.text-quota-mes {
 	 position: absolute;
      top:  5px;
 }
-/*rrojas:fase:2.1:EF_Pag_adicional_nav[REQ-01]:[FA6]Cliente decide desplegar el drop down TÃ­tulos de TAB :fin*/
+/*rrojas:fase:2.1:EF_Pag_adicional_nav[REQ-01]:[FA6]Cliente decide desplegar el drop down Títulos de TAB :fin*/
 
 /* rrojas:fase:2.1:EF_Pag_adicional_nav[REQ-01]:modo tablet para tab de home:inicio*/
 @media only screen and (min-width: 601px)  and (max-width:1025px){
@@ -4193,12 +4192,26 @@ span.text-quota-mes {
     height: auto;
     margin: 0 !important;
     padding: 0 !important;
- 	}
+ }
 }
 .tabButtonContainer.tabHomeButton {
     position: relative !important;
 }
 /* rrojas:fase:2.1:EF_Pag_adicional_nav[REQ-01]:modo tablet para tab de home:fin*/
+
+/*rrojas:fase:2.1:EF_Pag_adicional_nav[REQ-02]:estilo cuando se selecciona una categoria en el resultado de busqueda:inicio*/
+.singleFacet.seleccionadoCategoria > a {
+    color: #0000FF !important;
+}
+/*rrojas:fase:2.1:EF_Pag_adicional_nav[REQ-02]:estilo cuando se selecciona una categoria en el resultado de busqueda:fin*/
+
+/*rrojas:fase:2.1:EF_Pag_adicional_nav[REQ-02]:estilo ocultar filtro destacado del destacado:inicio*/
+
+.vertical div[id^="section_XGAMA_GRAND_CHILD_BEST_"] {
+  display: none;
+}
+/*rrojas:fase:2.1:EF_Pag_adicional_nav[REQ-02]:estilo ocultar filtro destacado del destacado:fin*/
+
 /********* FUSION DE ARCHIVO RWD.CSS ***************************/
 @media only screen and (max-width: 360px) {
 	/* FICHA DE PRODUCTO */

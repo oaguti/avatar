@@ -15,6 +15,7 @@
     font-weight: normal;
     font-style: normal;
 }*/
+
 /* Reset */
 
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
@@ -393,9 +394,9 @@ select{width:100%}
     .row.small-collapse .row{margin-left:0;margin-right:0}
     .row.small-uncollapse > .column,.row.small-uncollapse > .columns{padding-left:.625rem;padding-right:.625rem;float:left}
 /* wcarrasco: entrega Multiplica 2016-06-03 -  Fin*/
-	/* eterrones fase1.5 PI_F1.5_P1_2.2: Visualizar mensaje para la opci√≥n Rec√≥gelo en una tienda f√≠sica - INICIO */
+	/* eterrones fase1.5 PI_F1.5_P1_2.2: Visualizar mensaje para la opciÛn RecÛgelo en una tienda fÌsica - INICIO */
 	#divSiTienda { display: none; }
-	/* eterrones fase1.5 PI_F1.5_P1_2.2: Visualizar mensaje para la opci√≥n Rec√≥gelo en una tienda f√≠sica - FIN */
+	/* eterrones fase1.5 PI_F1.5_P1_2.2: Visualizar mensaje para la opciÛn RecÛgelo en una tienda fÌsica - FIN */
 }
 
 @media only screen and (min-width: 40.0625em) {
@@ -1582,7 +1583,7 @@ footer{font-family:'Roboto',sans-serif}
 .bannerSlider .slide .info .disclaimer{padding-top:10px}
 .bannerSlider .slide .info .disclaimer p{font-size:.625rem;margin-bottom:30px}
 
-/*---pesta√É¬±as-home---*/
+/*---pesta√±as-home---*/
 
 .promoTabsHome ul{overflow:hidden}
 .promoTabsHome ul li:first-child{margin-left:10%}
@@ -1602,7 +1603,7 @@ footer{font-family:'Roboto',sans-serif}
 
 }
 
-/*---pesta√É¬±as-home---*/
+/*---pesta√±as-home---*/
 
 /*---producto---*/
 
@@ -2526,7 +2527,7 @@ div#widget_breadcrumb{padding:0!important;margin-left:0!important}
 .header-superior select{-webkit-appearance:none;-moz-appearance:none;appearance:none;color:white;background:transparent;border:none}
 .header-superior .btn__close{margin-left:5px;cursor:pointer}
 /* Multiplica web_claro-20160222 Inicio */
-.header-superior .btn__close:before{content:"√Ø‚Äû‚Ä°";font-family:"FontAwesome"}
+.header-superior .btn__close:before{content:"ÔÑá";font-family:"FontAwesome"}
 /* Multiplica web_claro-20160222 Fin */
 .header-superior .bloqueMenu{display:-webkit-box;display:-moz-box!important;display:-ms-flexbox!important;webkit-display:-webkit-flex!important;display:-webkit-flex!important;display:flex!important;flex-direction:row;-webkit-box-direction:row;-webkit-flex-direction:row;-ms-flex-direction:row;align-items:center;-webkit-align-items:center;ms-flex-align:center;position:relative}
 .header-superior .bloqueMenu .movil{display:none}
@@ -2578,9 +2579,9 @@ div#widget_breadcrumb{padding:0!important;margin-left:0!important}
 .subMenu dd > ul,header .wpthemeHeaderNav .subMenu dd > ul{display:-webkit-box;display:-moz-box!important;display:-ms-flexbox!important;webkit-display:-webkit-flex!important;display:-webkit-flex!important;display:flex!important;flex-direction:column;-webkit-box-direction:column;-webkit-flex-direction:column;-ms-flex-direction:column;justify-content:flex-start;-webkit-justify-content:flex-start;-ms-flex-pack:flex-start;-ms-flex-pack:start;font-size:.8rem}
 .subMenu dd > ul li,header .wpthemeHeaderNav .subMenu dd > ul li{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;font-size:.8rem;width:100%;padding:5px}
 .g-3{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;padding:0 5px;display:inline-block;float:left;position:relative}
-/* dqusocala: Claro2.1 , New dise√±o EF_Catalogo - Inicio */
+/* dqusocala: Claro2.1 , New diseÒo EF_Catalogo - Inicio */
 #contentWrapper{margin-top:0;background-color: rgb(244, 244, 244);}
-/* dqusocala: Claro2.1 , New dise√±o EF_Catalogo - Fin */
+/* dqusocala: Claro2.1 , New diseÒo EF_Catalogo - Fin */
 #contentWrapper > #content{width:100%}
 #contentWrapper.hover{-webkit-transition:margin-top .5s;-moz-transition:margin-top .5s;-ms-transition:margin-top .5s;transition:margin-top .5s;margin-top:400px}
 #quickLinksBar{width:100%;max-width:960px;margin:auto;position:relative}
@@ -2596,10 +2597,10 @@ div#widget_breadcrumb{padding:0!important;margin-left:0!important}
     text-decoration:none;
 }
 /* O.G. 09-10-17 FINAL NAV-[REQ-05] HEADER */
-#eterrones fase2.1 RQ-16_RU-02_6: Notificaci√≥n SMS - INICIO
+#eterrones fase2.1 RQ-16_RU-02_6: NotificaciÛn SMS - INICIO
 #quickLinksBar div li #Header_GlobalLogin_Notification_signInQuickLink{position:absolute;right:100px;width:115px;max-width:120px;top:-27px;color:#fff;background-image:url(../img/ico-user.png) !important;background-repeat:no-repeat;background-position:10px center;padding:0 15px 0 37px;height:37px;line-height:37px;border:0;border-bottom:1px solid #DA262D}
 
-#eterrones fase2.1 RQ-16_RU-02_6: Notificaci√≥n SMS - FIN
+#eterrones fase2.1 RQ-16_RU-02_6: NotificaciÛn SMS - FIN
 .panelLinkSelected.selected{color:#000!important;background-image:url(../img/ico-usuario-hover.png)!important;border-radius:0!important;border-bottom:1px solid #ccc!important}
 #MiniShoppingCart {position:absolute;right:0;top:-36px;height:36px}
 
@@ -2878,34 +2879,21 @@ dd.spr-MC6:before{background-position:0 -144px;height:30px}
 .btn-rojo{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;width:auto;margin:10px 0;font-size:16px;text-align:center!important;text-decoration:none;display:table;border-radius:5px;padding:10px;line-height:1;cursor:pointer;background:#DA262D;border:1px solid #DDD;color:white!important}
 .btn,.btn-rojo,.btn-azul,.btn-blanco{font-weight:400}
 
-
-
-button:hover, button:focus, .button:hover, .button:focus {
-
+button:hover, 
+/*button:focus,*/
+.button:hover, 
+/*.button:focus*/ {
     background: #DA262D !important;
-
 }
-
-
 @media only screen and (max-width: 1024px){
-
     .container,.subMenu,.breadcrumb,.newContent,.cont-head3{max-width:1255px!important}
     #searchBar{right:152px;width:35%}
-
 }
-
-
 @media screen and (max-width: 853px){
-
     .tabButtonContainer > .tab_header > div.tab_container {padding: 19px 34px;}
     .tabbedSlots5_6_7 .tabButtonContainer .tab_header {width:562px;}
-
 }
-
-
-
 @media screen and (max-width: 768px){
-
     #searchBar {right: 110px;width: 30%;}
     .subMenu .miClaro__description > dl {width: 40%;}
     .miClaro__description img {min-width: 180px;}
@@ -2918,12 +2906,8 @@ button:hover, button:focus, .button:hover, .button:focus {
     .tb-ancho-ico{/*width: 25%;*/}
     /* dquisocala: entrega Multiplica 2016-07-08 -  Fin*/
     .tb-ancho-2{width: 50%;margin-top: 10px;}
-
 }
 /* MOVIL HORIZONTAL - VERTICAL */
-
-
-
 @media screen and (max-width: 640px){
 
     .movil select{background-color:#222}
@@ -2948,11 +2932,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     footer .f-4{padding-left:50px}
     .miClaro__description img{display:none}
     .miClaro__description .contact{bottom:-95px;left:24px}
-
 }
-
-
-
 @media only screen and (max-width: 480px){
 
     .content ul li .left_espot .sliderArea .row .large-7 .medium-7 a{margin-left:1%;padding:16px 35px;display:inline-block}
@@ -2973,10 +2953,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     .content ul li .left_espot .sliderArea .row .large-7 .medium-7 a{margin-left:-2%;padding:21px 35px}
 
 }
-
-
 /** Catalogos **/
-
 #departmentsMenu{height:50px;background:#eee}
 #departmentsMenu > li{background:#888888;float:left}
 #departmentsMenu li a{color:#FFF}
@@ -3669,7 +3646,7 @@ span.ico-imprimir {font-size: 13px;}
 @media (max-width: 640px){
     .style-size-sma{font-size: 21px}
     #menu-smar ul::before{content: "Mi Cuenta"; padding: 15px 0; border-bottom: 1px solid #eee;display: block;}
-    #menu-smar ul.Inf::before{content: "Informaci√É¬≥n Personal";}
+    #menu-smar ul.Inf::before{content: "Informaci√≥n Personal";}
     #menu-smar ul.Lib::before{content: "Libreta de Direcciones";}
     #menu-smar ul.Mis::before{content: "Mis Favoritos";}
     #menu-smar ul.His::before{content: "Historial de Pedidos";}
@@ -3753,10 +3730,10 @@ span.ico-imprimir {font-size: 13px;}
     .cont-errror{position: absolute;top: 5%;width: 400px}
 }
 @media (max-width: 640px){
-	/* eterrones fase1.5 PI_F1.5_P1_2.2: Visualizar mensaje para la opci√≥n Rec√≥gelo en una tienda f√≠sica - INICIO */
+	/* eterrones fase1.5 PI_F1.5_P1_2.2: Visualizar mensaje para la opciÛn RecÛgelo en una tienda fÌsica - INICIO */
 	#divSiTienda { display: block; }
 	#divNoTienda { margin-bottom: -19px; }
-	/* eterrones fase1.5 PI_F1.5_P1_2.2: Visualizar mensaje para la opci√≥n Rec√≥gelo en una tienda f√≠sica - FIN */    
+	/* eterrones fase1.5 PI_F1.5_P1_2.2: Visualizar mensaje para la opciÛn RecÛgelo en una tienda fÌsica - FIN */    
 }
 
 /*---FinSprint-6---*/
@@ -3908,10 +3885,10 @@ input:-ms-input-placeholder {color: #8d8d8d;font-size: 12px  }
 #quickLinksBar li #Header_GlobalLogin_signInQuickLink {border-bottom: 0;margin-bottom: 0;margin-top: 0;height:36px;line-height: 36px;top: -47px; right: 95px;}
 #quickLinksBar li #Header_GlobalLogin_signInQuickLink.selected {position: absolute; left: auto; }
 
-#eterrones fase2.1 RQ-16_RU-02_6: Notificaci√≥n SMS - INICIO
+#eterrones fase2.1 RQ-16_RU-02_6: NotificaciÛn SMS - INICIO
 #quickLinksBar li #Header_GlobalLogin_Notification_signInQuickLink {border-bottom: 0;margin-bottom: 0;margin-top: 0;height:36px;line-height: 36px;top: -47px; right: 95px;}
 #quickLinksBar li #Header_GlobalLogin_Notification_signInQuickLink.selected {position: absolute; left: auto; }
-#eterrones fase2.1 RQ-16_RU-02_6: Notificaci√≥n SMS - FIN
+#eterrones fase2.1 RQ-16_RU-02_6: NotificaciÛn SMS - FIN
 
 .loginMenuDropdown {top: -12px!important; right: 94px!important;}
 /* O.G. 10-10-17 NAV-[REQ-05] HEADER */
@@ -3974,11 +3951,11 @@ input:-ms-input-placeholder {color: #8d8d8d;font-size: 12px  }
 /* tags */
 /* Multiplica web_claro-20160308 Inicio */
 /* lmorales multiplica 19-04-2016 inicio */
-/*wcarrasco:fase:2.1:EF_Cat_prod[REQ-NV-07]:Implementaci√≥n del contenedor de item - Implementacion del dise√±o css:inicio*/
+/*wcarrasco:fase:2.1:EF_Cat_prod[REQ-NV-07]:ImplementaciÛn del contenedor de item - Implementacion del diseÒo css:inicio*/
 /*.RibbonAdDefault.TAG_NUEVO{background-image:url(../img/ribbon-new.png);width:72px;height:35px;top:0;left:30px;position:absolute;overflow:hidden;text-indent:-999px;margin-top:-50px;border-radius:0;}
 .RibbonAdDefault.TAG_PROMO{top:55%;margin-top:-13px;background:url(../img/ico-promocion.png);border-radius:0;width:118px;padding-left:0;height:28px;text-indent:-9999px;left:-4%;overflow:hidden}
 .RibbonAdDefault.TAG_4G{background-image:url(../img/ribbon-4g.png);width:59px;height:28px;left:28px;text-indent:-9999px}*/
-/*wcarrasco:fase:2.1:EF_Cat_prod[REQ-NV-07]:Implementaci√≥n del contenedor de item - Implementacion del dise√±o css:fin*/
+/*wcarrasco:fase:2.1:EF_Cat_prod[REQ-NV-07]:ImplementaciÛn del contenedor de item - Implementacion del diseÒo css:fin*/
 .claro_image_product_viewer.classAdRibbonProductoValue {position:absolute;width: 100%;height: 100%;z-index: 1000;}
 /* Multiplica 2016-04-29 Inicio */
 .claro_image_product_viewer.classAdRibbonProductoValue .RibbonAdDefault.TAG_NUEVO{position:absolute;top:50px;left:155px;}
@@ -4099,9 +4076,9 @@ div.namePartPriceContainer.top > div > span.old_price{float:right!important;line
 /* dquisocala: entrega Multiplica 2016-07-13 -  Fin */
     #quick_cart_container, #MiniShopCartProductAdded{right: 0 !important;}
     #quickLinksBar li #Header_GlobalLogin_signInQuickLink{text-indent: -999px; width: 55px !important;}
-    #eterrones fase2.1 RQ-16_RU-02_6: Notificaci√≥n SMS - INICIO
+    #eterrones fase2.1 RQ-16_RU-02_6: NotificaciÛn SMS - INICIO
     #quickLinksBar li #Header_GlobalLogin_Notification_signInQuickLink{text-indent: -999px; width: 55px !important;}
-    #eterrones fase2.1 RQ-16_RU-02_6: Notificaci√≥n SMS - FIN
+    #eterrones fase2.1 RQ-16_RU-02_6: NotificaciÛn SMS - FIN
 }
 
 .separ_{margin:10px 0;padding:10px 0}
@@ -4173,9 +4150,9 @@ div.namePartPriceContainer.top > div > span.old_price{float:right!important;line
 .dijitReset.dijitButtonText{display:block}
 .orderByDropdown .orderBySelectLabel{display:block}
 #quickLinksBar li #Header_GlobalLogin_signInQuickLink{width:245px!important;max-width:245px!important}
-#eterrones fase2.1 RQ-16_RU-02_6: Notificaci√≥n SMS - INICIO
+#eterrones fase2.1 RQ-16_RU-02_6: NotificaciÛn SMS - INICIO
 #quickLinksBar li #Header_GlobalLogin_Notification_signInQuickLink{width:245px!important;max-width:245px!important}
-#eterrones fase2.1 RQ-16_RU-02_6: Notificaci√≥n SMS - FIN
+#eterrones fase2.1 RQ-16_RU-02_6: NotificaciÛn SMS - FIN
 .optionContainer > .title{text-transform:none!important;background:#fff!important}
 #section_button_0_2_3553_6954{text-transform:lowercase!important;text-transform:capitalize!important}
 .facetWidget .close:before,.facetSelected > .filter_option >.close{margin-right:8px}
@@ -4197,9 +4174,9 @@ div.namePartPriceContainer.top > div > span.old_price{float:right!important;line
 /* dquisocala: entrega Multiplica 2016-07-13 -  Fin */
 
     #quickLinksBar li #Header_GlobalLogin_signInQuickLink{width: 45px !important;}
-    #eterrones fase2.1 RQ-16_RU-02_6: Notificaci√≥n SMS - INICIO
+    #eterrones fase2.1 RQ-16_RU-02_6: NotificaciÛn SMS - INICIO
     #quickLinksBar li #Header_GlobalLogin_Notification_signInQuickLink{width: 45px !important;}
-    #eterrones fase2.1 RQ-16_RU-02_6: Notificaci√≥n SMS - FIN
+    #eterrones fase2.1 RQ-16_RU-02_6: NotificaciÛn SMS - FIN
 }
 
 /* Multiplica web_claro-20160316 Inicio */
@@ -4359,14 +4336,14 @@ div.namePartPriceContainer.top > div > span.old_price{float:right!important;line
     .velo_com .item:after{display:block;content:"Velocidad del procesador"}
     .proc_com .item:after{display:block;content:"Tipo de procesador"}
     .peso_com .item:after{display:block;content:"Peso (oz)"}
-    .espera_com .item:after{display:block;content:"Tiempo en espera (d√≠as)"}
-    .conver_com .item:after{display:block;content:"Tiempo de conversaci√≥n (horas)"}
-    .tam_com .item:after{display:block;content:"Tama√±o (pulgadas)"}
+    .espera_com .item:after{display:block;content:"Tiempo en espera (dÌas)"}
+    .conver_com .item:after{display:block;content:"Tiempo de conversaciÛn (horas)"}
+    .tam_com .item:after{display:block;content:"TamaÒo (pulgadas)"}
     .vid_com .item:after{display:block;content:"Video"}
-    .tras_com .item:after{display:block;content:"C√°mara trasera"}
-    .fron_com .item:after{display:block;content:"C√°mara frontal"}
-    .res_com .item:after{display:block;content:"Resoluci√≥n (p√≠xeles)"}
-    .anc_com .item:after{display:block;content:"Tama√±o de la pantalla (pulgadas)"}
+    .tras_com .item:after{display:block;content:"C·mara trasera"}
+    .fron_com .item:after{display:block;content:"C·mara frontal"}
+    .res_com .item:after{display:block;content:"ResoluciÛn (pÌxeles)"}
+    .anc_com .item:after{display:block;content:"TamaÒo de la pantalla (pulgadas)"}
     .wif_com .item:after{display:block;content:"Wi-Fi"}
     .glt_com .item:after{display:block;content:"4G/LTE"}
     .blu_com .item:after{display:block;content:"Bluetooth"}
@@ -4425,11 +4402,11 @@ label.contr{font-size:13px!important;line-height:22px}
     #menu-smar ul::before{content:"Mi Cuenta \f0da";font-family:"Fontawesome","dinpro";padding:15px 0;border-bottom:1px solid #eee;display:block}
     #menu-smar ul.extend::before{content:"Mi Cuenta  \f0d7";font-family:"Fontawesome","dinpro";padding:15px 0;border-bottom:1px solid #eee;display:block}
     #menu-smar ul::before{content:"Mi Cuenta \f0da";padding:15px 0;border-bottom:1px solid #eee;display:block}
-    #menu-smar ul.Inf::before{content:"Informaci√≥n Personal \f0da"}
+    #menu-smar ul.Inf::before{content:"InformaciÛn Personal \f0da"}
     #menu-smar ul.Lib::before{content:"Libreta de Direcciones \f0da"}
     #menu-smar ul.Mis::before{content:"Mis Favoritos \f0da"}
     #menu-smar ul.His::before{content:"Historial de Pedidos \f0da"}
-    #menu-smar ul.extend.Inf::before{content:"Informaci√≥n Personal \f0d7"}
+    #menu-smar ul.extend.Inf::before{content:"InformaciÛn Personal \f0d7"}
     #menu-smar ul.extend.Lib::before{content:"Libreta de Direcciones \f0d7"}
     #menu-smar ul.extend.Mis::before{content:"Mis Favoritos \f0d7"}
     #menu-smar ul.extend.His::before{content:"Historial de Pedidos \f0d7"}
@@ -5076,9 +5053,9 @@ div.widget_product_image_viewer {width:89%}
 /* O.G. 09-10-17 NAV-[REQ-05] HEADER */
 #quickLinksBar li #Header_GlobalLogin_signInQuickLink {width: 103px!important;max-width:103px!important;}
 /* O.G. 09-10-17 FINAL NAV-[REQ-05] HEADER */
-#eterrones fase2.1 RQ-16_RU-02_6: Notificaci√≥n SMS - INICIO
+#eterrones fase2.1 RQ-16_RU-02_6: NotificaciÛn SMS - INICIO
 #quickLinksBar li #Header_GlobalLogin_Notification_signInQuickLink {width: 157px!important;max-width:157px!important;}
-#eterrones fase2.1 RQ-16_RU-02_6: Notificaci√≥n SMS - FIN
+#eterrones fase2.1 RQ-16_RU-02_6: NotificaciÛn SMS - FIN
 
 #allDepartmentsMenu {z-index:1100;}
 
@@ -5171,7 +5148,12 @@ div.namePartPriceContainer.top > div > span.price {float:left;margin-right:10px;
 div.namePartPriceContainer.top > div > span.old_price {float:none!important;line-height:1;display:inline-block;margin-top:20px;}
 .shopperActions .button.primary {margin: 0;}
 /* wcarrasco: entrega Multiplica 2016-06-03 -  Inicio*/
-button:hover, button:focus, .button:hover, .button:focus {background:#0E6778 !important;}
+button:hover, 
+/*button:focus,*/
+.button:hover, 
+/*.button:focus*/ {
+    background:#0E6778 !important;
+}
 /* wcarrasco: entrega Multiplica 2016-06-03 -  Fin*/
 /* dquisocala: entrega Multiplica 2016-07-08 -  Inicio*/
 button.tlignore:hover, button.tlignore:focus, .button.tlignore:hover, .button.tlignore:focus {background: transparent!important;}
@@ -5569,13 +5551,13 @@ fieldset.descktop {margin-top:10px;}
 
     .customImageCategoryRwd {width:30px;margin-top:14px;}
     #widget_left_nav_2_3553_6954 {position:relative;margin:0;}
-    /* dquisocala:Claro2.1 Modificaci√≥n para categoria - Inicio */
+    /* dquisocala:Claro2.1 ModificaciÛn para categoria - Inicio */
 /*     .categoryPageDisable {position:absolute;top:136px;} */
-	/* dquisocala:Claro2.1 Modificaci√≥n para categoria - Fin */
+	/* dquisocala:Claro2.1 ModificaciÛn para categoria - Fin */
     #content .facetWidget.collapsible {margin-top:0;}
-    /* dquisocala:Claro2.1 Modificaci√≥n para categoria - Inicio */
+    /* dquisocala:Claro2.1 ModificaciÛn para categoria - Inicio */
 /*     .row.facetContainer {margin-top:auto;top:-50px;z-index:1000;} */
-    /* dquisocala:Claro2.1 Modificaci√≥n para categoria - Fin */
+    /* dquisocala:Claro2.1 ModificaciÛn para categoria - Fin */
     .searchResult .row.facetContainer {margin-top:auto;top:86px;z-index:1000;}
     #content .collapsible > h3:before, .categoryNavWidget.collapsible > h3:before, .linkWidget.collapsible > h3:before, 
     #content .collapsible[aria-expanded="false"] > h3:before, .categoryNavWidget.collapsible[aria-expanded="false"] > h3:before, 
@@ -5583,9 +5565,9 @@ fieldset.descktop {margin-top:10px;}
     dget.collapsible[aria-expanded="false"] > h3:before {top:2px;}
 	/* rmorales: entrega Multiplica 2016-05-17 - Fin */
     #departmentsButton, .display_name_cagegory_mobile {margin-top:0;margin-bottom:0;height:50px;line-height:50px;}
-   /* dquisocala:Claro2.1 Modificaci√≥n para categoria - Inicio */
+   /* dquisocala:Claro2.1 ModificaciÛn para categoria - Inicio */
 /*     #contentWrapper #content #headerRow3 {background: #888 !important;height:50px;line-height: 58px;} */
-   /* dquisocala:Claro2.1 Modificaci√≥n para categoria - Fin */
+   /* dquisocala:Claro2.1 ModificaciÛn para categoria - Fin */
     .sorting_controls > span.order_by_label {width: 100px;}
 	/* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:inicio */
 	/* O.G. CAMBIOS 03-08-17 MODIFICACIONES PARA CATALOGO */
@@ -5607,9 +5589,9 @@ fieldset.descktop {margin-top:10px;}
     #headerRow2 .header__navegation {top:86px;}
     #quickLinksBar li #Header_GlobalLogin_signInQuickLink {width:45px!important;}
     
-    /** eterrones fase2.1 RQ-16_RU-02_6: Notificaci√≥n SMS - INICIO */
+    /** eterrones fase2.1 RQ-16_RU-02_6: NotificaciÛn SMS - INICIO */
     #quickLinksBar li #Header_GlobalLogin_Notification_signInQuickLink {width:45px!important;}
-	/** eterrones fase2.1 RQ-16_RU-02_6: Notificaci√≥n SMS - FIN */
+	/** eterrones fase2.1 RQ-16_RU-02_6: NotificaciÛn SMS - FIN */
 	
     .userHello, .userName {display:none;}
     #quickLinksBar > li > #Header_GlobalLogin_signOutQuickLink {/*background-image: url("../img/ico-user.png")!important;*/padding:0 0 0 36px;}
@@ -6619,9 +6601,9 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 }
 .pageUserTimeout .content_right_shadow .main_content #content_wrapper_border .my_account.generic_error_container .content:before {
     font-family: FontAwesome;
-	/*rrojas: faseClaro2.1 - REQ[6] documento de especificaci√≥n funcional de p√°ginas adicionales de clientes - inicio */
+	/*rrojas: faseClaro2.1 - REQ[6] documento de especificaciÛn funcional de p·ginas adicionales de clientes - inicio */
 	/*     content:"\f127"; */
-	/*rrojas: faseClaro2.1 - REQ[6] documento de especificaci√≥n funcional de p√°ginas adicionales de clientes - inicio */
+	/*rrojas: faseClaro2.1 - REQ[6] documento de especificaciÛn funcional de p·ginas adicionales de clientes - inicio */
     font-size: 45px;
     color:#da272c;
     width: 50px;
@@ -7118,7 +7100,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 #Register .form-styles-li input[type=text],
 #Register .form-styles-li input[type=password],
 #Register .form-styles-li input[type=email] {width: 200px; margin-bottom: 5px;}
-#Register .form-styles-li input[type=text]:-ms-input-placeholder { /* IE10‚Äì11 */
+#Register .form-styles-li input[type=text]:-ms-input-placeholder { /* IE10ñ11 */
     color: #8d8d8d!important;
 }
 #Register li.form-styles-li.contornoCaptcha {margin-top: 20px;}
@@ -8874,6 +8856,12 @@ ul div.list_section li a:hover, ul div.list_section li a div:hover {
     top:20%;
 }
 /* O.G. 17-10-17 FINAL PAG. ERROR */
+/* O.G. 19-10-17 Ficha */
+.wrap_tbl .wrap_mbl .w3 .available > .sublist span {
+    display: inline-block;
+    float: none;
+}
+/* O.G. 19-10-17 Final Ficha */
 /* dquisocala : ClaroF2.1, OG | 18-05-2017 | creado para corregir issues CLIMPLRQA2-266 - Fin */
 
 /* dquisocala : Claro 2.1 , Integracion estilos Omar 21/03/17 - Fin */
@@ -9380,11 +9368,11 @@ ul div.list_section li a:hover, ul div.list_section li a div:hover {
 
 /* eterrones: fase:2.1:EF_Catalog_Product_[REQ-NV-05]:Consultar listado de productos de categoria moviles:Fin */
 
-/* ecaceres: fase:2.1:EF_Catalog_Category_[REQ-NV-09]:Escenario que no existe productos para la combinaci√≥n de filtros:Inicio */
+/* ecaceres: fase:2.1:EF_Catalog_Category_[REQ-NV-09]:Escenario que no existe productos para la combinaciÛn de filtros:Inicio */
 .noProductListing {
 	margin-top: 51px;
 }
-/* ecaceres: fase:2.1:EF_Catalog_Category_[REQ-NV-09]:Escenario que no existe productos para la combinaci√≥n de filtros:Fin */
+/* ecaceres: fase:2.1:EF_Catalog_Category_[REQ-NV-09]:Escenario que no existe productos para la combinaciÛn de filtros:Fin */
 
 /* dquisocala: fase:2.1:EF_Catalog_Category: Ocultar condicion de venta en Categoria accesorios :Inicio */
 .isAccesoryPageDisplayNone{
@@ -9394,7 +9382,7 @@ ul div.list_section li a:hover, ul div.list_section li a div:hover {
 
 /*O.G. clases para probar slider del home (laboratorio)*/
 
-/*RROJAS INICIO CLARO2.1 MERGE OMAR - SE COMENTA LOS ESTILOS YA QUE OMAR LOS ELIMIN√ì*/
+/*RROJAS INICIO CLARO2.1 MERGE OMAR - SE COMENTA LOS ESTILOS YA QUE OMAR LOS ELIMIN”*/
 /* dquisocala: fase:2.1:EF_Ficha_prod[REQ-01]: Boton carrito de compras :Inicio */
 /* O.G. CAMBIOS 18-09-17 - FICHA */
 .shopperActions .button.primary.disabled-buttonCart{
@@ -9402,7 +9390,6 @@ ul div.list_section li a:hover, ul div.list_section li a div:hover {
     background: #ccc;
 }
 .shopperActions .button.primary.disabled-buttonCart:hover,
-.shopperActions .button.primary.disabled-buttonCart:focus,
 .shopperActions .button.primary.disabled-buttonCart:active {
     background: #abaeaf!important;
 }
@@ -9473,6 +9460,7 @@ div.link_tab:hover {
     	display: none !important;
     }
 }
+
 .iconFlecha {
 	display: none;
 }
@@ -9810,7 +9798,7 @@ div.link_tab:hover {
 	background: #fff;
 }
 /* dquisocala: fase:2.1:EF_Ficha_prod[REQ-01]: Popup de confirmacion de condiciones de venta :Fin */
-/*RROJAS FIN CLARO2.1 MERGE OMAR - SE COMENTA LOS ESTILOS YA QUE OMAR LOS ELIMIN√ì*/
+/*RROJAS FIN CLARO2.1 MERGE OMAR - SE COMENTA LOS ESTILOS YA QUE OMAR LOS ELIMIN”*/
 /*RROJAS INICIO CLARO2.1 MERGE OMAR - SE AGREGA ESTILOS*/
 @media only screen and (min-width: 1024px){
     .tablet, .movil{display: none;}
@@ -9830,7 +9818,7 @@ div.link_tab:hover {
 }
 /*RROJAS FIN CLARO2.1 MERGE OMAR - SE AGREGA ESTILOS*/
 
-/*rrojas:fase:2.1:EF_Pag_adicional[REQ-06]:Visualizar la p√°gina de Caducidad de sesi√≥n:inicio*/
+/*rrojas:fase:2.1:EF_Pag_adicional[REQ-06]:Visualizar la p·gina de Caducidad de sesiÛn:inicio*/
 .textSessionCaduca {
     color: #000;
     font-weight: bold;
@@ -9843,9 +9831,9 @@ div.link_tab:hover {
 .linkSesionCaduca:hover {
   text-decoration: none;
 }
-/*rrojas:fase:2.1:EF_Pag_adicional[REQ-06]:Visualizar la p√°gina de Caducidad de sesi√≥n:fin*/
+/*rrojas:fase:2.1:EF_Pag_adicional[REQ-06]:Visualizar la p·gina de Caducidad de sesiÛn:fin*/
 
-/*rrojas:fase:2.1:EF_Pag_adicional[REQ-07]:Visualizar la p√°gina de Acceso desde otra ubicaci√≥n:inicio*/
+/*rrojas:fase:2.1:EF_Pag_adicional[REQ-07]:Visualizar la p·gina de Acceso desde otra ubicaciÛn:inicio*/
 /* O.G. CAMBIOS 26-09-17 - RU ADICIONAL */
 .textSesionDuplicada {
     color: #212121;
@@ -9873,7 +9861,7 @@ div.link_tab:hover {
     border-left: medium none !important;;
     border-right: medium none !important;
 }
-/*rrojas:fase:2.1:EF_Pag_adicional[REQ-07]:Visualizar la p√°gina de Acceso desde otra ubicaci√≥n:fin*/
+/*rrojas:fase:2.1:EF_Pag_adicional[REQ-07]:Visualizar la p·gina de Acceso desde otra ubicaciÛn:fin*/
 
 /*wcarrasco:fase:2.1:EF_Pag_adicional_cli[REQ-01]:fondo-resumen eliminar display: none */
 
@@ -10006,4 +9994,12 @@ div.link_tab:hover {
     
     .header__navegation li.active .menuHeader,.header__navegation li.hover .menuHeader,header .wpthemeHeaderNav li.active .menuHeader,header .wpthemeHeaderNav li.hover .menuHeader{max-height:198px}
 }
+
 /*--dquisocala:fase:2.1:EF_Pag_adicional_nav[REQ-05]:Cambio en el nuevo header de nav:fin--*/
+
+/*wcarrasco:fase:2.1:EF_Pag_adicional[REQ-03]:Pagina de comparacion:inicio*/
+.searchProduct{width: 100%;height:40px;}
+.searchProduct #searchBarCompare{position:absolute;width: 100%;padding:10px;}
+.searchProduct #searchBarCompare.active {padding: 10px;width: 100%!important;border: none;left: 0!important;top:86px;background:#DA262D;}
+.searchProduct #searchDropdown {width: 300px;padding-left: 50px;z-index: 2147483647;}
+/*wcarrasco:fase:2.1:EF_Pag_adicional[REQ-03]:Pagina de comparacion:fin*/
