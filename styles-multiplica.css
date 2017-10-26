@@ -2070,44 +2070,52 @@ div.namePartPriceContainer{border-bottom:0!important}
 /*RROJAS INICIO CLARO2.1 MERGE DE OMAR - SE COMENTA ESTLOS ESTILOS*/
  /*eterrones:Fase2.1_FP[REQ-01]:ClaroPDPSalesConditionWidget: Impl. flujo basico de las pestanias y secciones, mostrar combos cond. venta:Inicio */
 /* O.G. 14-08-17 FICHA */
-/* O.G. 14-09-17 FICHA */
+/* O.G. 24-10-17 FICHA */
 .claroTabButtonContainer > .tab_header{
-    width: auto;
-    display: inline-block;
-    overflow: hidden;
-    margin-right: 0;
+    width: 100%;
+    display: table;
+    /*overflow: hidden;*/
+    margin-right: auto;
     max-width: 100%!important;
-    margin-left: 0;
+    margin-left: auto;
+    border-spacing:0;
+    height: 128px;
 }
-/* O.G. 14-09-17 FICHA FINAL*/
+/* O.G. 24-10-17 FICHA FINAL*/
 /* O.G. 14-08-17 FINAL FICHA */
-/* O.G. 10-08-17 FICHA */
+/* O.G. 24-10-17 FICHA */
 .claroTabButtonContainer > .tab_header > div.tab_container{
-    padding:5px 40px;  
+    padding:5px 20px;  
     background: transparent;
-    /*background: -moz-linear-gradient(top, rgba(255,255,255,0.2) 0%, rgba(246,246,246,0.9) 50%, rgba(255,255,255,1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0.2)), color-stop(50%, rgba(246,246,246,0.9)), color-stop(100%, rgba(255,255,255,1)));
-    background: -webkit-linear-gradient(top, rgba(255,255,255,0.2) 0%, rgba(246,246,246,0.9) 50%, rgba(255,255,255,1) 100%);
-    background: -o-linear-gradient(top, rgba(255,255,255,0.2) 0%, rgba(246,246,246,0.9) 50%, rgba(255,255,255,1) 100%);
-    background: -ms-linear-gradient(top, rgba(255,255,255,0.2) 0%, rgba(246,246,246,0.9) 50%, rgba(255,255,255,1) 100%);
-    background: linear-gradient(to bottom, rgba(255,255,255,0.2) 0%, rgba(246,246,246,0.9) 50%, rgba(255,255,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );*/
     color:#ffffff;
     font-size:20px;
-
     min-height:120px;
     margin:0;
     line-height:100%;
     border:0 none;
-    width:auto;
+    width:17%;
     border-radius:0;
     max-width: 365px;
-    /* O.G. 08-09-17 FICHA */
-    display:block;
-    float: left;
-    /* O.G. 08-09-17 FICHA FINAL */
-}/* O.G. 14-08-17 FINAL FICHA */
-/* O.G. 16-08-17 FICHA */
+    display:table-cell;
+    float: none;
+    vertical-align: top;
+}
+.claroTabButtonContainer  .tab_header  div.tab_container:nth-child(10) {
+     width:24%;
+}
+.claroTabButtonContainer  .tab_header .tab_ini,
+.claroTabButtonContainer  .tab_header .tab_extrem {
+    display: table-cell;
+    width: 4%;
+}
+.claroTabButtonContainer  .tab_header  div.tab_container .wrap_link {
+    position: absolute;
+    bottom:5px;
+    left:0;
+    width: 100%;
+}
+/* O.G. 24-10-17 FICHA */
+/* O.G. 14-08-17 FINAL FICHA */
 .claroTabButtonContainer > .tab_header div.tab_container.active_tab{
     outline:0;
     color:#212121;
@@ -2885,15 +2893,27 @@ button:hover,
 /*.button:focus*/ {
     background: #DA262D !important;
 }
+
+
 @media only screen and (max-width: 1024px){
+
     .container,.subMenu,.breadcrumb,.newContent,.cont-head3{max-width:1255px!important}
     #searchBar{right:152px;width:35%}
+
 }
+
+
 @media screen and (max-width: 853px){
+
     .tabButtonContainer > .tab_header > div.tab_container {padding: 19px 34px;}
     .tabbedSlots5_6_7 .tabButtonContainer .tab_header {width:562px;}
+
 }
+
+
+
 @media screen and (max-width: 768px){
+
     #searchBar {right: 110px;width: 30%;}
     .subMenu .miClaro__description > dl {width: 40%;}
     .miClaro__description img {min-width: 180px;}
@@ -2906,8 +2926,12 @@ button:hover,
     .tb-ancho-ico{/*width: 25%;*/}
     /* dquisocala: entrega Multiplica 2016-07-08 -  Fin*/
     .tb-ancho-2{width: 50%;margin-top: 10px;}
+
 }
 /* MOVIL HORIZONTAL - VERTICAL */
+
+
+
 @media screen and (max-width: 640px){
 
     .movil select{background-color:#222}
@@ -2932,7 +2956,11 @@ button:hover,
     footer .f-4{padding-left:50px}
     .miClaro__description img{display:none}
     .miClaro__description .contact{bottom:-95px;left:24px}
+
 }
+
+
+
 @media only screen and (max-width: 480px){
 
     .content ul li .left_espot .sliderArea .row .large-7 .medium-7 a{margin-left:1%;padding:16px 35px;display:inline-block}
@@ -2953,7 +2981,10 @@ button:hover,
     .content ul li .left_espot .sliderArea .row .large-7 .medium-7 a{margin-left:-2%;padding:21px 35px}
 
 }
+
+
 /** Catalogos **/
+
 #departmentsMenu{height:50px;background:#eee}
 #departmentsMenu > li{background:#888888;float:left}
 #departmentsMenu li a{color:#FFF}
@@ -8015,10 +8046,13 @@ span.claroCurrentSymbol {
     margin-top: 15px;
     float: right;
 }
+/* O.G. 25-10-17 NAV[REQ-03] */
 .ctg-page .grid .grid_mode li .compare_target label {
     color: #1F97AE;
+    font-size: 14px;
+    font-weight: 300;
 }
-
+/* O.G. 25-10-17 FINAL NAV[REQ-03] */
 /* O.G. 29-08-17 FINAL FICHA */
 /* O.G. 04-09-17 CATALOGO */
     /* ISSUES CLIMPCQA1-56 */
@@ -8153,7 +8187,7 @@ span.claroCurrentSymbol {
 /* O.G. 13-09-17 FICHA */
 .tab_header .xtabWidget {
     position: absolute;
-    top:120px;
+    top:128px;
     max-width: 1366px;
     left: 0;
     margin:0;
@@ -8862,6 +8896,25 @@ ul div.list_section li a:hover, ul div.list_section li a div:hover {
     float: none;
 }
 /* O.G. 19-10-17 Final Ficha */
+/* O.G. 25-10-17 NAV-[REQ-03] Comparación */
+body.content_catalog div.widget_site_popup > .middle > .content_left_border > .content_right_border {
+    border: 0 none;
+}
+body.content_catalog div.widget_site_popup > .middle > .content_left_border > .content_right_border > .content {
+    background-color: #fff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,.5);
+}
+body.content_catalog div.widget_site_popup > .middle > .content_left_border > .content_right_border > .content #content_compare_message {
+    margin-bottom: 15px;
+}
+body.content_catalog div.widget_site_popup > .middle > .content_left_border > .content_right_border > .content #content_compare_message span {
+    font-size: 18px;
+    color:#212121;
+}
+/* O.G. 25-10-17 Final NAV-[REQ-03] Comparación */
 /* dquisocala : ClaroF2.1, OG | 18-05-2017 | creado para corregir issues CLIMPLRQA2-266 - Fin */
 
 /* dquisocala : Claro 2.1 , Integracion estilos Omar 21/03/17 - Fin */
@@ -9612,6 +9665,19 @@ div.link_tab:hover {
 /* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:inicio */
 /* MOVIL HORIZONTAL - VERTICAL */
 @media only screen and (max-width: 640px){
+    /* O.G. 25-10-17 NAV[REQ-03] */
+    .fixed_button_compare {
+        margin-top: 20px;
+        padding: 10px 20px;
+        width: 145px;
+        height: 60px;
+        line-height: 100%;
+    }
+    .fixed_left_items_selected .thumbnail_item_selected {
+        margin-right: 20px;
+        padding: 12px 10px 0 0;
+    }
+    /* O.G. 25-10-17 FINAL NAV[REQ-03] */
     /* O.G. 18-10-17 FICHA*/
     .wigueq .text-price {
         font-size: 20px;
@@ -9631,35 +9697,49 @@ div.link_tab:hover {
     }
     /* O.G. 17-10-17 FINAL ISSUE FICHA */
     /* O.G. 09-08-17 FICHA */
-     /* O.G. 14-09-17 FICHA */
+     /* O.G. 24-10-17 FICHA */
     .claroTabButtonContainer > .tab_header > div.tab_container {
-            background: #fff;
-            width: calc(100% - 10px);
-            border-bottom:1px solid #ccc;
-            margin:0 5px;
-            max-width: 100%;
+        background: #fff;
+        width: calc(100% - 10px);
+        border-bottom:1px solid #ccc;
+        margin:0 5px;
+        max-width: 100%;
+        width: 100%;
+        display: block;
+        min-height: auto;
+        height: auto;
+        padding: 5px 30px 5px 20px;
+        float: left;
+    }
+    .claroTabButtonContainer .tab_header div.tab_container:nth-child(10) {
+        width: 100%;
     }
     .tab_header .tab_container .iconFlecha {
         font-size: 22px;
     }
-    .claroTabButtonContainer > .tab_header > div.tab_container {
-        min-height: auto;
-        height: auto;
-    }
-    .tab_header .tab_container .wrap_link {
+    .claroTabButtonContainer .tab_header div.tab_container .wrap_link {
         position: absolute;
-        right: 10px;
+        right: 15px;
         top: 50%;
         margin-top: -11px;
+        width: auto;
+        bottom:auto;
+        left: auto;
     }
     #ClaroBenefitsYourPlan {
         display: none;
     }
-    /* O.G. 14-09-17 FICHA FINAL */
+    /* O.G. 24-10-17 FICHA FINAL */
     .claroTabButtonContainer > .tab_header {
-           margin-left: 0;
+        margin-right: 0;
+        display: block;
+        border-spacing: 0;
+        max-width: 100%;
+        margin-left: 0;
+        height: auto;
+        overflow: hidden;
     }
-
+    /* O.G. 24-10-17 FICHA FINAL */
     /* O.G. FINAL 09-08-17 FICHA */
     .conditionModalityTitle, .benefitsYourPlan {
     	display: none;
@@ -10002,4 +10082,5 @@ div.link_tab:hover {
 .searchProduct #searchBarCompare{position:absolute;width: 100%;padding:10px;}
 .searchProduct #searchBarCompare.active {padding: 10px;width: 100%!important;border: none;left: 0!important;top:86px;background:#DA262D;}
 .searchProduct #searchDropdown {width: 300px;padding-left: 50px;z-index: 2147483647;}
+.searchProduct .list_section {height: 420px;    overflow-x: hidden;    overflow-y: visible;}
 /*wcarrasco:fase:2.1:EF_Pag_adicional[REQ-03]:Pagina de comparacion:fin*/
