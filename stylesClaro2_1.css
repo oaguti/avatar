@@ -4232,16 +4232,7 @@ span.text-quota-mes {
 	.pr_tacha {font-size: 10px;}
 }
 @media only screen and (max-width: 640px){
-	.fixed_button_compare {
-	    margin-top: 20px;
-	    padding: 0;
-	    width: 145px;
-	    height: auto;
-	    line-height: 100%;
-	}
-	.fixed_left_items_selected .thumbnail_item_selected {
-	    margin-right: 20px;
-	}
+	
 	/* nueva ficha */
 	/*RROJAS INICIO CLARO 2.1 MERGE OMAR - AGREGA NUEVOS ESTILOS*/
 	/* O.G. CAMBIOS 10-07-17 MODIFICACIONES PARA FICHA - Se movio a styles-multiplica.css */
@@ -5516,24 +5507,6 @@ span.text-quota-mes {
   right: 0;
   font-size: 14px;
 }
-.thumbnail_item_selected_popup{
-	position: relative;
-	float: left;
-	padding:20px;
-}
-
-.thumbnail_item_selected_popup{
-	position: relative;
-	float: left;
-	padding:20px;
-}
-.thumbnail_item_selected_popup{
-	position: relative;
-	float: left;
-	padding:20px;
-}
-
-
 .fixed_items_selected a.close_item_selected {
     font-size: 25px;
     position: absolute;
@@ -5545,24 +5518,12 @@ span.text-quota-mes {
     width: 20px;
     height: 20px;
 }
-.thumbnail_item_selected_popup{
-	position: relative;
-	float: left;
-	padding:20px;
-}
-
 .fixed_items_selected a.close_item_selected .fa-times-circle{
 	color: #F08224;
 	position: absolute;
 	top: -2px;
 	left: 0;
 }
-.thumbnail_item_selected_popup{
-	position: relative;
-	float: left;
-	padding:20px;
-}
-
 .fixed_items_selected #right_bottom_compare {
 	float:left;
 }
@@ -5571,11 +5532,6 @@ span.text-quota-mes {
     position: relative;
     padding: 12px 25px 0 0;
     margin-right: 40px;
-}
-.thumbnail_item_selected_popup{
-	position: relative;
-	float: left;
-	padding:20px;
 }
 
 /* O.G. 25-10-17 FINAL NAV[REQ-03] */
