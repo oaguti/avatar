@@ -8941,9 +8941,9 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
 }
 /* O.G. 25-10-17 Final NAV-[REQ-03] Comparación */
 /* O.G. 26-10-17 NAV-[REQ-03] Comparación */
-.mdl {
+.sales_condition_content .mdl {
     text-transform: capitalize;
-    background-color: #f4f4f4;
+    background-color: #fff;
     border: 0 none;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -8953,8 +8953,133 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
     height: auto;
     background-image: url(../img/flecha-select.png);
     background-position: 95% center;
+    font-size: 13px;
+    font-weight: 300;
+    margin:0;
+}
+.widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .compare_4 .row > .item .product {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #F4F4F4;
+    border:0 none!important;
+    max-width: 210px;
+}
+.widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .compare_4 .row > .item .product:hover {
+    background-color: #F4F4F4!important;
+}
+.widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .compare_4 .row > .item .product .searchProduct #searchBarCompare {
+    position: relative;
+    width: 100%;
+    padding: 15px;
+}
+.widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .compare_4 .row .cat-product-comp .item.text-center {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.compare_main .compare_4 .row > .item .product .price {
+    position: relative;
+    font-size: 28px;
+    font-weight: 700;
+    color:#DA272C;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+.compare_main .compare_4 .row > .item .product .price .claroCurrentSymbol {
+    font-size: 12px;
+    font-weight: 400;
+    top:5px;
+}
+.compare_main .compare_4 .productDetailDL .product > .cat-product-comp .product_image > .product_name > .image > a > img,
+.compare_main .compare_4 .productDetailDL .product > .cat-product-comp .product_image > .product_name > .image img {
+    width: auto;
+    height: 100px;
+}
+.compare_main .compare_4 .productDetailDL .product > .cat-product-comp.no-p .btn-azul.arrow.center {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #1F97AE;
+    color:#fff;
+    font-size: 13px;
+    font-weight: 400;
+    width: 100px;
+    max-width: 100px;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+}
+.compare_main .compare_4 .productDetailDL .product > .cat-product-comp .top_content_product .product_image > .product_name .product-marca {
+    padding: 0;
+}
+.compare_main .compare_4 .productDetailDL .product > .cat-product-comp .top_content_product .product_image > .product_name .product-marca span,
+.compare_main .compare_4 .productDetailDL .product > .cat-product-comp .top_content_product .product_image > .product_name .product-modelo h2 {
+    font-size: 13px!important;
+    font-weight: 400;
+}
+.compare_main .compare_4 .productDetailDL .product > .cat-product-comp  .top_content_product .product_image > .product_name .product-marca span{
+    color:#ABAFB0!important;
+}
+.compare_main .compare_4 .productDetailDL .product > .cat-product-comp  .top_content_product .product_image > .product_name .product-modelo h2 {
+    color:#212121!important;
+}
+.widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .row {
+    min-height: 50px;
+    text-align: center;
+}
+.widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .row > .heading .row .heading{
+    width: 100%;
+    text-align: right;
+    font-size: 13px;
+    font-weight: 300;
+}
+.compare_main .compare_4 .productDetailDL .product .searchProduct {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.compare_content_page .row.title .sma-title {
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+}
+.compare_main .compare_4 .productDetailDL .product .cat-product-comp .price_compare {
+    background-color: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    max-width: 118px;
+    margin:0 auto;
+    padding: 10px!important;
+}
+.heading_top_blank {
+    height: 600px;
 }
 /* O.G. 26-10-17 Final NAV-[REQ-03] Comparación */
+/* O.G. 27-10-17 NAV-[REQ-03] Comparación */
+.sales_condition_content {
+    max-width: 160px;
+    margin:40px auto;
+}
+.sales_condition_content ul li.form-styles-li {
+    padding-bottom: 10px;
+}
+.productDetailDL .product .cat-product-comp .top_content_product .product_image .product_name {
+    height: 180px;
+}
+.productDetailDL .product .searchProduct #searchDropdown {
+    width: 300px;
+    padding-left: 50px;
+    z-index: 2147483647;
+    top:15px;
+    left:0;
+    right: auto;
+}
+.widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .compare_4 .row > .item.style-padding-comp,
+.widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .row > .heading {
+    padding: 0!important;
+}
+/* O.G. 27-10-17 Final NAV-[REQ-03] Comparación */
 /* dquisocala : ClaroF2.1, OG | 18-05-2017 | creado para corregir issues CLIMPLRQA2-266 - Fin */
 
 /* dquisocala : Claro 2.1 , Integracion estilos Omar 21/03/17 - Fin */
