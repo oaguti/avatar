@@ -2034,7 +2034,7 @@ div.namePartPriceContainer{border-bottom:0!important}
 /* O.G. 18-08-17 FINAL FICHA */
 /* O.G. 21-08-17 FICHA */
 .claroTabButtonContainer > .tab_header > div.tab_container .wrap_msn {
-    height: 18px;
+    min-height: 18px;
 }
 .claroTabButtonContainer > .tab_header > div.tab_container .wrap_text1 {
     min-height: 22px;
@@ -9072,6 +9072,12 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
         border-bottom: 1px solid #ABAFB0!important;
     }
 /* O.G. 02-11-17 FINAL HOME - SECCION TAB */
+/* O.G. 02-11-17  ISSUES CLAROFP-99 */
+.claroTabButtonContainer.typeAccesory-condition .tab_header .tab_extrem {
+    display: table-cell;
+    width: 41.5%;
+}
+/* O.G. 02-11-17  FINAL ISSUES CLAROFP-99 */
 /* dquisocala : ClaroF2.1, OG | 18-05-2017 | creado para corregir issues CLIMPLRQA2-266 - Fin */
 
 /* dquisocala : Claro 2.1 , Integracion estilos Omar 21/03/17 - Fin */
@@ -9229,9 +9235,11 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
     }
     /* O.G. CAMBIOS 21-08-17 FINAL CATALOGO */
     /*eterrones:fase2.1:FichaProducto:Integrar estilos de Omar:fin*/
+    /* O.G. 03-11-17 ISSUE CLAROFP-56 */
     .RibbonAdDefault.Descuento {
-
+        display: none;
     }
+    /* O.G. 03-11-17 FINAL ISSUE CLAROFP-56 */
     /* O.G. CAMBIOS 19-09-17 - FICHA */
     .w1 .listPrice {
         height: 25px;
@@ -9724,7 +9732,7 @@ div.link_tab:hover {
     .claroTabButtonContainer > .tab_header .tab_container:nth-child(5) {width: 185px;}*/
     .claroTabButtonContainer > .tab_header > div.tab_container {
         padding: 5px 10px;
-        width: 20%;
+        width: 17%;
     }
     /* O.G. CAMBIOS 18-10-17 - ISSUE */
     .claroTabButtonContainer.typeAccesory-condition > .tab_header > div.tab_container {
@@ -9755,6 +9763,11 @@ div.link_tab:hover {
     .claroTabButtonContainer > .tab_header > div.tab_container .wrap_text1 {
         min-height: 42px;
     }
+    /* O.G. 03-11-17 CLAROFP-66 */
+    .claroTabButtonContainer.typeAccesory-condition > .tab_header > div.tab_container .wrap_text1 {
+        min-height: auto;
+    }
+    /* O.G. 03-11-17 FINAL CLAROFP-66 */
     .wrap_mbl .w3 .content-widget {
         min-height: 32px;
         height: 32px;
@@ -9816,12 +9829,29 @@ div.link_tab:hover {
     }
     .tab_header .tab_container .wrap_msn > div {
         font-size: 10px;
+        line-height: 10px;
     }
 }
 /* O.G. 18-08-17 FINAL FICHA */
 /* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:inicio */
 /* MOVIL HORIZONTAL - VERTICAL */
 @media only screen and (max-width: 640px){
+    /* O.G. 03-11-17 ficha movil */
+    .claroTabButtonContainer .tab_header .tab_extrem {
+        display: none;
+    }
+    .fproductNombreProd .marca_p, .fproductNombreProd .name_p {
+        display: table-cell;
+    }
+    .section-shortDescription {
+        text-align: center;
+    }
+    .fproductNombreProd {
+        display: table;
+        margin: 0 auto;
+        border-spacing: 5px;
+    }
+    /* O.G. 03-11-17 final ficha */
     /* O.G. 25-10-17 NAV[REQ-03] */
     .fixed_button_compare {
         margin-top: 20px;
@@ -9861,7 +9891,6 @@ div.link_tab:hover {
         border-bottom:1px solid #ccc;
         margin:0 5px;
         max-width: 100%;
-        width: 100%;
         display: block;
         min-height: auto;
         height: auto;
