@@ -8099,6 +8099,7 @@ span.claroCurrentSymbol {
 .content-attr {
     display: block;
     width: 100%;
+    margin-top: 25px;
 }
 .content-attr .attr-Capacidad {
     /*float: left;*/
@@ -8110,25 +8111,15 @@ span.claroCurrentSymbol {
     margin-top: 5px;
 }
 /* O.G. 08-09-17 FICHA */
-
-
-
-
-
-
-
-
-
-
-
-
-.claroTabButtonContainer > .tab_header .tab_container.claro-inactive {
+.claroTabButtonContainer > .tab_header .tab_container.claro-inactive,
+.claroTabButtonContainer > .tab_header .claro-inactive {
     border-bottom: 1px solid #ABAFB0;
 }
 .content-conditionRenewable .contentRecommendationWidget .left_espot {
     font-size: 13px;
 }
 /* O.G. 08-09-17 FINAL FICHA */
+
 /* O.G. 11-09-17 FICHA */
 .tab.left .content .labelAgotado {
     font-size: 13px;
@@ -8157,6 +8148,7 @@ span.claroCurrentSymbol {
     overflow: hidden;
     display: table;
     margin:0 auto;
+    border-spacing: 5px;
 }
 .content-attr .attr-Color .wrap_attr_color {
     width: 22px;
@@ -8846,20 +8838,7 @@ ul div.list_section li a:hover, ul div.list_section li a div:hover {
     height: 100%;
     margin-bottom: 0;
 }
-
-.contentSelectTabMobil #item_select.itemSelectTabMobil {
-    font-size: 30px;
-    font-weight: 300;
-    color:#212121;
-}
-.contentSelectTabMobil ul {
-    margin-top: 20px;
-}
-.contentSelectTabMobil ul li .item_mn{
-    font-size: 30px;
-    font-weight: 300;
-    color:#1F97AE;
-}
+/* O.G. 02-11-17 SECCION MOVIDA A CONTENTDATA.CSS*/
 /* SESION CADUCA */
 .content_sessionDuplicated {
     margin-top: 150px;
@@ -9080,6 +9059,19 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
     padding: 0!important;
 }
 /* O.G. 27-10-17 Final NAV-[REQ-03] Comparación */
+/* O.G. 02-11-17 HOME - SECCION TAB */
+    .tabHomeButton .tab_header .tab_container div .left_espot {
+        color:#1F97AE;
+        font-size: 24px;
+        font-weight: 300;
+        font-family:Roboto,sans-serif;
+        padding-bottom: 10px; 
+    }
+    .tabHomeButton .tab_header .tab_container.active_tab div .left_espot {
+        color:#212121;
+        border-bottom: 1px solid #ABAFB0!important;
+    }
+/* O.G. 02-11-17 FINAL HOME - SECCION TAB */
 /* dquisocala : ClaroF2.1, OG | 18-05-2017 | creado para corregir issues CLIMPLRQA2-266 - Fin */
 
 /* dquisocala : Claro 2.1 , Integracion estilos Omar 21/03/17 - Fin */
