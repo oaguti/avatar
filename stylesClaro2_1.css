@@ -4232,7 +4232,6 @@ span.text-quota-mes {
 	.pr_tacha {font-size: 10px;}
 }
 @media only screen and (max-width: 640px){
-	
 	/* nueva ficha */
 	/*RROJAS INICIO CLARO 2.1 MERGE OMAR - AGREGA NUEVOS ESTILOS*/
 	/* O.G. CAMBIOS 10-07-17 MODIFICACIONES PARA FICHA - Se movio a styles-multiplica.css */
@@ -5441,6 +5440,7 @@ span.text-quota-mes {
 }
 /* O.G. 22-08-17 FINAL FICHA */
 /*dquisocala : Merge de estilos Omar 24-08-17 Fin */
+
 /* gmostacero:fase:2.1:EF_Pag_adicional_nav[REQ-03]:Descripcion: Página de Comparación - inicio */
 .fixed_items_selected{
 	z-index:99999;
@@ -5535,3 +5535,17 @@ span.text-quota-mes {
 }
 
 /* O.G. 25-10-17 FINAL NAV[REQ-03] */
+}
+.thumbnail_item_selected_popup{
+	position: relative;
+	float: left;
+	padding:20px;
+}
+
+/* gmostacero:fase:2.1:EF_Pag_adicional_nav[REQ-03]:Descripcion: Página de Comparación - fin */
+
+/* eterrones:fase2.1:ISSUEs[CLAROFP-89,96 y 97]:Slot de limite de consumo no debe mostrarse en desktop y accesorio pero si en corte mobile:inicio */
+.hide_consumption_limits {
+	display: none;
+}
+/* eterrones:fase2.1:ISSUEs[CLAROFP-89,96 y 97]:Slot de limite de consumo no debe mostrarse en desktop y accesorio pero si en corte mobile:fin */
