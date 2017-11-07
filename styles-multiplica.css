@@ -2403,7 +2403,19 @@ div#widget_breadcrumb{padding:0!important;margin-left:0!important}
     border:0 none;
 }
 #searchTermWrapper > input{line-height:20px!important;height:33px!important;font-family:"Roboto",helvetica,sans-serif!important;font-size:.9rem!important;font-weight:300!important}
-#searchBox > .submitButton{width:52px!important;height:33px!important;margin:0!important;border:0 none;background:none!important;border-radius:0 5px 5px 0!important}
+/* O.G. 06-11-17 */
+#searchBox > .submitButton{
+    width:52px!important;
+    height:33px!important;
+    margin:0!important;
+    border:0 none;
+    background:none!important;
+    border-radius:0 5px 5px 0!important;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+/* O.G. 06-11-17 FINAL */
 #searchBox > .submitButton:before{content:"\f002";left:17px;top:5px;font-family:"FontAwesome";color:#1F97AE;font-size:20px}
 /* O.G. 09-10-17 FINAL NAV-[REQ-05] HEADER */
 #searchBox > .submitButton:hover:before{left:17px!important}
@@ -7927,7 +7939,7 @@ span.claroCurrentSymbol {
 /* O.G. 24-08-17 FICHA */
 /* O.G. CAMBIOS 18-09-17 - FICHA */
 .tab.left .content .titleSectionTab {
-    padding-left: 76px;
+    padding-left: 0;
     margin-top: 27px;
     font-size: 22px;
     font-weight: 500;
@@ -7950,7 +7962,7 @@ span.claroCurrentSymbol {
 .tab.left .content [class^="slick_"]  .btn-ancho-desk.ico-check:hover {
     box-shadow: none;
     /*display: table-cell;*/
-    height: 70px;
+    height: 100px;
 }
 /* O.G. CAMBIOS 14-09-17 - FICHA FINAL*/
 .tab.left .content .prsn-pln .price-nmbr .number {
@@ -8099,7 +8111,6 @@ span.claroCurrentSymbol {
 .content-attr {
     display: block;
     width: 100%;
-    margin-top: 25px;
 }
 .content-attr .attr-Capacidad {
     /*float: left;*/
@@ -8108,7 +8119,7 @@ span.claroCurrentSymbol {
     text-align: center;
     line-height: 20px;
     font-size: 20px;
-    margin-top: 5px;
+    margin-top: 0;
 }
 /* O.G. 08-09-17 FICHA */
 .claroTabButtonContainer > .tab_header .tab_container.claro-inactive,
@@ -8180,7 +8191,8 @@ span.claroCurrentSymbol {
     position: absolute;
     top:128px;
     max-width: 1366px;
-    left: 0;
+    left: 4%;
+    width: 92%;
     margin:0;
     padding-bottom: 30px;
 }
@@ -8752,7 +8764,7 @@ ul div.list_section li a:hover, ul div.list_section li a div:hover {
 /* O.G. 12-10-17 */
 /* ISSUE CLAROFP-38 */
 .ClaroSaleConditionWidget .ems-cuota {
-    padding-left: 76px; 
+    padding-left: 0; 
 }
 /* FINAL ISSUE CLAROFP-38 */
 .slick_contentCarouselWidgetCuts {
@@ -9147,7 +9159,15 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
     max-width: 1255px;
     margin:0 auto;
 }
-/* O.G. 03-11-17  Seccion Home "Como Funciona" */
+/* O.G. 03-11-17  Final Seccion Home "Como Funciona" */
+/* O.G. 06-11-17 */
+.compare_content_page .row.height_spacing_top .heading .row:first-child {
+    height: 160px;
+}
+.compare_content_page .cat-product-comp .row .price_compare {
+    height: 120px;
+}
+/* O.G. 06-11-17 FINAL */
 
 /* dquisocala : ClaroF2.1, OG | 18-05-2017 | creado para corregir issues CLIMPLRQA2-266 - Fin */
 
@@ -9245,6 +9265,30 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
     #WC_ActivationResendForm_div_2 > h1 {height: auto;}
 }
 @media only screen and (max-width: 640px){
+    /* O.G. 07-11-17 home */
+    .cmfunc {
+        display: none;
+    }
+    /* O.G. 07-11-17 final home */
+    /* O.G. 06-11-17 */
+    .fproductNombreProd .marca_p, .fproductNombreProd .name_p {
+        display: inline;
+    }
+    .content-wrapper-fprod .content-fprod > div {
+        display: block;
+        width: 100%;
+    }
+    .content-wrapper-fprod .content-fprod div.marca_p,
+    .content-wrapper-fprod .content-fprod div.name_p {
+        display:inline;
+        width: auto;
+    }
+    /* ISSUE CLAROFP-52 */
+    .claroTabButtonContainer > .tab_header > div.tab_container .wrap_text2 {
+        width: 100%;
+    }
+    /* FINAL ISSUE CLAROFP-52 */
+    /* O.G. 06-11-17 FINAL */
     .container {padding: 0;}
     #contentLink_1_HeaderStoreLogo_Content {margin-left: 0;}
     .main-wrapper .row .medium-12 {
@@ -9712,7 +9756,7 @@ div.link_tab:hover {
 .btn-ancho-desk{
     width:220px!important; 
     min-height: 90px;
-    height: 90px;
+    height: 100px;
     /* O.G. 08-09-17 FICHA */
     line-height: 100%; 
     /* O.G. 08-09-17 FINAL FICHA */
@@ -9776,12 +9820,13 @@ div.link_tab:hover {
     }
     /* O.G. 12-10-17 ISSUE CLAROFP-38 */
     .tab.left .content .titleSectionTab,.ClaroSaleConditionWidget .ems-cuota {
-        padding-left: 30px;
+        
     }
     /* O.G. 12-10-17 FINAL ISSUE CLAROFP-38 */
 }	
 /* Tablet Vertical */
 @media screen and (min-width: 641px) and (max-width: 768px) {
+    
     /* O.G. 03-11-17 CLAROFP-50 */
     .claroTabButtonContainer > .tab_header > div.tab_container .wrap_msn {
         margin-bottom: 5px;
@@ -9830,9 +9875,11 @@ div.link_tab:hover {
     }
     /* O.G. 13-09-17 FICHA FINAL */
     /* O.G. CAMBIOS 14-09-17 - FICHA */
+    /* O.G. 06-11-17 Issue */
     .tab.left .content [class^="slick_"].slick-slider {
-        padding: 0 25px;
+        padding: 0;
     }
+    /* O.G. 06-11-17 */
     .claroTabButtonContainer > .tab_header > div.tab_container {
         min-height: 130px;
     }
@@ -9889,6 +9936,17 @@ div.link_tab:hover {
 }
 /* Tablet Vertical - Horizontal */
 @media screen and (min-width: 641px) and (max-width: 1024px) {
+    /* O.G. 07-11-17 CLAROFP-68 */
+    .tab_header .xtabWidget .slick-slider .slick-next {
+        right: -25px;
+    }
+    .tab_header .xtabWidget .slick-slider .slick-prev {
+        left: -25px;
+    }
+    .tab.left .content .slick-slider[class^="slick_"] {
+        padding: 0;
+    }
+    /* O.G. 07-11-17 FINAL CLAROFP-68*/
     /* O.G. CAMBIOS 18-09-17 - FICHA */
     .claroTabButtonContainer > .tab_header div.tab_container [id^=tab_Title],
     .claroTabButtonContainer > .tab_header .tab_container div,
@@ -10239,8 +10297,13 @@ div.link_tab:hover {
     box-shadow: 0px 3px 6px rgba(0,0,0,.16);
 }
 
-@media only screen and (max-width: 1024px) {	
-
+@media only screen and (max-width: 1024px) {
+    /* O.G. 06-11-17 Ficha CLAROFP-68 */
+    .tab_header .xtabWidget {
+        left: 4%;
+        width: 92%;
+    }	
+    /* O.G. 06-11-17 Final Ficha CLAROFP-68 */
 	#searchBar{display: none;}
     .box__mobile .nav__mobile{display:block;margin:0 10px;margin-top:-5px;cursor:pointer}
     .box__mobile .search{color:white;font-size:25px;margin:-8px 5px 0 0;}

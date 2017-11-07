@@ -3487,10 +3487,12 @@ span.text-quota-mes {
 	}
 	/* O.G. FINAL DE CAMBIOS 19-07-17*/
 	/* O.G. CAMBIOS 14-09-17 - FICHA */
+	/* O.G. 06-11-17 Issue */
 	.tab.left .content [class^="slick_"] {
-    	width: calc(100% - 10px)!important;
-    	margin: 0 5px;
+    	width: 100%!important;
+    	margin: 0;
 	}
+	/* O.G. 06-11-17 FINAL */
 	.tab.left .content .btn-blanco.ico-check:after {
 	    font-size: 26px;
 	    top: -13px;
@@ -3587,10 +3589,11 @@ span.text-quota-mes {
     /*.attachmentDesktop,.attachmentTabletv,.attachmentTableth  {display: none;}*/
     /*.attachmentMobile{display:block;}*/
 /*rrojas Fin de Merge de Omar Claro2.1*/ 
-  
+  	/* O.G. 06-11-17 */
     .content-wrapper-fprod {
-    	top:0;
+    	top:20px;
     }
+  	/* O.G. 06-11-17 FINAL */
     .content-wrapper-fprod .content-fprod div {
     	font-size: 20px;
     	line-height: 20px;
@@ -3611,13 +3614,13 @@ span.text-quota-mes {
 	}
 	/*dquisocala : Merge de estilos Omar 24-08-17 Inicio */
 	/* O.G. 16-10-17 ISSUE FICHA CLAROFP-36 */
-	/* O.G. 24-10-17 ISSUE FICHA */
+	/* O.G. 24-10-17 ISSUE FICHA / 07-11-17 MODIFICADO X ISSUE */
 	.ClaroSaleConditionWidget {
 		position: relative;
-		z-index: 100;
+		z-index: 10;
 		margin: -128px auto 0  auto;
 	}
-	/* O.G. 24-10-17 FINAL ISSUE FICHA  */
+	/* O.G. 24-10-17 FINAL ISSUE FICHA / 07-11-17 MODIFICADO X ISSUE  */
 	/* O.G. 16-10-17 FINAL ISSUE FICHA */
 	/*dquisocala : Merge de estilos Omar 24-08-17 Fin */
 	.wigueq {
