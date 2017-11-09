@@ -2084,8 +2084,9 @@ div.namePartPriceContainer{border-bottom:0!important}
 /* O.G. 24-10-17 FICHA FINAL*/
 /* O.G. 14-08-17 FINAL FICHA */
 /* O.G. 24-10-17 FICHA */
+/* O.G. 08-11-17 CLAROFP-111*/
 .claroTabButtonContainer > .tab_header > div.tab_container{
-    padding:5px 20px;  
+    padding:5px 15px 30px  15px;  
     background: transparent;
     color:#ffffff;
     font-size:20px;
@@ -2100,6 +2101,7 @@ div.namePartPriceContainer{border-bottom:0!important}
     float: none;
     vertical-align: top;
 }
+/* O.G. 08-11-17 FINAL CLAROFP-111*/
 .claroTabButtonContainer  .tab_header  div.tab_container:nth-child(10) {
      width:24%;
 }
@@ -2108,12 +2110,14 @@ div.namePartPriceContainer{border-bottom:0!important}
     display: table-cell;
     width: 4%;
 }
+/* O.G. 08-11-17 */
 .claroTabButtonContainer  .tab_header  div.tab_container .wrap_link {
     position: absolute;
-    bottom:5px;
+    bottom:10px;
     left:0;
     width: 100%;
 }
+/* O.G. 08-11-17 FINAL */
 /* O.G. 24-10-17 FICHA */
 /* O.G. 14-08-17 FINAL FICHA */
 .claroTabButtonContainer > .tab_header div.tab_container.active_tab{
@@ -7958,6 +7962,11 @@ span.claroCurrentSymbol {
     padding:20px 25px 10px 25px!important;
 }
 /* O.G. 15-09-17 FICHA FINAL */
+/* O.G. 08-11-17 CLAROFP-114 */
+.tab.left .content .prsn-pln .prsn-wrp-ln.ico-check:hover {
+    box-shadow: none;
+}
+/* O.G. 08-11-17 FINAL CLAROFP-114 */
 /* O.G. CAMBIOS 14-09-17 - FICHA */
 .tab.left .content [class^="slick_"]  .btn-ancho-desk.ico-check:hover {
     box-shadow: none;
@@ -8036,10 +8045,13 @@ span.claroCurrentSymbol {
 /* Final Issue Catalogo */
 /* O.G. 24-08-17 FINAL FICHA */
 /* O.G. 28-08-17 FICHA */
+/* O.G. 08-11-17 CLAROFP-91*/
 .tab.left .content form#AjaxClaroSelectedLine {
-    overflow: hidden;
-    margin-top: 15px;
+    overflow: visible;
+    margin: 15px auto 0 auto;
+    width: 220px;
 }
+/* O.G. 08-11-17 final CLAROFP-91 */
 .tab.left .content .sliderAttrDefActive .content-user-lines-information div {
     font-size: 13px;
     font-weight: 300;
@@ -8215,6 +8227,7 @@ span.claroCurrentSymbol {
     height: 25px;
     margin: 7px auto 0 auto;
     display: table;
+    border-spacing: 5px;
 }
 .tab.left .content [class^="slick_"] .btn-blanco:hover{
     color:#666!important;
@@ -9014,15 +9027,24 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
 .compare_main .compare_4 .productDetailDL .product > .cat-product-comp  .top_content_product .product_image > .product_name .product-modelo h2 {
     color:#212121!important;
 }
+/* O.G. 08-11-17 ISSUE COMPARAR EQUIPO */
 .widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .row {
     min-height: 50px;
     text-align: center;
+    overflow: visible;
 }
+.compare_content_page .main-wrapper {
+    overflow: visible;
+}
+/* O.G. 08-11-17 FINAL */
 .widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .row > .heading .row .heading{
     width: 100%;
     text-align: right;
     font-size: 13px;
     font-weight: 300;
+    margin-bottom: 40px;
+    height: 16px;
+    padding:6px 0;
 }
 .compare_main .compare_4 .productDetailDL .product .searchProduct {
     width: 100%;
@@ -9168,13 +9190,83 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
     height: 120px;
 }
 /* O.G. 06-11-17 FINAL */
-
+/* O.G. 07-11-17 */
+.cp_title_price {
+    height: 160px;
+}
+/* O.G. 07-11-17 FINAL */
+/* O.G. 08-11-17 PAG. RESULTADO DE BUSQUEDA*/
+.searchResultsPege div.widget_title_container > span > div > h1 {
+    font-size: 26px;
+    font-weight: 300;
+    color:#212121;
+}
+.searchResultsPege div.widget_title_container .black {
+    color: #212121 !important;
+    font-weight: 500;
+    font-size: 26px;
+}
+.searchResultsPege .contentCategoriaTitulo {
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+}
+.searchResultsPege hr.lineaCategorias {
+    margin:5px 0 15px 0;
+}
+.searchResultsPege .facetSelect .singleFacet a{
+    color:#1F97AE!important;
+    font-weight: 300;
+    font-size: 14px;
+}
+.searchResultsPege .facetSelect .singleFacet a:hover {
+    text-decoration: none!important;
+}
+.searchResultsPege .facetSelect .singleFacet.seleccionadoCategoria a{
+    color:#212121!important;
+}
+.searchResultsPege .listPrice {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.searchResultsPege .product div.product_info div.product_price span.old_price {
+    font-size: 13px;
+    font-weight: 300;
+    color:#ABAFB0;
+    display: inline-block;
+    position: relative;
+    padding-left: 18px;
+}
+.searchResultsPege div.product_price span.old_price span.claroCurrentSymbol {
+    top:0;
+    left: 0;
+    font-size: 13px;
+    margin: 0;
+}
+.searchResultsPege .product.comparadora .product_info .lmsv_plan.wrap_text1 .red {
+    margin-top:5px;
+}
+.compare_content_page .list_section .cld_fix {
+    text-align: left;
+}
+.icon-loading {
+    background: url(../img/ico_carga.png);
+    width: 120px;
+    height: 120px;
+    z-index: 2001;
+    position: fixed;
+    top:50%;
+    left:50%;
+    margin-top:-60px;
+    margin-left: -60px;
+}
+/* O.G. 08-11-17 FINAL */
 /* dquisocala : ClaroF2.1, OG | 18-05-2017 | creado para corregir issues CLIMPLRQA2-266 - Fin */
 
 /* dquisocala : Claro 2.1 , Integracion estilos Omar 21/03/17 - Fin */
 
 /*************** RESPONSIVE **********************/
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 360px) {
 	/* dquisocala : ClaroF2.1, OG | 25-05-2017 | ISSUES CLIMPLRQA2-298 , ISSUES CLIMPLRQA2-299 - Inicio */
 	#Header_GlobalLogin_signInDropdown .footer #Header_GlobalLogin_WC_AccountDisplay_links_3 {
         min-width: 110px;
