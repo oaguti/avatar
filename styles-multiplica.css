@@ -1928,7 +1928,17 @@ div.namePartPriceContainer{border-bottom:0!important}
 
 .tabButtonContainer > .tab_header{width:auto;display:block;margin-right:0;max-width:840px;margin-left:10%}
 .tabButtonContainer > .tab_header > div.tab_container{padding:19px 66px;background-color:#333333;color:#ffffff;font-size:20px;display:block;height:60px;margin-top:12px;line-height:100%;float:left;border-top:none;width:auto;margin-right:0;border-bottom:none;border-radius:0;border-left:none;border-right:none;background-image:none}
-.tabButtonContainer > .tab_header div.tab_container.active_tab{margin-bottom:-2px;outline:0;height:72px;line-height:36px;background-color:#ffffff;color:#333333;border-right:2px solid #cccccc;border-left:2px solid #cccccc;border-top:2px solid #cccccc}
+.tabButtonContainer > .tab_header div.tab_container.active_tab{
+    margin-bottom:-2px;
+    outline:0;
+    height:72px;
+    line-height:36px;
+    background-color:#ffffff;
+    color:#333333;
+    border-right:2px solid #cccccc;
+    border-left:2px solid #cccccc;
+    border-top:2px solid #cccccc;
+}
 .tabButtonContainer > .tab_header div.tab_container.inactive_tab{outline:0;border-right:2px solid #ffffff;border-left:2px solid #333333;margin-top:22px}
 .tabButtonContainer > .tab_header > div > div.contentRecommendationWidget{border:none;outline:0}
 .tabButtonContainer > .tab_header > div > div.contentRecommendationWidget:active{border:none;outline:0}
@@ -2071,16 +2081,18 @@ div.namePartPriceContainer{border-bottom:0!important}
  /*eterrones:Fase2.1_FP[REQ-01]:ClaroPDPSalesConditionWidget: Impl. flujo basico de las pestanias y secciones, mostrar combos cond. venta:Inicio */
 /* O.G. 14-08-17 FICHA */
 /* O.G. 24-10-17 FICHA */
+/* O.G. 10-11-17 */
 .claroTabButtonContainer > .tab_header{
     width: 100%;
-    display: table;
-    /*overflow: hidden;*/
+    display: flex;
+    flex-direction: row;
     margin-right: auto;
     max-width: 100%!important;
     margin-left: auto;
     border-spacing:0;
-    height: 128px;
+    min-height: 128px;
 }
+/* O.G. 10-11-17 FINAL */
 /* O.G. 24-10-17 FICHA FINAL*/
 /* O.G. 14-08-17 FINAL FICHA */
 /* O.G. 24-10-17 FICHA */
@@ -2097,7 +2109,7 @@ div.namePartPriceContainer{border-bottom:0!important}
     width:17%;
     border-radius:0;
     max-width: 365px;
-    display:table-cell;
+    display:block;
     float: none;
     vertical-align: top;
 }
@@ -5078,7 +5090,10 @@ div.widget_product_image_viewer {width:89%}
 
 #content .facetWidget.collapsible {margin-top: 10px;}
 /* O.G. 12-09-17 FICHA - Modificado para solucionar problema de ventana emergente en condiciones de pago */
-#header {z-index:99;}
+#header {
+    z-index:99;
+    position: static;
+}
 /* O.G. 12-09-17 FICHA FINAL */
 #headerRow {height: 50px !important;background: #DA262D !important;border-top: 0 !important;border-bottom: 0 !important;width: 100%;max-width: 960px;margin: auto;position: relative;}
 
@@ -7318,16 +7333,17 @@ span.error-claro, div.error-claro {font-size: 14px;}
     height: 100%;
     z-index: 2000;
 }
+/* O.G. 09-11-17 */
 .fd_black {
     background-color: rgba(51,51,51,0.6);
-    position: fixed;
+    position: absolute;
     top:0; 
     left: 0; 
     width: 100%; 
     height: 100%;
     z-index: 2000;
-
 }
+/* O.G. 09-11-17 FINAL */
 .btn-azul.arrow:after {display: none;}
 #quickClaroDisplayLoginPopup > div {height: 100%!important; overflow: hidden!important;}
 .ux_widget_popup .pMyAccountErrorContent .field.myaccount_error {
@@ -8047,9 +8063,12 @@ span.claroCurrentSymbol {
 /* O.G. 28-08-17 FICHA */
 /* O.G. 08-11-17 CLAROFP-91*/
 .tab.left .content form#AjaxClaroSelectedLine {
-    overflow: visible;
+    overflow: hidden;
     margin: 15px auto 0 auto;
     width: 220px;
+}
+.tab.left .content .sliderAttrDefActive .content-user-lines-information div.content-conditionRenewable {
+    margin-bottom: 20px;
 }
 /* O.G. 08-11-17 final CLAROFP-91 */
 .tab.left .content .sliderAttrDefActive .content-user-lines-information div {
@@ -8753,6 +8772,14 @@ footer {
     border-radius: 5px;
     box-shadow: 0px 3px 6px rgba(0,0,0,.16);
 }
+/* O.G. 09-11-17 */
+.compare_content_page #AutoSuggestDiv {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    box-shadow: 0px 3px 6px rgba(0,0,0,.4);
+}
+/* O.G. 09-11-17 FINAL */
 ul div.list_section li:hover {
     background-color: #f4f4f4!important;
 }
@@ -9043,8 +9070,8 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
     font-size: 13px;
     font-weight: 300;
     margin-bottom: 40px;
-    height: 16px;
-    padding:6px 0;
+    height: 28px;
+    padding:6px 0!important;
 }
 .compare_main .compare_4 .productDetailDL .product .searchProduct {
     width: 100%;
@@ -9357,6 +9384,12 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
     #WC_ActivationResendForm_div_2 > h1 {height: auto;}
 }
 @media only screen and (max-width: 640px){
+	/* O.G. 08-11-17 */
+    .tab_header .xtabWidget {
+        left: 0!important;
+        width: 100%!important;
+    }
+	/* O.G. 08-11-17 FINAL */
     /* O.G. 07-11-17 home */
     .cmfunc {
         display: none;
@@ -9912,7 +9945,7 @@ div.link_tab:hover {
     }
     /* O.G. 12-10-17 ISSUE CLAROFP-38 */
     .tab.left .content .titleSectionTab,.ClaroSaleConditionWidget .ems-cuota {
-        
+	
     }
     /* O.G. 12-10-17 FINAL ISSUE CLAROFP-38 */
 }	
@@ -9946,13 +9979,16 @@ div.link_tab:hover {
     /* O.G. 13-09-17 FICHA */
     /*.claroTabButtonContainer > .tab_header .tab_container:nth-child(3) {width: 185px;}
     .claroTabButtonContainer > .tab_header .tab_container:nth-child(5) {width: 185px;}*/
+    /* O.G. 10-11-17 */
     .claroTabButtonContainer > .tab_header > div.tab_container {
-        padding: 5px 10px;
+        padding: 5px 10px 30px 10px;
         width: 17%;
     }
+    /* O.G. 10-11-17 FINAL */
     /* O.G. CAMBIOS 18-10-17 - ISSUE */
     .claroTabButtonContainer.typeAccesory-condition > .tab_header > div.tab_container {
         width: auto;
+        padding: 5px 25px;
     }
     /* O.G. CAMBIOS 18-10-17 - FINAL ISSUE */
     .wrap_precio .wrap_tbl .wrap_mbl .w2 .shopperActions .button.primary {
@@ -9975,9 +10011,9 @@ div.link_tab:hover {
     .claroTabButtonContainer > .tab_header > div.tab_container {
         min-height: 130px;
     }
-    .tab_header .xtabWidget {
+    /*.tab_header .xtabWidget {
         top: 130px;
-    }
+    }*/
     .claroTabButtonContainer > .tab_header > div.tab_container .wrap_text1 {
         min-height: 42px;
     }
@@ -10045,6 +10081,7 @@ div.link_tab:hover {
     .claroTabButtonContainer > .tab_header > div.tab_container .lmsv_plan.wrap_text1 span.red {
         font-size: 16px;
         line-height: 16px;
+
     }
     /* O.G. CAMBIOS 18-09-17 - FICHA FINAL*/
     .claroTabButtonContainer > .tab_header .tab_container div .link_tab,
@@ -10099,7 +10136,6 @@ div.link_tab:hover {
         border-bottom:1px solid #ccc;
         margin:0 5px;
         max-width: 100%;
-        width: 100%;
         display: block;
         min-height: auto;
         height: auto;
@@ -10394,6 +10430,7 @@ div.link_tab:hover {
     .tab_header .xtabWidget {
         left: 4%;
         width: 92%;
+        clear: both;
     }	
     /* O.G. 06-11-17 Final Ficha CLAROFP-68 */
 	#searchBar{display: none;}
@@ -10482,5 +10519,25 @@ div.link_tab:hover {
 .searchProduct #searchBarCompare{position:absolute;width: 100%;padding:10px;}
 .searchProduct #searchBarCompare.active {padding: 10px;width: 100%!important;border: none;left: 0!important;top:86px;background:#DA262D;}
 .searchProduct #searchDropdown {width: 300px;padding-left: 50px;z-index: 2147483647;}
-.searchProduct .list_section {height: 420px;    overflow-x: hidden;    overflow-y: visible;}
+/* O.G. 09-11-17 */
+.searchProduct .list_section {
+    height: 420px; 
+    overflow-x: hidden; 
+    overflow-y: visible;
+    padding: 8px;
+}
+/* O.G. 09-11-17 FINAL */
 /*wcarrasco:fase:2.1:EF_Pag_adicional[REQ-03]:Pagina de comparacion:fin*/
+
+/*dquisocala:fase:2.1:EF_Pag_adicional[CP_navegacion]:Home carrusel de contenidos de caracteristicas :inicio */
+.contentSlick{
+	float: left;
+}
+.slick_contentCarouselWidgetCuts{
+	display: inline-block;
+	width: auto;
+}
+.wrap_content_carrusel{
+	text-align: center;
+}
+/*dquisocala:fase:2.1:EF_Pag_adicional[CP_navegacion]:Home carrusel de contenidos de caracteristicas :fin */
