@@ -8787,10 +8787,12 @@ ul div.list_section li:hover {
     padding: 10px 0;
     margin: 0 10px;
 }
+/* O.G. 10-11-17 */
 #suggestedProductsResults .as_thumbnail {
     width: auto;
-    height: 50px;
+    height: 60px;
 }
+/* O.G. 10-11-17 FINAL */
 #AutoSuggestDiv .list_section li > a {
     padding:10px 20px;
 }
@@ -9288,6 +9290,16 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
     margin-left: -60px;
 }
 /* O.G. 08-11-17 FINAL */
+/* O.G. 10-11-17 */
+.compare_content_page .cld_fix .cld_brand {
+    font-size: 13px;
+    color:#ABAFB0;
+}
+.compare_content_page .cld_fix .cld_name{
+    font-size: 13px;
+    color:#212121;
+}
+/* O.G. 10-11-17 FINAL */
 /* dquisocala : ClaroF2.1, OG | 18-05-2017 | creado para corregir issues CLIMPLRQA2-266 - Fin */
 
 /* dquisocala : Claro 2.1 , Integracion estilos Omar 21/03/17 - Fin */
@@ -10081,7 +10093,6 @@ div.link_tab:hover {
     .claroTabButtonContainer > .tab_header > div.tab_container .lmsv_plan.wrap_text1 span.red {
         font-size: 16px;
         line-height: 16px;
-
     }
     /* O.G. CAMBIOS 18-09-17 - FICHA FINAL*/
     .claroTabButtonContainer > .tab_header .tab_container div .link_tab,
@@ -10521,10 +10532,24 @@ div.link_tab:hover {
 .searchProduct #searchDropdown {width: 300px;padding-left: 50px;z-index: 2147483647;}
 /* O.G. 09-11-17 */
 .searchProduct .list_section {
-    height: 420px; 
+    height: 488px; 
     overflow-x: hidden; 
     overflow-y: visible;
     padding: 8px;
+}
+.searchProduct .list_section::-webkit-scrollbar-track{   
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+.searchProduct .list_section::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+.searchProduct .list_section::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
 }
 /* O.G. 09-11-17 FINAL */
 /*wcarrasco:fase:2.1:EF_Pag_adicional[REQ-03]:Pagina de comparacion:fin*/

@@ -5446,7 +5446,9 @@ span.text-quota-mes {
 
 /* gmostacero:fase:2.1:EF_Pag_adicional_nav[REQ-03]:Descripcion: Página de Comparación - inicio */
 .fixed_items_selected{
-	z-index:99999;
+	/* eterrones:fase:2.1:EF_Pag_adicional_nav[REQ-03]:No ocultar fixed de items de comparacion al mostrar popup:inicio */
+	z-index:999;
+	/* eterrones:fase:2.1:EF_Pag_adicional_nav[REQ-03]:No ocultar fixed de items de comparacion al mostrar popup:fin */
 	position:fixed;
 	padding:25px 0;
 	margin:0;
