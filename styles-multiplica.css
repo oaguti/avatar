@@ -2418,7 +2418,20 @@ div#widget_breadcrumb{padding:0!important;margin-left:0!important}
     width:100%!important;
     border:0 none;
 }
-#searchTermWrapper > input{line-height:20px!important;height:33px!important;font-family:"Roboto",helvetica,sans-serif!important;font-size:.9rem!important;font-weight:300!important}
+#searchTermWrapper > input{
+    line-height:20px!important;
+    height:33px!important;
+    font-family:"Roboto",helvetica,sans-serif!important;
+    font-size:.9rem!important;
+    font-weight:300!important;
+    color:#666;
+}
+/* O.G. 13-11-17 */
+#searchTermWrapper > input::-webkit-input-placeholder { color:#666 } 
+#searchTermWrapper > input:-moz-placeholder { /* Firefox 18- */ color:#666 } 
+#searchTermWrapper > input::-moz-placeholder { /* Firefox 19+ */ color:#666 } 
+#searchTermWrapper > input:-ms-input-placeholder { color:#666 }
+/* O.G. 13-11-17 FINAL */
 /* O.G. 06-11-17 */
 #searchBox > .submitButton{
     width:52px!important;
@@ -8794,7 +8807,7 @@ ul div.list_section li:hover {
 }
 /* O.G. 10-11-17 FINAL */
 #AutoSuggestDiv .list_section li > a {
-    padding:10px 20px;
+    padding:10px;
 }
 ul div.list_section li a:hover, ul div.list_section li a div:hover {
     text-decoration: none;
@@ -9071,9 +9084,9 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
     text-align: right;
     font-size: 13px;
     font-weight: 300;
-    margin-bottom: 40px;
-    height: 28px;
-    padding:6px 0!important;
+    margin-bottom: 18px;
+    height: 50px;
+    padding:6px 0 0 0!important;
 }
 .compare_main .compare_4 .productDetailDL .product .searchProduct {
     width: 100%;
@@ -9110,10 +9123,10 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
     height: 180px;
 }
 .productDetailDL .product .searchProduct #searchDropdown {
-    width: 300px;
+    width: 265px;
     padding-left: 50px;
-    z-index: 2147483647;
-    top:15px;
+    z-index: 100;
+    top:25px;
     left:0;
     right: auto;
 }
@@ -9599,6 +9612,20 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
     /* O.G. 13-10-17 NAV-[REQ-01]*/
 }
 @media only screen and (max-width: 768px) {
+    /* O.G. 13-11-17 */
+    .compare_content_page .compare_4 {
+        width: 100%!important;
+    }
+    .compare_content_page .heading_mobile {
+        display: none;
+    }
+    .compare_content_page .medium-12.columns {
+        padding: 0;
+    }
+    .compare_content_page .widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .compare_4 .row > .item.style-padding-comp.productDetailDL {
+        width: 22% !important;
+    }
+    /* O.G. 13-11-17 FINAL */
     .pageReeActivate .button_primary > .button_text {width: 100px;}
     .pageActivationConfirmation .button_primary > .button_text {width: 110px;}
     #pageUserValidateSms #ValidaSms .medium-10.small-12.columns.mt-2.ancho-tb.sma-ancho-cont.no-p-no {margin-bottom: 0;}
@@ -9650,6 +9677,41 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
     /* O.G. CAMBIOS 23-08-17 FINAL ISSUE CATALOGO */
 }
 @media only screen and (max-width: 1024px) {
+    /* O.G. 13-11-17 */
+    .compare_content_page .widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .row.height_spacing_top {
+        display: flex;
+        flex-direction: row;
+    }
+    .widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .compare_4 .row > .item {
+        width: 100% !important;
+    }
+    .compare_content_page .widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .row > .heading {
+        display: block;
+    }
+    #searchBox > .submitButton {
+        width: 25px !important;
+    }
+    #searchBox > .submitButton::before {
+        left: 0;
+    }
+    #searchBox > .submitButton:hover::before {
+        left:0!important;
+    }
+    .sales_condition_content {
+        max-width: 112px;
+    }
+    .widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .compare_4 .row .cat-product-comp .item.text-center.price_compare {
+        max-width: 104px;
+    }
+    .widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .row > .heading {
+        width: 19%;
+        margin-right: 3%;
+    }
+    .widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .compare_4 .row > .item {
+        min-height: 20px;
+        padding: 6px 0 10px !important;
+    }
+    /* O.G. 13-11-17 FINAL */
     .main-wrapper,div.content_wrapper_position {
         width: calc(100% - 40px);
         margin:0 auto 90px auto;
@@ -9946,7 +10008,11 @@ div.link_tab:hover {
 }
 /* Tablet Horizontal */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-
+    /* O.G. 13-11-17 */
+    .compare_content_page .widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .compare_4 .row > .item.style-padding-comp.productDetailDL {
+        width: 19% !important;
+    }
+    /* O.G. 13-11-17 FINAL */
 	/* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:inicio */
 	.conditionModalityTitle, .benefitsYourPlan {display: block;}
     .claroTabButtonContainer > .tab_header > div.tab_container {padding: 5px 25px; max-width: 255px;}
@@ -9963,7 +10029,25 @@ div.link_tab:hover {
 }	
 /* Tablet Vertical */
 @media screen and (min-width: 641px) and (max-width: 768px) {
-    
+    /* O.G. 13-11-17 */
+    .widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .compare_4 .row .cat-product-comp .item.text-center,
+    .widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .row > .heading .row .heading {
+        width: 100%;
+        height: 60px;
+        padding:0 10px;
+        margin-bottom: 10px;
+    }
+    .claroMobileSpace {
+        display: none;
+    }
+    .compare_content_page .widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .row > .heading {
+        width: 10%;
+        margin-right: 2%;
+    }
+    .compare_content_page .product {
+        max-width: 150px!important;
+    }
+    /* O.G. 13-11-17 FINAL */
     /* O.G. 03-11-17 CLAROFP-50 */
     .claroTabButtonContainer > .tab_header > div.tab_container .wrap_msn {
         margin-bottom: 5px;
@@ -10550,6 +10634,15 @@ div.link_tab:hover {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
     background-color: #555;
+}
+.searchProduct .list_section::-moz-scrollbar-track{   
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+.searchProduct .list_section::-moz-scrollbar-track-piece {
+    background-color: red;          
+    -webkit-border-radius: 6px;
 }
 /* O.G. 09-11-17 FINAL */
 /*wcarrasco:fase:2.1:EF_Pag_adicional[REQ-03]:Pagina de comparacion:fin*/
