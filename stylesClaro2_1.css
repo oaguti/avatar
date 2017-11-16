@@ -3614,11 +3614,12 @@ span.text-quota-mes {
 	}
 	/*dquisocala : Merge de estilos Omar 24-08-17 Inicio */
 	/* O.G. 16-10-17 ISSUE FICHA CLAROFP-36 */
-	/* O.G. 24-10-17 ISSUE FICHA / 07-11-17 MODIFICADO X ISSUE */
+	/* O.G. 24-10-17 ISSUE FICHA / 07-11-17 MODIFICADO X ISSUE CLAROFP-16 - revertido */
 	.ClaroSaleConditionWidget {
 		position: relative;
-		z-index: 10;
+		z-index: 10;/* O.G. 15-11-17 ISSUE CLAROFP-124 */
 		margin: -128px auto 0  auto;
+		max-width: 1366px;
 	}
 	/* O.G. 24-10-17 FINAL ISSUE FICHA / 07-11-17 MODIFICADO X ISSUE  */
 	/* O.G. 16-10-17 FINAL ISSUE FICHA */
@@ -4151,9 +4152,12 @@ span.text-quota-mes {
     z-index: 9;
 }
 /* O.G. CAMBIOS 22-09-17 - FICHA FINAL*/
+/* O.G. 15-11-17 revert issue */
 .pos_relative {
 	position: relative;
+	max-width: 1366px;
 }
+/* O.G. 15-11-17 revert issue final */
 /*rrojas: faseClaro2.1 - solucion de issue CLIMPCQA1-68 - inicio*/
 @media only screen and (max-width: 1024px) {
  .menuLink.activo {

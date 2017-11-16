@@ -7349,13 +7349,19 @@ span.error-claro, div.error-claro {font-size: 14px;}
 /* O.G. 09-11-17 */
 .fd_black {
     background-color: rgba(51,51,51,0.6);
-    position: absolute;
+    position: fixed;/* O.G. 15-11-17 ISSUE CLAROFP-124 */
     top:0; 
     left: 0; 
     width: 100%; 
     height: 100%;
     z-index: 2000;
 }
+/* O.G. 15-11-17 ISSUE CLAROFP-124 */
+#headerWrapper .fd_black {
+    position: absolute;
+    z-index: 1;
+}
+/* O.G. 15-11-17 final ISSUE CLAROFP-124 */
 /* O.G. 09-11-17 FINAL */
 .btn-azul.arrow:after {display: none;}
 #quickClaroDisplayLoginPopup > div {height: 100%!important; overflow: hidden!important;}
@@ -7619,7 +7625,7 @@ span.error-claro, div.error-claro {font-size: 14px;}
 /* O.G. 10-10-17 NAV-[REQ-05] HEADER */
 #headerRow1 {
     height: 52px;
-    z-index: 2100;
+    z-index: 2;/* O.G. 15-11-17 ISSUE CLAROFP-124 */
     background: #fff;
 }
 #quickLinksBar li #Header_GlobalLogin_signInQuickLink:hover {color:#1F97AE;}
@@ -9124,7 +9130,8 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
 }
 .productDetailDL .product .searchProduct #searchDropdown {
     width: 265px;
-    padding-left: 50px;
+    padding-left: 0;
+    margin-left: 50px;
     z-index: 100;
     top:25px;
     left:0;
@@ -9506,9 +9513,11 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
     }
     /* O.G. CAMBIOS 21-08-17 FINAL CATALOGO */
     /*eterrones:fase2.1:FichaProducto:Integrar estilos de Omar:fin*/
+    /* O.G. 13-11-17 ISSUE CLAROFP-130 */
     .RibbonAdDefault.Descuento {
-
+        display: none;
     }
+    /* O.G. 13-11-17 ISSUE CLAROFP-130 FINAL */
     /* O.G. CAMBIOS 19-09-17 - FICHA */
     .w1 .listPrice {
         height: 25px;
@@ -9618,6 +9627,16 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
     /* O.G. 13-10-17 NAV-[REQ-01]*/
 }
 @media only screen and (max-width: 768px) {
+    /* O.G. 15-11-17 */
+    .compare_4 .height_spacing_top .productDetailDL .product .searchProduct #searchDropdown {
+        margin-left: 25px;
+    }
+    .compare_4 .height_spacing_top .productDetailDL:last-child .product .searchProduct #searchDropdown {
+        left:-150px;
+        margin-left: 0;
+    }
+
+    /* O.G. 15-11-17  FINAL */
     /* O.G. 13-11-17 */
     .compare_content_page .compare_4 {
         width: 100%!important;
@@ -9630,6 +9649,7 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
     }
     .compare_content_page .widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .compare_4 .row > .item.style-padding-comp.productDetailDL {
         width: 22% !important;
+        overflow: visible;
     }
     /* O.G. 13-11-17 FINAL */
     .pageReeActivate .button_primary > .button_text {width: 100px;}
@@ -9821,7 +9841,41 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
 	.item-prod {width: 50% !important;}
 }
-
+/* ----------- iPhone 6, 6S, 7 and 8 / Landscape ----------- */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    #searchBox > .submitButton {
+        display: none;
+    }
+    .compare_content_page .widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .compare_4 .row > .item.style-padding-comp.productDetailDL {
+        width: 180px !important;
+        overflow: visible;
+    }
+    .compare_content_page .widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .row > .heading {
+        width: 180px;
+        margin-right: 15px;
+    }
+    #AutoSuggestDiv .list_section li > a {
+        display: table;
+        width: 100%;
+    }
+    .cld_fix {
+        vertical-align: top;
+    }
+    #suggestedProductsResults .as_thumbnail {
+        float: none;
+    }
+    #suggestedProductsResults .as_thumbnail img {
+        width: auto;
+        height: 60px;
+    }
+    .productDetailDL .product .searchProduct #searchDropdown {
+        padding-left:0;
+    }
+}
 /* eterrones: fase:2.1:EF_Catalog_Product_[REQ-NV-05]:Consultar listado de productos de categoria moviles:Fin */
 
 #widgetExample{
@@ -10055,7 +10109,7 @@ div.link_tab:hover {
         margin-right: 2%;
     }
     .compare_content_page .product {
-        max-width: 150px!important;
+       max-width: 150px!important;
     }
     /* O.G. 13-11-17 FINAL */
     /* O.G. 03-11-17 CLAROFP-50 */
@@ -10202,6 +10256,22 @@ div.link_tab:hover {
 /* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:inicio */
 /* MOVIL HORIZONTAL - VERTICAL */
 @media only screen and (max-width: 640px){
+    /* O.G. 15-11-17 */
+    #AutoSuggestDiv .list_section li > a {
+        display: table;
+        width: 100%;
+    }
+    .cld_fix {
+        vertical-align: top;
+    }
+    #suggestedProductsResults .as_thumbnail {
+        float: none;
+    }
+    #suggestedProductsResults .as_thumbnail img {
+        width: auto;
+        height: 60px;
+    }
+    /* O.G. 15-11-17 FINAL */
     /* O.G. 14-11-17 */
     .widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .compare_4 .row > .item .product,
     .compare_main .compare_4 .productDetailDL .product .searchProduct,
@@ -10226,7 +10296,8 @@ div.link_tab:hover {
         padding: 8px 18px 8px 8px!important;
     }
     .productDetailDL .product .searchProduct #searchDropdown {
-        left: 5px;
+        left: 50%;
+        margin-left: -132px;
         padding-left: 0;
         top: 45px;
     }
