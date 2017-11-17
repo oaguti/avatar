@@ -2250,7 +2250,7 @@ div.namePartPriceContainer{border-bottom:0!important}
     content: "\f058";
     font-family: 'FontAwesome';
     position: absolute;
-    font-size: 30px;
+    font-size: 34px;/* CLAROFP-129 */
     color: rgb(112,196,115);
     top: -15px;
     right: -15px;
@@ -4048,7 +4048,15 @@ input:-ms-input-placeholder {color: #8d8d8d;font-size: 12px  }
 
 .controls{float: none; text-align: center;}
 .paging_controls{float: none;}
-div#widget_breadcrumb{position: relative;min-height: 20px;overflow: hidden;margin:15px 0;}
+/* O.G. 16-11-17 CLAROFP-137 */
+div#widget_breadcrumb{
+    max-width: 1255px;
+    position: relative;
+    min-height: 20px;
+    overflow: hidden;
+    margin:15px auto!important;
+}
+/* O.G. 16-11-17 FINAL */
 div.namePartPriceContainer h1.main_header{font-size: 25px !important;line-height: 1.1em;margin-bottom:5px;font-weight: bold;color: #000 !important;font-family: 'dinpro';}
 .product_text p{font-size: 16px; line-height: 1.4em; }
 .product_text{padding-bottom: 25px;border: none; width: 90%;}
@@ -8042,17 +8050,23 @@ span.claroCurrentSymbol {
    /* width: 1130px;*/
     margin: 0;
 }
+/* O.G. 16-11-17 */
 .tab.left .content .sliderAttrDefActive .dropdown select.edit-selectOption {
     background-color:#fff!important;
-    background-position: 195px 14px;
+    background-position: 185px 10px;
     border:1px solid #ccc;
     width: 220px;
+    height: 46px;
     color:#212121;
     box-shadow: 0px 3px 6px rgba(0,0,0,.15);
     font-size: 16px;
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    margin:20px 0 0 0;
+    float: none;
 }
+/* O.G. 16-11-17 FINAL */
 .tab.left .content .sliderAttrDefActive #quickClaroConsultationRenewableLines {
     overflow: hidden;
 }
@@ -8083,8 +8097,8 @@ span.claroCurrentSymbol {
 /* O.G. 08-11-17 CLAROFP-91*/
 .tab.left .content form#AjaxClaroSelectedLine {
     overflow: hidden;
-    margin: 15px auto 0 auto;
-    width: 220px;
+    margin: 0 auto;/* O.G. 16-11-17 CLAROFP-129 */
+    width: 230px;/* O.G. 16-11-17 CLAROFP-129 */
 }
 .tab.left .content .sliderAttrDefActive .content-user-lines-information div.content-conditionRenewable {
     margin-bottom: 20px;
@@ -8178,6 +8192,7 @@ span.claroCurrentSymbol {
 }
 .content-conditionRenewable .contentRecommendationWidget .left_espot {
     font-size: 13px;
+    font-weight: 300;
 }
 /* O.G. 08-09-17 FINAL FICHA */
 /* O.G. 11-09-17 FICHA */
@@ -9157,7 +9172,7 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
 /* O.G. 02-11-17 FINAL HOME - SECCION TAB */
 /* O.G. 02-11-17  ISSUES CLAROFP-99 */
 .claroTabButtonContainer.typeAccesory-condition .tab_header .tab_extrem {
-    display: table-cell;
+    display: block;/* 16-11-17 CLAROFP-123 */
     width: 41.5%;
 }
 /* O.G. 02-11-17  FINAL ISSUES CLAROFP-99 */
@@ -9326,6 +9341,11 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
     font-weight: 300;
 }
 /* O.G. 14-11-17 FINAL */
+/* O.G. 16-11-17 */
+/* ISSUE CLAROFP-129 */
+.content-conditionRenewable {margin-top: 15px;}
+.dropdown {padding: 5px;}
+/* O.G. 16-11-17 FINAL */
 /* dquisocala : ClaroF2.1, OG | 18-05-2017 | creado para corregir issues CLIMPLRQA2-266 - Fin */
 
 /* dquisocala : Claro 2.1 , Integracion estilos Omar 21/03/17 - Fin */
@@ -9422,7 +9442,32 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
     #WC_ActivationResendForm_div_2 > h1 {height: auto;}
 }
 @media only screen and (max-width: 640px){
-	/* O.G. 08-11-17 */
+	/* O.G. 16-11-17 */
+    /* CLAROFP-125 */
+    .claroTabButtonContainer > .tab_header > div.tab_container .wrap_text2 {
+        display: block;
+        text-align: center;
+    }
+    .claroTabButtonContainer > .tab_header > div.tab_container .wrap_text2 .attr-wrap {
+        display: inline-block;
+    }
+    /* CLAROFP-127 */
+    .claroTabButtonContainer .tab_header .tab_extrem {
+        display: none!important;
+    }
+    /* CLAROFP-126 */
+    .content-attr .attr-Color {
+        display: block;
+    }
+    .content-attr .attr-Color .wrap_attr_color {
+        display: inline-block;
+    }
+    .content-attr .attr-Color span {
+        display: inline;
+    }
+    /* O.G. 16-11-17 CLAROFP-129 */
+    /* O.G. 16-11-17 FINAL */
+    /* O.G. 08-11-17 */
     .tab_header .xtabWidget {
         left: 0!important;
         width: 100%!important;
@@ -9932,7 +9977,6 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
 
 @media only screen and (max-width: 640px){
 	.breakcump {display: none;}
-	
 	.cont_bg {background:none;} 
 }
 /* dquisocala  : Claro 2.1 ,EF_CatologoProductos Estilos Omar 13-03-2017 - Fin */
@@ -10050,13 +10094,13 @@ div.link_tab:hover {
     	display: none !important;
     }
 }
-
 .iconFlecha {
 	display: none;
 }
 /* eterrones:Fase2.1_FichaProducto:Seccion tipo de venta: Implementar eventos link cambiar:Fin */
 
 /*** Fase2.1: Ficha de producto -Inicio***/
+
 /* DESKTOP - valores solo para este corte */
 @media screen  and (min-width : 1025px) {
 
@@ -10066,6 +10110,7 @@ div.link_tab:hover {
     }
 	/* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:fin */
 }
+
 /* Tablet Horizontal */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     /* O.G. 13-11-17 */
@@ -10089,7 +10134,7 @@ div.link_tab:hover {
 }	
 /* Tablet Vertical */
 @media screen and (min-width: 641px) and (max-width: 768px) {
-    /* O.G. 13-11-17 */
+     /* O.G. 13-11-17 */
     .widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .compare_4 .row .cat-product-comp .item.text-center,
     .widget_product_compare > .middle > .left_border > .right_border > .content > .compare_main .row > .heading .row .heading {
         width: 100%;
@@ -10363,7 +10408,7 @@ div.link_tab:hover {
     /* O.G. 18-10-17 ISSUE CLAROFP-56 FICHA*/
     /* O.G. 17-10-17 ISSUE FICHA */
     .content-attr .attr-Color .wrap_attr_color {
-        padding-right: 5px;
+        margin-right: 5px;
     }
     .transparent_layer {
         display: none;

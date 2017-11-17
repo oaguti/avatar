@@ -3624,12 +3624,18 @@ span.text-quota-mes {
 	/* O.G. 24-10-17 FINAL ISSUE FICHA / 07-11-17 MODIFICADO X ISSUE  */
 	/* O.G. 16-10-17 FINAL ISSUE FICHA */
 	/*dquisocala : Merge de estilos Omar 24-08-17 Fin */
+	/* O.G. 17-11-17 */
 	.wigueq {
-		position: absolute;
-		top:150px;
-		right: 200px;
-		z-index: 10;
+	    position: absolute;
+	    top: 100px;
+	    right: 0;
+	    z-index: 2;
+	    max-width: 1366px;
+	    width: 100%;
+	    left: 50%;
+	    margin-left: -683px;
 	}
+	/* O.G. 17-11-17 FINAL */
 	.wigueq .old_price.pr_tacha {
 		position: relative;
 		padding-left: 18px;
@@ -3683,7 +3689,13 @@ span.text-quota-mes {
 		padding: 5px 0;
 	}
 	/* O.G. CAMBIOS 13-09-17 - FICHA FINAL*/
-	.wrap_precio {width: 300px; padding: 10px;}
+	.wrap_precio {
+		width: 300px; 
+		padding: 10px;
+		position: relative;
+		float: right;
+		margin-right: 30px;
+	}
 	.wrap_precio .prc_eq {
 		width: 100%!important;
 	}
@@ -3721,15 +3733,19 @@ span.text-quota-mes {
     	margin: 0;
 	}
 	/* O.G. 06-09-17 FICHA FINAL */
-@media only screen and (min-width: 1024px) and (max-width: 1366px){
-		.wigueq {
-		    right: 80px;
-		}
+@media only screen and (max-width: 1366px){
+	/* O.G. 17-11-17 CLAROFP-136 */
+	.wigueq {
+	    left: 0;
+	    margin-left: 0;
+	}
+	/* O.G. 17-11-17 FINAL CLAROFP-136 */
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px){
 
 }
 @media only screen and (min-width: 640px) and (max-width: 768px){
+		
     	.content-wrapper-fprod .content-fprod div {
     		font-size: 32px;
 		}
@@ -3754,6 +3770,7 @@ span.text-quota-mes {
     		/* O.G. 12-10-17 FINAL ISSUE CLAROFP-18 */
     	}
     	.wrap_precio {
+    		float: none;/* O.G. 17-11-17 CLAROFP-136 */
     		width: 90%;
     		max-width: 615px;
     		margin:0 auto;
