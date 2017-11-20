@@ -7367,16 +7367,15 @@ span.error-claro, div.error-claro {font-size: 14px;}
 /* O.G. 15-11-17 ISSUE CLAROFP-124 */
 #headerWrapper .fd_black {
     position: absolute;
-    z-index: 1;
+    z-index: 10;/* O.G. 17-11-17 CLAROFP-121*/
 }
 /* O.G. 15-11-17 final ISSUE CLAROFP-124 */
 /* O.G. 09-11-17 FINAL */
 .btn-azul.arrow:after {display: none;}
-#quickClaroDisplayLoginPopup > div {height: 100%!important; overflow: hidden!important;}
+#quickClaroDisplayLoginPopup > div { height: 100%!important; overflow: hidden!important; }
 .ux_widget_popup .pMyAccountErrorContent .field.myaccount_error {
     background-color: #fff1f1;
     padding: 10px;
-
 }
 .ux_widget_popup .pMyAccountErrorContent .field.myaccount_error .plogon_content_error {
     padding: 0;
@@ -7633,7 +7632,7 @@ span.error-claro, div.error-claro {font-size: 14px;}
 /* O.G. 10-10-17 NAV-[REQ-05] HEADER */
 #headerRow1 {
     height: 52px;
-    z-index: 2;/* O.G. 15-11-17 ISSUE CLAROFP-124 */
+    z-index: 11;/* O.G. 17-11-17 ISSUE CLAROFP-124 */
     background: #fff;
 }
 #quickLinksBar li #Header_GlobalLogin_signInQuickLink:hover {color:#1F97AE;}
@@ -9442,6 +9441,11 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
     #WC_ActivationResendForm_div_2 > h1 {height: auto;}
 }
 @media only screen and (max-width: 640px){
+    /* O.G. 17-11-17  CLAROFP-116 */
+    #fd_black_id_NotifyCondition.fd_black {
+        position: absolute;
+    }
+    /* O.G. 17-11-17 FINAL */
 	/* O.G. 16-11-17 */
     /* CLAROFP-125 */
     .claroTabButtonContainer > .tab_header > div.tab_container .wrap_text2 {
@@ -9845,7 +9849,16 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
 /* O.G. CAMBIOS 21-08-17 FINAL CATALOGO */
 /*eterrones:fase2.1:FichaProducto:Integrar estilos de Omar:fin*/
 @media only screen and (min-width: 1281px) {
-    .main-wrapper, .content_wrapper_position {max-width: 1255px!important;}
+    /* O.G. 17-11-17 */
+    .main-wrapper, 
+    .content_wrapper_position {
+        max-width: 1255px!important;
+    }
+}
+@media only screen and (max-width: 1255px) {
+   div#widget_breadcrumb {
+        width: calc(100% - 40px);
+   }
 }
 /*MODIFICACIONE PARA IPAD*/
 @media only screen 
@@ -9977,6 +9990,7 @@ body.content_catalog div.widget_site_popup > .middle > .content_left_border > .c
 
 @media only screen and (max-width: 640px){
 	.breakcump {display: none;}
+	
 	.cont_bg {background:none;} 
 }
 /* dquisocala  : Claro 2.1 ,EF_CatologoProductos Estilos Omar 13-03-2017 - Fin */
@@ -10094,13 +10108,13 @@ div.link_tab:hover {
     	display: none !important;
     }
 }
+
 .iconFlecha {
 	display: none;
 }
 /* eterrones:Fase2.1_FichaProducto:Seccion tipo de venta: Implementar eventos link cambiar:Fin */
 
 /*** Fase2.1: Ficha de producto -Inicio***/
-
 /* DESKTOP - valores solo para este corte */
 @media screen  and (min-width : 1025px) {
 
@@ -10110,7 +10124,6 @@ div.link_tab:hover {
     }
 	/* eterrones:fase:2.1:Merge de estilos de Omar 10/08/17:fin */
 }
-
 /* Tablet Horizontal */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     /* O.G. 13-11-17 */
